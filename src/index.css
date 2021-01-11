@@ -1,0 +1,67 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}
+
+.column {
+  float: left;
+  height: 80vh;
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.score {
+  width: 500px;
+}
+
+.grid {
+  z-index: 1;
+  position: absolute;
+  width: 500px;
+}
+
+.grid td {
+  padding: 2px;
+}
+
+.grid td:hover {
+  background-color: #2196f3;
+  opacity: .4
+}
+
+video {
+  width: 100%;
+}
+
+.vid-instruction {
+  font-size: 12px;
+  font-style: italic;
+  color: #3c5782;
+  padding: 0;
+  margin: 0;
+}

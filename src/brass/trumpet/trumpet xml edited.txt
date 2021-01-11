@@ -1,0 +1,224 @@
+HA R M O N I C S ,   F I N G E R I N G   &   S C A L E</titletext>
+
+0: "Performer: Thaddeus Archer
+The first order of pitch selection for all brass instruments is producing a partial from the harmonic series. \n\n" +
+" When the B-flat trumpet is played open (no keys depressed), the concert pitch of the fundamental is the B-flat in the bass clef. \n\n" +
+" The first partial (pedal tone) is barely playable; the lowest usable partial is the 2nd partial. \n\n" +
+" Note that the partials are successively closer together, and that the 7th partial is \"out of tune.\" ",
+29: "The valves lower the pitch of the fundamental by adding tubing to the air column. \n\n" +
+" The trumpet uses piston valves played by the right hand. \n\n" +
+" The 2nd valve (middle finger) adds enough tubing to lower the fundamental a half-step. \n\n" +
+" The 1st valve (index finger) adds enough tubing to lower the fundamental a whole-step. \n\n" +
+" The 3rd valve lowers the fundamental an additional minor 3rd. \n\n" +
+" This allows for a chromatic scale of seven different fundamentals, enough to fill in the perfect-5th gap between the 2nd and 3rd partials. ",
+45: "The lower two octaves of the trumpet's range can be played with assurance and tonal flexibility. ",
+60: "Pitches above the staff are brilliant, but are more difficult to control. ",
+64: "Above concert C above the staff the timbre of the trumpet loses its fullness. \n\n" +
+" Most orchestral trumpet players are not comfortable in this range. \n\n" +
+" Using a C trumpet or even a D trumpet has little effect on the playability or timbre of these pitches. \n\n" +
+" For a distinct difference in timbre and agility, see the Piccolo Trumpet unit. ",
+71: "Skips of up to an octave in either direction may be slurred with little difficulty. ",
+77: "Skips of up to an octave in either direction may be slurred with little difficulty. ",
+82: "As the pitches get higher, the partials are closer together and more fingerings are possible for any given pitch. \n\n" +
+" The change in color is slight, but it is interesting to hear the intonation variety and articulation created by the change of fundamentals (note that this example is slurred). \n\n" +
+" Here concert D is played on the B-flat trumpet as the 5th partial of B-flat, the 6th partial of G, and the 7th partial of E.",
+	
+TR E M O L O S   &   R E G I S T E R   C O L O R S</titletext>
+
+
+0: "Trills and tremolos on the trumpet are executed with valve fingering alternation. \n\n" +
+" The facility or awkwardness of any trill or tremolo can be determined by noting the fingering. ",
+4: "Trills and tremolos on the trumpet are executed with valve fingering alternation. \n\n" +
+" The facility or awkwardness of any trill or tremolo can be determined by noting the fingering. ",
+8: "Trills and tremolos on the trumpet are executed with valve fingering alternation. \n\n" +
+" The facility or awkwardness of any trill or tremolo can be determined by noting the fingering. ",
+11: "Trills and tremolos on the trumpet are executed with valve fingering alternation. \n\n" +
+" The facility or awkwardness of any trill or tremolo can be determined by noting the fingering. \n\n" +
+"
+As the interval of the tremolo widens, the embouchure must also adjust to alternating partials and greater resistance from the inertia of the air column. ",
+15: "Trills and tremolos on the trumpet are executed with valve fingering alternation. \n\n" +
+" The facility or awkwardness of any trill or tremolo can be determined by noting the fingering. \n\n" +
+"
+As the interval of the tremolo widens, the embouchure must also adjust to alternating partials and greater resistance from the inertia of the air column. ",
+18: "Trills and tremolos on the trumpet are executed with valve fingering alternation. \n\n" +
+" The facility or awkwardness of any trill or tremolo can be determined by noting the fingering. \n\n" +
+"
+As the interval of the tremolo widens, the embouchure must also adjust to alternating partials and greater resistance from the inertia of the air column. ",
+22: "Trills and tremolos on the trumpet are executed with valve fingering alternation. \n\n" +
+" The facility or awkwardness of any trill or tremolo can be determined by noting the fingering. \n\n" +
+"
+As the interval of the tremolo widens, the embouchure must also adjust to alternating partials and greater resistance from the inertia of the air column. ",
+26: "The bottom register of trumpet's range lacks body and luster, but this range can be used to fill out the sonority of quiet passages, to interlock with other brass instruments, or to add some extra noisy intensity in loud passages. \n\n" +
+" Multiple fingering possibilities don't exist in this region, so extra care must be taken in writing trills, tremolos, and any rapid passage-work. ",
+30: "The bottom register of trumpet's range lacks body and luster, but this range can be used to fill out the sonority of quiet passages, to interlock with other brass instruments, or to add some extra noisy intensity in loud passages. \n\n" +
+" Multiple fingering possibilities don't exist in this region, so extra care must be taken in writing trills, tremolos, and any rapid passage-work. ",
+33: "The bottom register of trumpet's range lacks body and luster, but this range can be used to fill out the sonority of quiet passages, to interlock with other brass instruments, or to add some extra noisy intensity in loud passages. \n\n" +
+" Multiple fingering possibilities don't exist in this region, so extra care must be taken in writing trills, tremolos, and any rapid passage-work. ",
+37: "The bottom register of trumpet's range lacks body and luster, but this range can be used to fill out the sonority of quiet passages, to interlock with other brass instruments, or to add some extra noisy intensity in loud passages. \n\n" +
+" Multiple fingering possibilities don't exist in this region, so extra care must be taken in writing trills, tremolos, and any rapid passage-work. \n\n" +
+"</commentary>		
+		<cuepointer>41: "In this low-middle range can provide great warmth and clarity of projection. ",
+45: "In this low-middle range can provide great warmth and clarity of projection. ",
+49: "In this low-middle range can provide great warmth and clarity of projection. ",
+53: "In this low-middle range can provide great warmth and clarity of projection. \n\n" +
+"</commentary>		
+		<cuepointer>56: "In this high-middle range the trumpet is a model of flexibility and agility. ",
+60: "In this high-middle range the trumpet is a model of flexibility and agility. ",
+64: "In this high-middle range the trumpet is a model of flexibility and agility. ",
+67: "In this high-middle range the trumpet is a model of flexibility and agility. \n\n" +
+"</commentary>		
+		<cuepointer>72: "As the trumpet moves into its high register it is capable of projecting great power and the highest degree of dramatic contrast. ",
+75: "As the trumpet moves into its high register it is capable of projecting great power and the highest degree of dramatic contrast. ",
+78: "As the trumpet moves into its high register it is capable of projecting great power and the highest degree of dramatic contrast. ",
+82: "As the trumpet moves into its high register it is capable of projecting great power and the highest degree of dramatic contrast. \n\n" +
+"</commentary>		
+	</page>
+	
+	<page>
+		<headerletter>A</headerletter>  
+		<titletext> R T I C U L A T I O N   &   V I B R A T O   C O L O R S</titletext>
+		<thevideo>video/trumpet3. \n\n" +
+"flv</thevideo>
+		<notesmovie>notes/trumpet3. \n\n" +
+"swf</notesmovie>
+		<cuepointer>0: "The precise, immediate changes in the length of the column of air created by the valve mechanism provide a basic clarity of articulation on brass instruments, even when played legato with no tonguing. ",
+6: "Slur-two-tongue-two articulation is very common and effective on brass instruments. ",
+12: "Single tonguing is generally slower than the other articulation options demonstrated here, but is also the most deliberate and forceful. ",
+20: "Double-tonguing is very effective for fast passages on brass instruments. ",
+26: "Staccato articulation is effective in all but the highest and lowest registers of the trumpet, although it projects most clearly in the middle-high register. ",
+29: "Staccato articulation is effective in all but the highest and lowest registers of the trumpet, although it projects most clearly in the middle-high register. ",
+33: "Triple-tonguing can be very effective on all brass instruments. \n\n" +
+" It must be remembered that when triple-tonguing skips (as in this example) the amount of preparation time moving into the new note is considerably shortened, making the attacks less secure. ",
+37: "Flutter-tonguing is effective throughout the range of the trumpet. ",
+42: "A slight amount of vibrato is normal on the trumpet, applied according to the taste and discretion of the performer. \n\n" +
+" Composers may specify varying amounts of vibrato. ",
+47: "A slight amount of vibrato is normal on the trumpet, applied according to the taste and discretion of the performer. \n\n" +
+" Composers may specify varying amounts of vibrato. ",
+54: "A slight amount of vibrato is normal on the trumpet, applied according to the taste and discretion of the performer. \n\n" +
+" Composers may specify varying amounts of vibrato. \n\n" +
+"</commentary>
+	</page>
+	
+	<page>
+		<headerletter>P</headerletter>  
+		<titletext> I T C H   B E N D S   &   M U T E S</titletext>
+		<thevideo>video/trumpet4. \n\n" +
+"flv</thevideo>
+		<notesmovie>notes/trumpet4. \n\n" +
+"swf</notesmovie>
+		<cuepointer>0: "These examples show three kinds of half-step slurring: a smooth legato valve change, \"lipping down\" a half-step, and half-valving to slightly smear the movement between pitches. ",
+28: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The distinct colors of the various mutes are more obvious at louder dynamic levels. \n\n" +
+"
+</commentary>
+		<cuepointer>35: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The distinct colors of the various mutes are more obvious at louder dynamic levels. ",
+43: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The distinct colors of the various mutes are more obvious at louder dynamic levels. ",
+51: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The three different positions for the stem of the harmon mute create very different timbres. \n\n" +
+" Note that \"stem extended\" and \"stem removed\" are preferable to the ambiguous \"stem out. \n\n" +
+"\"</commentary>
+		<cuepointer>59: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The three different positions for the stem of the harmon mute create very different timbres. \n\n" +
+" Note that \"stem extended\" and \"stem removed\" are preferable to the ambiguous \"stem out. \n\n" +
+"\"</commentary>
+		<cuepointer>70: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The three different positions for the stem of the harmon mute create very different timbres. \n\n" +
+" Note that \"stem extended\" and \"stem removed\" are preferable to the ambiguous \"stem out. \n\n" +
+"\"</commentary>
+		<cuepointer>75: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. ",
+83: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+A metal straight mute adds a nasal brightness to the sound, so that at a quiet dynamic a straight muted trumpet may actually sound louder than the open trumpet. \n\n" +
+" One can use a fiber straight mute to reduce the nasal metallic quality. ",
+92: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+A cup mute effectively softens the timbre of the trumpet when used in quiet passages. ",
+101: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The three different positions for the stem of the harmon mute create very different timbres. \n\n" +
+" Note that \"stem extended\" and \"stem removed\" are preferable to the ambiguous \"stem out. \n\n" +
+"\"</commentary>
+		<cuepointer>109: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The three different positions for the stem of the harmon mute create very different timbres. \n\n" +
+" Note that \"stem extended\" and \"stem removed\" are preferable to the ambiguous \"stem out. \n\n" +
+"\"</commentary>
+		<cuepointer>117: "These examples demonstrate three of the most common trumpet mutes. \n\n" +
+" Mute changes should be specific in naming the mute to be used. \n\n" +
+" 
+PLEASE NOTE: A significant amount of time must be given for the player to place and remove mutes. \n\n" +
+"
+The three different positions for the stem of the harmon mute create very different timbres. \n\n" +
+" Note that \"stem extended\" and \"stem removed\" are preferable to the ambiguous \"stem out. \n\n" +
+"\"</commentary>
+		<cuepointer>123: "Writing \"brassy\" invites the player to add a metallic quality to the tone color. \n\n" +
+" This is possible only at a loud dynamic level. \n\n" +
+"</commentary>
+	</page>
+	
+	<page>
+		<headerletter>P</headerletter>  
+		<titletext> A S S A G E S</titletext>
+		<thevideo>video/trumpet5. \n\n" +
+"flv</thevideo>
+		<notesmovie>notes/trumpet5. \n\n" +
+"swf</notesmovie>
+		<cuepointer>0: "This heroic call from Beethoven's Leonore Overture No. \n\n" +
+" 2 uses the harmonic series of a larger valveless trumpet. \n\n" +
+" 
+Trumpeters do not feel particularly compelled to use the size of trumpet designated by the composer, making their own choice based on the tessitura of the part and their personal preference. \n\n" +
+" This excerpt is performed here on a C trumpet, using the first valve to invoke the B-flat fundamental. ",
+11: "This heroic call from Beethoven's Leonore Overture No. \n\n" +
+" 2 uses the harmonic series of a larger valveless trumpet. \n\n" +
+" 
+Trumpeters do not feel particularly compelled to use the size of trumpet designated by the composer, making their own choice based on the tessitura of the part and their personal preference. \n\n" +
+" This excerpt is performed here on a C trumpet, using the first valve to invoke the B-flat fundamental. ",
+22: "This passage from the beginning of Haydn's Trumpet Concerto demonstrates the lyric warmth and flexible cantabile possible on the trumpet over a range of nearly 2 octaves. \n\n" +
+" Here it is performed on the B-flat trumpet. ",
+32: "This passage from the beginning of Haydn's Trumpet Concerto demonstrates the lyric warmth and flexible cantabile possible on the trumpet over a range of nearly 2 octaves. \n\n" +
+" Here it is performed on the B-flat trumpet. \n\n" +
+"</commentary>
+	</page>
+
+</instrument>

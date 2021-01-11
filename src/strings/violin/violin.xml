@@ -1,0 +1,158 @@
+<instrument>
+	<page>
+		<headerletter>S</headerletter>  
+		<titletext> C A L E S ,  S T R I N G   C O L O R S</titletext>
+		<thevideo>video/violin1.flv</thevideo>
+		<notesmovie>notes/violin1.swf</notesmovie>
+		 0:  "Performer: Veronique Mathieu
+Unlike large string instruments (see cello and contrabass for comparison), violin string length allows the performer to cover a perfect 4th comfortably, making it possible to play a scale using all four fingers on each of the strings. 
+Open strings are avoided except for the lowest open G.
+(\"sul\" followed by a letter indicates the string to be played.)",
+		 4:  "Performer: Veronique Mathieu
+Unlike large string instruments (see cello and contrabass for comparison), violin string length allows the performer to cover a perfect 4th comfortably, making it possible to play a scale using all four fingers on each of the strings. 
+Open strings are avoided except for the lowest open G.",
+		 7:  "Performer: Veronique Mathieu
+Unlike large string instruments (see cello and contrabass for comparison), violin string length allows the performer to cover a perfect 4th comfortably, making it possible to play a scale using all four fingers on each of the strings. 
+Here the performer chooses to stay on the A string, shifting out of first position to play the D through G in 3rd position on the A string.",
+		 12:  "Performer: Veronique Mathieu
+As the performer shifts to higher and higher positions the notes and closer and closer together (and consequently, more difficult to play in tune and to \"find\" from a leap or as an entrance).
+The pitch of the last note of this scale is a 4th below the top note of the piano keyboard.",
+		 24:  "This faster scale demonstrates the violin's ability to project a smooth, clear legato over string crossings and shifts.",
+		 31:  "Trills and tremolos are effective on the violin, becoming more awkward and less connected sounding at the larger intervals of a tritone and perfect fifth.",
+		 35:  "Trills and tremolos are effective on the violin, becoming more awkward and less connected sounding at the larger intervals of a tritone and perfect fifth.",
+		 39:  "Trills and tremolos are effective on the violin, becoming more awkward and less connected sounding at the larger intervals of a tritone and perfect fifth.",
+		 45:  "When played in a higher position, these larger intervals require less of a stretch; however, intonation is less secure, and the string does not physically respond well to rapid changes in frequency.",
+		 52:  "Each of the four strings on the violin has its own characteristic color.",
+		 58:  "Each of the four strings on the violin has its own characteristic color.",
+		 63:  "Each of the four strings on the violin has its own characteristic color.",
+		 69:  "Each of the four strings on the violin has its own subtly characteristic color.",
+		 79:  "A single phrase can be played with a variety of fingerings, changing color as it fits on different string assignments.
+Open strings are distinctly different in quality, partly because they cannot be played with vibrato. The open E string is particularly bright.",
+		 82:  "A single phrase can be played with a variety of fingerings, changing color as it fits on different string assignments.",
+		 86:  "A single phrase can be played with a variety of fingerings, changing color as it fits on different string assignments.",
+		 89:  "A single phrase can be played with a variety of fingerings, changing color as it fits on different string assignments.",
+	</page>
+	
+	<page>
+		<headerletter>A</headerletter>  
+		<titletext> R P E G G I O S   &   D O U B L E   S T O P S</titletext>
+		<thevideo>video/violin2.flv</thevideo>
+		<notesmovie>notes/violin2.swf</notesmovie>
+		 0:  "Arpeggios are accomplished through a combination of string crossings and/or shifts.",
+		 7:  "Please note: An extended demonstration of string multiple-stop chords can be found in the section on the cello.
+Parallel perfect fifths can be played in the lower positions by stopping two strings with one finger.",
+		 12:  "Please note: An extended demonstration of string multiple-stop chords can be found in the section on the cello.
+As one plays in higher positions, the adjacent strings get farther and farther apart, and also farther from the fingerboard. This makes perfect 5ths in the higher positions awkward and difficult to play in tune. When a perfect 5th is played as harmonics, the problems created by having to press the strings down are no longer present.",
+		 22:  "Please note: An extended demonstration of string multiple-stop chords can be found in the section on the cello.
+Two independent lines can generally be played comfortably on the violin if the harmonic intervals remain between a second and an octave. (The detailed fingerings are given here as a study guide.)",
+		 33:  "Please note: An extended demonstration of string multiple-stop chords can be found in the section on the cello.
+Two-voice passages that would have independent bowings if performed by two players may have their note values compromised in order to work under one bowing.",
+		 44:  "This example displays a harmonic glissando, using the 2nd through 8th partials of the D string. Note that it begins on the second partial, halfway between the nut and the bridge.
+For an extended demonstration of natural harmonics and string length please see the section on the cello.",
+		 
+	</page>
+	
+	<page>
+		<headerletter>H</headerletter>  
+		<titletext> A R M O N I C S ,  V I B R A T O   &   G L I S S A N D O</titletext>
+		<thevideo>video/violin3.flv</thevideo>
+		<notesmovie>notes/violin3.swf</notesmovie>
+		 0:  "These natural harmonics are produced by lightly touching the string at a node that exists where the notated pitch is located. These 2nd through 5th partials (which are shown here on the D string) can be played as natural harmonics on all 4 strings (transposed relative to the open string).
+For an extended demonstration of natural harmonics and string length please see the section on the cello.",
+		 6:  "These are artificial "touch 4" harmonics.
+Natural harmonics use the pitch of the open string as the fundamental. Artificial harmonics require the string to be fully stopped by one finger to create an "artificial" fundamental and lightly touched by another finger to make the string vibrate in partials. By far the most common artificial harmonic is the "touch 4" 4th-partial harmonic (2 octaves above the stopped note), created by lightly touching a perfect 4th above a stopped note on the same string.",
+		 10:  "These are artificial "touch 4" harmonics.
+Natural harmonics use the pitch of the open string as the fundamental. Artificial harmonics require the string to be fully stopped by one finger to create an "artificial" fundamental and lightly touched by another finger to make the string vibrate in partials. By far the most common artificial harmonic is the "touch 4" 4th-partial harmonic (2 octaves above the stopped note), created by lightly touching a perfect 4th above a stopped note on the same string.",
+		 16:  "Vibrato in string instruments is produced by rocking the stopping finger back and forth on the fingerboard. 
+The kind and amount of vibrato employed varies depending on the style and expressive context, and the performer's individual sound and taste.",
+		 20:  "Composers may specify "no vibrato" or exaggerated kinds of vibrato.",
+		 25:  "Composers may specify "no vibrato" or exaggerated kinds of vibrato.",
+		 30:  "Composers may specify "no vibrato" or exaggerated kinds of vibrato.",
+		 35:  "Glissandos requires sliding a finger of the left hand up or down a string.  
+Most types of glissandos are marked with a diagonal line from the first to second pitch; in addition, the word 'gliss.' may optionally be marked.  
+Generally string glissandos should be marked with a slur, since they are usually performed in one bow stroke.",
+		 38:  "The indication "sul D" gives advance warning to the violinist not to begin on the A string, since the glissando must be played on the D string to include the lower E-flat.
+Modern notation practice is that the glissando lasts the entire duration of the note from which it is marked. 
+In this case, the glissando begins immediately after the D-flat has sounded and lasts a half note.",
+		 41:  "The indication "sul D" gives advance warning to the violinist not to begin on the A string, since the glissando must be played on the D string to include the lower E-flat.
+Modern notation practice is that the glissando lasts the entire duration of the note from which it is marked. 
+This rhythmic notation is used to indicate a longer sustained D-flat and a faster glissando.",
+		 46:  "Although an upward glissando is an inherently dramatic gesture, it should be noted that notes in high positions on low strings are less colorful and resonant than the lower pitches.",
+		 51:  "An upward glissando to a harmonic is particularly effective, allowing the string to ring freely at its destination pitch. Here the 4th partial is used, 3/4 of the way up the G string.",
+		 55:  "Portamento is quick, light audible shift. Unlike glissando, it may involve changing fingers or strings; it does not necessarily connect the pitches without a gap. String players frequently use portamento intuitively as an expressive device.",
+		 
+	</page>
+	
+	<page>
+		<headerletter>A</headerletter>  
+		<titletext> R T I C U L A T I O N   &   B O W   C O L O R S</titletext>
+		<thevideo>video/violin4.flv</thevideo> 
+		<notesmovie>notes/violin4.swf</notesmovie>
+		 0:  "Please note: For an extended demonstration of bow direction, speed and pressure, see the section on the cello.\n\n" +
+  Staccato implies a clear articulation of each note while keeping the bow on (or very close to) the string.",
+		 3:  "Please note: For an extended demonstration of bow direction, speed and pressure, see the section on the cello.\n\n" +
+  Spiccato implies that each note is attacked from off the string and left with the natural bounce away from the string in response to this attack.",
+		 6:  "Please note: For an extended demonstration of bow direction, speed and pressure, see the section on the cello.\n\n" +
+  The contrast between staccato and spiccato is especially pronounced in the low register.",
+		 10:  "Please note: For an extended demonstration of bow direction, speed and pressure, see the section on the cello.\n\n" +
+  The contrast between staccato and spiccato is especially pronounced in the low register.",
+		 13: "Saltando (also called ricochet) is a throwing of the bow and allowing it to rebound two or more times. It is most effectively applied as a down-bow stroke",
+		 19:  "Unmeasured tremolo is notated in string writing by three strokes on the note stem, regardless of the rhythmic value of the note. It is played as fast as possible with no regard for the number of alternations on each note; the effect is a color, not a rhythm.",
+		 26:  "Three- note and four-note multiple stop chords can be articulated by the bow by rolling across adjacent strings.",
+		 32:  "This arpeggio pattern uses all four strings and repeated notes. The tremolos are played as bow-tremolos, double stops articulated by rocking the bow over the two strings. The Roman numerals are another way of indicating \"sul D\" (III) and \"sul A\" (II).",
+		 
+	</page>
+	
+	<page>
+		<headerletter>M</headerletter>  
+		<titletext> O R E    B O W   C O L O R S</titletext>
+		<thevideo>video/violin5.flv</thevideo> 
+		<notesmovie>notes/violin5.swf</notesmovie>
+		 0:  "The placement of the bow on the string in relationship to the bridge and the fingerboard affects which harmonics in the sound-complex of the string's timbre are strengthened and suppressed. The normal placement of the bow is about a third of the way from the end of the fingerboard to the bridge.",
+		 9:  "The placement of the bow on the string in relationship to the bridge and the fingerboard affects which harmonics in the sound-complex of the string's timbre are strengthened and suppressed. The normal placement of the bow is about a third of the way from the end of the fingerboard to the bridge",
+		 17:  "Sul ponticello literally means \"on the bridge,\" but in practice it means placing the bow close to bridge. 
+This accentuates the high partials of the string's timbre.",
+		 25:  "Sul ponticello literally means "\on the bridge,\" but in practice it means placing the bow close to bridge. 
+This accentuates the high partials of the string's timbre.",
+		 32:  "Sul tasto literally means \"over the fingerboard.\" 
+This suppresses the high partials of the string's timbre, creating a muted sound.",
+		 40:  "Sul tasto literally means \"over the fingerboard.\" 
+This suppresses the high partials of the string's timbre, creating a muted sound.",
+		 47:  "Col legno battuto means \"struck with the wood of bow.\" The bow is flipped to do this. If time permits, some players may switch to an old bow (or even a chopstick, which produces essentially the same sound) to preserve the varnish on their bows.",
+		 53:  "Col legno tratto means \"bowed with the wood of bow.\" The bow is flipped to do this. If time permits, some players may switch to an old bow to preserve the varnish on their bows.",
+		 
+	</page>
+	
+	<page>
+		<headerletter>P</headerletter>  
+		<titletext> I Z Z I C A T O </titletext>
+		<thevideo>video/violin6.flv</thevideo> 
+		<notesmovie>notes/violin6.swf</notesmovie> 
+		 0:  Single pizzicato notes are usually all played with the index finger of the right hand. Most orchestral string players have not developed a multi-finger pizzicato technique. If there is time to set the bow down, pizzicato playing can better controlled.</commentary>
+		 6:  Single pizzicato notes are usually all played with the index finger of the right hand. Most orchestral string players have not developed a multi-finger pizzicato technique. If there is time to set the bow down, pizzicato playing can better controlled.</commentary>
+		 8:  Single pizzicato notes are usually all played with the index finger of the right hand. Most orchestral string players have not developed a multi-finger pizzicato technique. If there is time to set the bow down, pizzicato playing can better controlled.</commentary>
+		 12:  Double-stop pizzicatos may be played with the index and middle finger, or (as in this performance) as a fast strum (if the strings are adjacent).</commentary>
+		 18:  Pizzicato triple and quadruple stops are usually arpeggiated with one finger. If the direction is upward the thumb can strum across the strings. (The direction of the strum should be indicated.)</commentary>
+		 26:  Slurred pizzicatos are less effective on the violin and viola than on the cello and contrabass. The pitches of the slur must be on the same string. Notice that the sound quickly decays, except when the second note is the open E string. </commentary>
+		 32:  Glissando pizzicato is an interesting but very subtle gesture.</commentary>
+		 38:  Snap pizzicato, also called Bartok pizz., is created by pulling the string away from the fingerboard and releasing it so that it snaps back against the fingerboard.  Although it is sometimes done by grabbing the string between the thumb and finger, here it is effectively executed with a one-finger technique.</commentary>
+		 49:  It is possible to pluck open strings with the left hand while stopping another string with the left hand and playing arco.</commentary>
+	</page>
+
+	<page>
+		<headerletter>P</headerletter>  
+		<titletext> A S S A G E S</titletext>
+		<thevideo>video/violin7.flv</thevideo> 
+		<notesmovie>notes/violin7.swf</notesmovie> 
+		 0:  This passage from Paganini's Caprice #24 in A minor effectively combines the open E string (and one open A) with thirds and 5ths to present powerful triple-stop chords. Note how the second chord uses the open E string doubled with the same page stopped on the A string.</commentary>
+		 6:  This passage is the compelling opening to Ysaye's transcription of Saint-Saens Caprice (after a Study in Form of a Waltz). 
+The use of the G-string for the first 4 measures gives the opening gesture added depth and virtuoso flair. </commentary>
+		 9:  This passage is the compelling opening to Ysaye's transcription of Saint-Saens Caprice (after a Study in Form of a Waltz). 
+The use of the G-string for the first 4 measures gives the opening gesture added depth and virtuoso flair. 
+The up-bow lift off the high G harmonic (three-quarters of the way up the G string) catches the eye and the ear.</commentary>
+		 13:  This passage is the compelling opening to Ysaye's transcription of Saint-Saens Caprice (after a Study in the Form of a Waltz). 
+In the second phrase, the open A string creates a pedal tone, adding substantial body to go along with the incisive E-string melody.</commentary>
+	</page>
+</instrument>
+
+ 

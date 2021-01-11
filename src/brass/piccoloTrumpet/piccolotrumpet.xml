@@ -1,0 +1,37 @@
+
+<instrument>
+	<page>
+		<headerletter>S</headerletter>  
+		<titletext> C A L E S</titletext>
+		<thevideo>video/piccolotrumpet1.flv</thevideo>
+		<notesmovie>notes/piccolotrumpet1.swf</notesmovie>
+		<cuepointer>0</cuepointer>
+		<commentary>Performer: Thaddeus Archer
+The B-flat piccolo trumpet is an invention whose principal function is to make Baroque high clarino trumpet parts more manageable. It is half the size of the standard B-flat trumpet, with partials sounding an octave higher than that instrument.
+The 4th valve (played with the little finger) adds tubing to lower the fundamental a perfect 4th, making the lowest note of this scale playable.</commentary>
+		<cuepointer>8</cuepointer>
+		<commentary>Performer: Thaddeus Archer
+The B-flat piccolo trumpet is an invention whose principal function is to make Baroque high clarino trumpet parts more manageable. It is half the size of the standard B-flat trumpet, with partials sounding an octave higher than that instrument.
+Note that the range is not extended an octave higher, but that the security and agility of the high range is greatly enhanced.</commentary>
+	</page>
+	
+	<page>
+		<headerletter>P</headerletter>  
+		<titletext> A S S A G E</titletext>
+		<thevideo>video/piccolotrumpet2.flv</thevideo>
+		<notesmovie>notes/piccolotrumpet2.swf</notesmovie>
+		<cuepointer>0</cuepointer>
+		<commentary>This passage from the "Credo" of Bach's B-minor Mass was originally written for a valveless trumpet whose fundamental is the D below the bass clef -- almost twice as long as a modern C trumpet. Here an extended lead pipe is used to pitch the modern piccolo trumpet in A. 
+The score shows Bach's original transposition, the concert pitch result, and the way it would be notated for a modern piccolo trumpet in A, although trumpeters may prefer to transpose as they read from the original part.</commentary>
+		<cuepointer>8</cuepointer>
+		<commentary>This passage from the "Credo" of Bach's B-minor Mass was originally written for a valveless trumpet whose fundamental is the D below the bass clef -- almost twice as long as a modern C trumpet. Here an extended lead pipe is used to pitch the modern piccolo trumpet in A. 
+The score shows Bach's original transposition, the concert pitch result, and the way it would be notated for a modern piccolo trumpet in A, although trumpeters may prefer to transpose as they read from the original part.</commentary>
+		<cuepointer>14</cuepointer>
+		<commentary>This passage from the "Credo" of Bach's B-minor Mass was originally written for a valveless trumpet whose fundamental is the D below the bass clef -- almost twice as long as a modern C trumpet. Here an extended lead pipe is used to pitch the modern piccolo trumpet in A. 
+The score shows Bach's original transposition, the concert pitch result, and the way it would be notated for a modern piccolo trumpet in A, although trumpeters may prefer to transpose as they read from the original part.</commentary>
+		<cuepointer>18</cuepointer>
+		<commentary>This passage from the "Credo" of Bach's B-minor Mass was originally written for a valveless trumpet whose fundamental is the D below the bass clef -- almost twice as long as a modern C trumpet. Here an extended lead pipe is used to pitch the modern piccolo trumpet in A. 
+The score shows Bach's original transposition, the concert pitch result, and the way it would be notated for a modern piccolo trumpet in A, although trumpeters may prefer to transpose as they read from the original part.</commentary>
+	</page>
+	
+</instrument>

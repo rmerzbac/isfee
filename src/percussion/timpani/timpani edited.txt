@@ -1,0 +1,93 @@
+DR U M   R A N G E S   &   M A L L E T S
+
+0: "Performer: "Eric Guinivan. \n\n" +
+"The largest timpano generally available is the 32\" drum. \n\n" +
+"Although the range of any given drum may vary depending on a number of factors, the reliable standard range of the may be considered to be the perfect 5th indicated here. \n\n" +
+"This particular drum on this particular day was able to go slightly higher and lower. \n\n" +
+"Notes at the top of the range may sound tight and dry, and those at the bottom somewhat flabby and indefinite in pitch.",
+16: "Performer: "Eric Guinivan. \n\n" +
+"When only two timpani are used, the larger usually is this 28\" drum. \n\n" +
+"Although the range of any given drum may vary depending on a number of factors, the reliable standard range of the may be considered to be the perfect 5th indicated here. \n\n" +
+"This particular drum on this particular day was able to go slightly higher. \n\n" +
+"Notes at the top of the range may sound tight and dry, and those at the bottom somewhat flabby and indefinite in pitch.",
+37: "Performer: "Eric Guinivan. \n\n" +
+"When only two timpani are used, the smaller usually is this 25\" drum. \n\n" +
+"Although the range of any given drum may vary depending on a number of factors, the reliable standard range of the may be considered to be the perfect 5th indicated here. \n\n" +
+"This particular drum on this particular day was able to go slightly higher. \n\n" +
+" Notes at the top of the range may sound tight and dry, and those at the bottom somewhat flabby and indefinite in pitch.",
+55: "Performer: "Eric Guinivan. \n\n" +
+"The smallest timpano generally available is the 23\" drum, although a 21\" \"piccolo timpano\" is not uncommon. \n\n" +
+"Although the range of any given drum may vary depending on a number of factors, the reliable standard range of the may be considered to be the tritone indicated here. \n\n" +
+"This particular drum on this particular day was able to go slightly higher and lower. \n\n" +
+"Notes at the top of the range may sound tight and dry.",
+72:The tuning pedal may be used to create audible glissandos after a note has been struck.",
+83: "A passage using more than four pitches can be played using the tuning pedals. \n\n" +
+"One strategy (demonstrated in this scale performance) is to keep a fixed tuning for the outer drums, allowing the performer to keep the right foot and left foot engaged with the middle drums.",
+85: "A passage using more than four pitches can be played using the tuning pedals. \n\n" +
+"One strategy (demonstrated in this scale performance) is to keep a fixed tuning for the outer drums, allowing the performer to keep the right foot and left foot engaged with the middle drums.",
+88: "A passage using more than four pitches can be played using the tuning pedals. \n\n" +
+"One strategy (demonstrated in this scale performance) is to keep a fixed tuning for the outer drums, allowing the performer to keep the right foot and left foot engaged with the middle drums. : "91: "A passage using more than four pitches can be played using the tuning pedals. \n\n" +
+"One strategy (demonstrated in this scale performance) is to keep a fixed tuning for the outer drums, allowing the performer to keep the right foot and left foot engaged with the middle drums. : "92: "A passage using more than four pitches can be played using the tuning pedals. \n\n" +
+"One strategy (demonstrated in this scale performance) is to keep a fixed tuning for the outer drums, allowing the performer to keep the right foot and left foot engaged with the middle drums.",
+95:A passage using more than four pitches can be played using the tuning pedals. \n\n" +
+"One strategy (demonstrated in this scale performance) is to keep a fixed tuning for the outer drums, allowing the performer to keep the right foot and left foot engaged with the middle drums.",
+98: "A passage using more than four pitches can be played using the tuning pedals. \n\n" +
+"One strategy (demonstrated in this scale performance) is to keep a fixed tuning for the outer drums, allowing the performer to keep the right foot and left foot engaged with the middle drums. : "103: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+"Timpani mallets are specifically designed for these drums. \n\n" +
+" Medium felt is the most commonly used timpani mallet.",
+112: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+"Timpani mallets are specifically designed for these drums. \n\n" +
+"Medium felt is the most commonly used timpani mallet.",
+118: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+"Timpani mallets are specifically designed for these drums. \n\n" +
+" Medium felt is the most commonly used timpani mallet.",
+128: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+"Timpani mallets are specifically designed for these drums. \n\n" +
+"Hard felt timpani mallets create a brighter, more percussive attack. \n\n" +
+"Not only is the material harder, but the size of the mallet head is smaller.",
+138: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+" Timpani mallets are specifically designed for these drums. \n\n" +
+" 
+Hard felt timpani mallets create a brighter, more percussive attack. \n\n" +
+" Not only is the material harder, but the size of the mallet head is smaller.",
+144: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+"Timpani mallets are specifically designed for these drums. \n\n" +
+"Hard felt timpani mallets create a brighter, more percussive attack. \n\n" +
+"Not only is the material harder, but the size of the mallet head is smaller.",
+162: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+"Timpani mallets are specifically designed for these drums. \n\n" +
+"Soft felt timpani mallets create a fuller, less percussive attack. \n\n" +
+"Not only is the material softer, but the size of the mallet head is larger.",
+174: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+"Timpani mallets are specifically designed for these drums. \n\n" +
+"Soft felt timpani mallets create a fuller, less percussive attack. \n\n" +
+"Not only is the material softer, but the size of the mallet head is larger.",
+181: "The mallets designated for the timpani are generally assumed to be a type of timpani mallet unless indicated otherwise. \n\n" +
+"Timpani mallets are specifically designed for these drums. \n\n" +
+"Soft felt timpani mallets create a fuller, less percussive attack. \n\n" +
+"Not only is the material softer, but the size of the mallet head is larger. ",
+
+
+
+
+DY N A M I C   R A N G E   &   C O L O R S
+
+0: "The quality of attack associated with the choice of mallet can be distinctly heard on all drums at all dynamic levels.",
+7: "The quality of attack associated with the choice of mallet can be distinctly heard on all drums at all dynamic levels.",
+19: "The quality of attack associated with the choice of mallet can be distinctly heard on all drums at all dynamic levels.",
+25: "The quality of attack associated with the choice of mallet can be distinctly heard on all drums at all dynamic levels. : "38: "The quality of attack associated with the choice of mallet can be distinctly heard on all drums at all dynamic levels.",
+45: "The quality of attack associated with the choice of mallet can be distinctly heard on all drums at all dynamic levels.",
+51: "Damping with the fingers immediately after the stroke creates a dry staccato articulation.",
+56: "Damping each note with the fingers as the next note is struck creates a clear legato articulation.",
+59: "The normal beating spot for a timpani drum is three or four inches from the rim. \n\n" +
+" Striking the drum in the center creates a \"thuddy\" attack with a fast decay.",
+67: "Timpani shells when struck have sound pitches pitch related to (but not the same as) the tuning of the drum.",
+70: "It is recommend that the tuning of all the drums be given at the beginning of a movement, and updated during extended rests.",
+72: "This improvised passage displays typical tympani gestures, including hand-over-hand sticking and the playing of 2 drums simultaneously.",
+77: "This improvised passage displays typical tympani gestures, including hand-over-hand sticking and the playing of 2 drums simultaneously.",
+94: "Objects with a mixed-pitch sustained sound (a cymbal is particularly effective) can be placed on or near the top of a timpano, and will be influenced in pitch by changes in the drum pitch. \n\n" +
+"</commentary>
+
+	</page>
+
+</instrument>
