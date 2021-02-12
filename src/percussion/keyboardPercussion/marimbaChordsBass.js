@@ -23,8 +23,8 @@ export default function MakePage() {
   return (
     <div>
       <Instrument
-        instrument="Keyboard Percussion"
-        title="Marimba: Chords & Bass"
+        instrument="Marimba"
+        title="Chords & Bass"
         vid={vid}
         instrumentText={instrumentText}
         score={score}
@@ -34,5 +34,3 @@ export default function MakePage() {
     </div>
   );
 }
-
-

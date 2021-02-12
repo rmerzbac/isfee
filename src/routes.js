@@ -175,6 +175,16 @@ import PianoPB1 from "./harpKeyboards/pianoPartIi/Piano 013 passagesBeethoven1.j
 import PianoPB2 from "./harpKeyboards/pianoPartIi/Piano 014 passagesBeethoven2.js"
 import PianoPD from "./harpKeyboards/pianoPartIi/Piano 015 passagesDebussy.js"
 
+import GuitarTF from "./frettedStrings/guitar/Guitar 001 tuningFretboard.js"
+import GuitarLHS from "./frettedStrings/guitar/Guitar 002 lHShapes.js"
+import GuitarLHSSC from "./frettedStrings/guitar/Guitar 003 lHShapesStringColors.js"
+import GuitarRHFSS from "./frettedStrings/guitar/Guitar 004 rHFingerStrokesSlurs.js"
+import GuitarRHFP from "./frettedStrings/guitar/Guitar 005 rHFingerPatterns.js"
+import GuitarMRHT from "./frettedStrings/guitar/Guitar 006 moreRHTechniques.js"
+import GuitarH from "./frettedStrings/guitar/Guitar 007 harmonics.js"
+import GuitarGT from "./frettedStrings/guitar/Guitar 008 glissandosTrills.js"
+import GuitarCE from "./frettedStrings/guitar/Guitar 009 colorExtensions.js"
+
 import CelloSF from "./strings/cello/celloSF.js"
 import CelloNH from "./strings/cello/celloNH.js"
 import CelloAH from "./strings/cello/artificialHarmonics.js"
@@ -442,6 +452,18 @@ export default function CreateMenu() {
                       <MenuItem href="/PianoPB2">Passages - Beethoven, II</MenuItem>
                       <MenuItem href="/PianoPD">Passages - Debussy</MenuItem>
                   </SubMenu>
+                </SubMenu>
+
+                <SubMenu label="Guitar">
+                  <MenuItem href="/GuitarTF">Tuning, Fretboard</MenuItem>
+                  <MenuItem href="/GuitarLHS">L. H. Shapes</MenuItem>
+                  <MenuItem href="/GuitarLHSSC">L. H. Shapes, String Colors</MenuItem>
+                  <MenuItem href="/GuitarRHFSS">R. H. Finger-Strokes, Slurs</MenuItem>
+                  <MenuItem href="/GuitarRHFP">R. H. Finger Patterns</MenuItem>
+                  <MenuItem href="/GuitarMRHT">More R. H. Techniques</MenuItem>
+                  <MenuItem href="/GuitarH">Harmonics</MenuItem>
+                  <MenuItem href="/GuitarGT">Glissandos, Trills</MenuItem>
+                  <MenuItem href="/GuitarCE">Color Extensions</MenuItem>
                 </SubMenu>
 
                 <SubMenu label="Strings">
@@ -965,6 +987,34 @@ export default function CreateMenu() {
             </Route>
             <Route path="/PianoPD">
               <PianoPD/>
+            </Route>
+
+            <Route path="/GuitarTF">
+              <GuitarTF />
+            </Route>
+            <Route path="/GuitarLHS">
+              <GuitarLHS />
+            </Route>
+            <Route path="/GuitarLHSSC">
+              <GuitarLHSSC />
+            </Route>
+            <Route path="/GuitarRHFSS">
+              <GuitarRHFSS />
+            </Route>
+            <Route path="/GuitarRHFP">
+              <GuitarRHFP />
+            </Route>
+            <Route path="/GuitarMRHT">
+              <GuitarMRHT />
+            </Route>
+            <Route path="/GuitarH">
+              <GuitarH />
+            </Route>
+            <Route path="/GuitarGT">
+              <GuitarGT />
+            </Route>
+            <Route path="/GuitarCE">
+              <GuitarCE />
             </Route>
 
             <Route path="/celloSF">

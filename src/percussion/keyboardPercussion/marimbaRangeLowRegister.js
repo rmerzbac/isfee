@@ -16,25 +16,25 @@ const instrumentText = {
   "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" +
   "The rubber mallets used here are relatively hard, making for a sharp mixed pitch attack. If other instruments are playing in this range, only the higher part of the marimba attacks will be heard.",
   22: "Performer: Eric Guinivan\n\n" +
-  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" + 
+  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" +
   "The rubber mallets used here are relatively hard, making for a sharp mixed pitch attack. If other instruments are playing in this range, only the higher part of the marimba attacks will be heard.",
   26: "Performer: Eric Guinivan\n\n" +
-  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" + 
+  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" +
   "Medium yarn mallets provide a good balance between attack pitch and the deeper sustained pitch.",
   30: "Performer: Eric Guinivan\n\n" +
-  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" + 
+  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" +
   "Medium yarn mallets provide a good balance between attack pitch and the deeper sustained pitch.",
   33: "Performer: Eric Guinivan\n\n" +
-  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" + 
+  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" +
   "Medium yarn mallets provide a good balance between attack pitch and the deeper sustained pitch.",
   36: "Performer: Eric Guinivan\n\n" +
-  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" + 
+  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" +
   "Soft yarn mallets are especially effective in projecting the deeper pitch of the low range.",
   40: "Performer: Eric Guinivan\n\n" +
-  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" + 
+  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" +
   "Soft yarn mallets are especially effective in projecting the deeper pitch of the low range.",
   43: "Performer: Eric Guinivan\n\n" +
-  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" + 
+  "Typically, softer mallets which emphasize the sustained part of the pitch and suppress the noise of the attack are used in the lower range of the marimba.\n\n" +
   "Soft yarn mallets are especially effective in projecting the deeper pitch of the low range."
 }
 
@@ -46,8 +46,8 @@ export default function MakePage() {
   return (
     <div>
       <Instrument
-        instrument="Keyboard Percussion"
-        title="Marimba: Range & Low Register"
+        instrument="Marimba"
+        title="Range & Low Register"
         vid={vid}
         instrumentText={instrumentText}
         score={score}
@@ -57,5 +57,3 @@ export default function MakePage() {
     </div>
   );
 }
-
-

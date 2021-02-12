@@ -34,8 +34,8 @@ export default function MakePage() {
   return (
     <div>
       <Instrument
-        instrument="Keyboard Percussion"
-        title="Vibraphone: Range Mallets"
+        instrument="Vibraphone"
+        title="Range Mallets"
         vid={vid}
         instrumentText={instrumentText}
         score={score}
@@ -45,5 +45,3 @@ export default function MakePage() {
     </div>
   );
 }
-
-

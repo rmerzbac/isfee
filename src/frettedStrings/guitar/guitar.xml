@@ -1,0 +1,301 @@
+<instrument>
+	<page>
+		<headerletter>T</headerletter>
+		<titletext> U N I N G ,   F R E T B O A R D</titletext>
+		<thevideo>video/guitar1.flv</thevideo>
+		<notesmovie>notes/guitar1.swf</notesmovie>
+		0: "Performer: Thomas Tudek\n\n" +
+			"Note that the guitar sounds an octave lower than treble clef. The sixth string E in this notation corresponds to the E one line below the bass clef, and the first string E corresponds to the E above middle C. Circled arabic numerals are used to indicate strings (numbered from highest to lowest) in guitar notation.",
+		8: "Performer: Thomas Tudek\n\n" +
+			"Note that the guitar sounds an octave lower than treble clef. The sixth string E in this notation corresponds to the E one line below the bass clef, and the first string E corresponds to the E above middle C. Circled arabic numerals are used to indicate strings (numbered from highest to lowest) in guitar notation.\n\n" +
+			"Scordatura (string re-tuning) is much more common on the guitar than on bowed string instruments. The most common scordatura is tuning the lowest string to D. This video demonstrates how quickly and unobtrusively the guitar can be retuned.",
+		26: "Performer: Thomas Tudek\n\n" +
+			"Note that the guitar sounds an octave lower than treble clef. The sixth string E in this notation corresponds to the E one line below the bass clef, and the first string E corresponds to the E above middle C. Circled arabic numerals are used to indicate strings (numbered from highest to lowest) in guitar notation.\n\n" +
+			"Scordatura (string re-tuning) is much more common on the guitar than on bowed string instruments. The most common scordatura is tuning the lowest string to D. This video demonstrates how quickly and unobtrusively the guitar can be retuned.",
+		42: "Performer: Thomas Tudek\n\n" +
+			"Note that the guitar sounds an octave lower than treble clef. The sixth string E in this notation corresponds to the E one line below the bass clef, and the first string E corresponds to the E above middle C. Circled arabic numerals are used to indicate strings (numbered from highest to lowest) in guitar notation.\n\n" +
+			"Scordatura (string re-tuning) is much more common on the guitar than on bowed string instruments. The most common scordatura is tuning the lowest string to D. This video demonstrates how quickly and unobtrusively the guitar can be retuned.",
+		62: "Guitar frets are spaced a half-step apart. Frets are indicated by Roman numerals. The left hand finger presses down the string behind the fret. The 5th fret is a perfect 4th above the open string, and the twelfth fret is the octave. Note that the frets are twice as close together in the second octave. Because of the shape of the tone-hole, the 19th fret is not available on the G (3) and D (4) strings.",
+		69: "Guitar frets are spaced a half-step apart. Frets are indicated by Roman numerals. The left hand finger presses down the string behind the fret. The 5th fret is a perfect 4th above the open string, and the twelfth fret is the octave. Note that the frets are twice as close together in the second octave. Because of the shape of the tone-hole, the 19th fret is not available on the G (3) and D (4) strings.",
+		74: "Guitar frets are spaced a half-step apart. Frets are indicated by Roman numerals. The left hand finger presses down the string behind the fret. The 5th fret is a perfect 4th above the open string, and the twelfth fret is the octave. Note that the frets are twice as close together in the second octave. Because of the shape of the tone-hole, the 19th fret is not available on the G (3) and D (4) strings.",
+		78: "Guitar frets are spaced a half-step apart. Frets are indicated by Roman numerals. The left hand finger presses down the string behind the fret. The 5th fret is a perfect 4th above the open string, and the twelfth fret is the octave. Note that the frets are twice as close together in the second octave. Because of the shape of the tone-hole, the 19th fret is not available on the G (3) and D (4) strings.",
+		83: "Guitar frets are spaced a half-step apart. Frets are indicated by Roman numerals. The left hand finger presses down the string behind the fret. The 5th fret is a perfect 4th above the open string, and the twelfth fret is the octave. Note that the frets are twice as close together in the second octave. Because of the shape of the tone-hole, the 19th fret is not available on the G (3) and D (4) strings.",
+		87: "Guitar frets are spaced a half-step apart. Frets are indicated by Roman numerals. The left hand finger presses down the string behind the fret. The 5th fret is a perfect 4th above the open string, and the twelfth fret is the octave. Note that the frets are twice as close together in the second octave. Because of the shape of the tone-hole, the 19th fret is not available on the G (3) and D (4) strings.",
+		93: "This scale fingering uses the low E, A, G and high E open strings. It remains in first position on the lowest four strings. In first position the first finger plays the first fret, the second finger plays the second fret, and so on.",
+		95: "This scale fingering uses the low E, A, G and high E open strings. It remains in first position on the lowest four strings. In first position the first finger plays the first fret, the second finger plays the second fret, and so on.",
+		97: "This scale fingering uses the low E, A, G and high E open strings. It remains in first position on the lowest four strings. In first position the first finger plays the first fret, the second finger plays the second fret, and so on.",
+		98: "This scale fingering uses the low E, A, G and high E open strings. It remains in first position on the lowest four strings. In first position the first finger plays the first fret, the second finger plays the second fret, and so on.",
+		99: "Here the fingering moves to 2nd position, the first finger playing on the 2nd fret.",
+		101: "Here the fingering moves to 2nd position, the first finger playing on the 2nd fret.",
+		103: "To continue the upward motion of the scale, the guitarist must shift every three or two notes.",
+		110: "This scale fingering avoids the open strings beyond the first note. It begins in 2nd position, the first finger stopping the string at the 2nd fret to play F-sharp.",
+		115: "This scale fingering avoids the open strings beyond the first note.\n\n" +
+			"Here the guitarist shifts up 2 frets between C-sharp and D-sharp to 4th position, playing the D-sharp with the 4th finger.\n\n" +
+			"Shifting to higher positions on lower stings earlier in the scale allows the timbre to be progressively matched as the scale ascends.",
+		118: "This scale fingering avoids the open strings beyond the first note.\n\n" +
+			"Shifting to higher positions on lower stings earlier in the scale allows the timbre to be progressively matched as the scale ascends.",
+		126: "The guitar fretboard is designed for a normal position in which the four fingers of the left hand can comfortably play adjacent frets in first position. Since the intervals between the open strings are not consistent (there is one major third, between the G and B strings) a basic pattern such as the one demonstrated here can produce a variety of pitch relationships.",
+		140: "The guitar fretboard is designed for a normal position in which the four fingers of the left hand can comfortably play adjacent frets in first position. Since the intervals between the open strings are not consistent (there is one major third, between the G and B strings) a basic pattern such as the one demonstrated here can produce a variety of pitch relationships.\n\n" +
+			"This example transposes the previous series of patterns up 6 frets.",
+		152: "The guitar fretboard is designed for a normal position in which the four fingers of the left hand can comfortably play adjacent frets in first position. Since the intervals between the open strings are not consistent (there is one major third, between the G and B strings) a basic pattern such as the one demonstrated here can produce a variety of pitch relationships.\n\n" +
+			"The patterns in this example are all in 12th position: the first finger is an octave above the open string.",
+		163: "An octave above the open strings, the frets are  twice as close together. This makes adding an extra fret between 2 of the fingers does not create an uncomfortable stretch as it would in low positions. Here there are 2 frets (a major second) from the first to the second finger."
+	</page>
+
+	<page>
+		<headerletter>L </headerletter>
+		<titletext>. H .   S H A P E S</titletext>
+		<thevideo>video/guitar2.flv</thevideo>
+		<notesmovie>notes/guitar2.swf</notesmovie>
+		0: "Two different fingers are often used to play at the same fret on two different strings. In these examples the 2nd and 3rd fingers share the fret a half-step above the the 1st finger's fret.",
+		7: "Two different fingers are often used to play at the same fret on two different strings. In these examples the 2nd and 3rd fingers share the fret a half-step above the the 1st finger's fret.",
+		13: "Two different fingers are often used to play at the same fret on two different strings. In these examples the 2nd and 3rd fingers share the fret a half-step above the the 1st finger's fret.",
+		19: "Two different fingers are often used to play at the same fret on two different strings. In these examples the 2nd and 3rd fingers share the fret a half-step above the the 1st finger's fret.",
+		25: "Two different fingers are often used to play at the same fret on two different strings. In these examples the 2nd and 3rd fingers share the fret a half-step above the the 1st finger's fret.\n\n" +
+			"A common left-hand technique is the use of the flattened 1st finger to stop all the strings at particular fret. This technique is called a \"barre,\" and it is notated with a capital C and the Roman numeral number of the barred fret. (The 1st fingers shown here in parentheses are redundant.)",
+		31: "Two different fingers are often used to play at the same fret on two different strings. In these examples the 2nd and 3rd fingers share the fret a half-step above the the 1st finger's fret.\n\n" +
+			"A common left-hand technique is the use of the flattened 1st finger to stop all the strings at particular fret. This technique is called a \"barre,\" and it is notated with a capital C and the Roman numeral number of the barred fret. (The 1st fingers shown here in parentheses are redundant.)",
+		37: "Two different fingers are often used to play at the same fret on two different strings. In these examples the 2nd and 3rd fingers share the fret a half-step above the the 1st finger's fret.\n\n" +
+			"A common left-hand technique is the use of the flattened 1st finger to stop all the strings at particular fret. This technique is called a \"barre,\" and it is notated with a capital C and the Roman numeral number of the barred fret. (The 1st fingers shown here in parentheses are redundant.)",
+		45: "Two different fingers are often used to play at the same fret on two different strings. In these examples the 2nd and 3rd fingers share the fret a half-step above the the 1st finger's fret.\n\n" +
+			"A common left-hand technique is the use of the flattened 1st finger to stop all the strings at particular fret. This technique is called a \"barre,\" and it is notated with a capital C and the Roman numeral number of the barred fret. (The 1st fingers shown here in parentheses are redundant.)\n\n" +
+			"Here a partial barre is used, allowing the low E-string to sound its open pitch.",
+		52: "The patterns on this line are the same as the line above, transposed up a perfect 4th enharmonically and using open strings instead of the barre.",
+		60: "The patterns on this line are the same as the line above, transposed up a perfect 4th enharmonically and using open strings instead of the barre.",
+		65: "The patterns on this line are the same as the line above, transposed up a perfect 4th enharmonically and using open strings instead of the barre.",
+		72: "The patterns on this line are the same as the line above, transposed up a perfect 4th enharmonically and using open strings instead of the barre.",
+		78: "The patterns on this line use a barre at the 6th fret, creating an exact transposition of the second line above, up a perfect 4th enharmonically.\n\n" +
+			"All of the patterns on this page are playable and can become comfortable with practice and familiarity, but since they are relatively unfamiliar, sight-reading these kinds of patterns can be fatiguing, particularly those using a barre.",
+		84: "The patterns on this line use a barre at the 6th fret, creating an exact transposition of the second line above, up a perfect 4th enharmonically.\n\n" +
+			"All of the patterns on this page are playable and can become comfortable with practice and familiarity, but since they are relatively unfamiliar, sight-reading these kinds of patterns can be fatiguing, particularly those using a barre.",
+		91: "The patterns on this line use a barre at the 6th fret, creating an exact transposition of the second line above, up a perfect 4th enharmonically.\n\n" +
+			"All of the patterns on this page are playable and can become comfortable with practice and familiarity, but since they are relatively unfamiliar, sight-reading these kinds of patterns can be fatiguing, particularly those using a barre.",
+		96: "The patterns on this line use a barre at the 6th fret, creating an exact transposition of the second line above, up a perfect 4th enharmonically.\n\n" +
+			"All of the patterns on this page are playable and can become comfortable with practice and familiarity, but since they are relatively unfamiliar, sight-reading these kinds of patterns can be fatiguing, particularly those using a barre."
+	</page>
+
+	<page>
+		<headerletter>L </headerletter>
+		<titletext>. H .   S H A P E S ,   S T R I N G   C O L O R S</titletext>
+		<thevideo>video/guitar3.flv</thevideo>
+		<notesmovie>notes/guitar3.swf</notesmovie>
+		0: "The very familiar three-note minor and major chord shapes are a standard part of the guitar vocabulary. In these examples they are shifted to various fret positions against open string pedal tones.",
+		13: "The very familiar three-note minor and major chord shapes are a standard part of the guitar vocabulary. In these examples they are shifted to various fret positions against open string pedal tones.",
+		22: "This progression uses four-note chords in which at least two of the notes are created by the first finger barre and the remaining notes may be stopped by the second and third fingers. Barre formations such as these are readily transposed to any key.",
+		31: "This progression uses four-note chords in which at least two of the notes are created by the first finger barre and the remaining notes may be stopped by the second and third fingers. Barre formations such as these are readily transposed to any key.",
+		41: "Since the strings are all the same length, the basic pitch range of each of the strings is a product of its relative thickness and weight. Playing a phrase in the same pitch range on different strings demonstrates a variety of timbral colors.\n\n" +
+			"Notes played in lower positions are brighter and ring longer; notes played in higher positions are darker, warmer, but the shorter string length can reduce the ring time.\n\n" +
+			"Vibrato is used to enhance the singing tone of the instrument in all these examples.",
+		48: "Since the strings are all the same length, the basic pitch range of each of the strings is a product of its relative thickness and weight. Playing a phrase in the same pitch range on different strings demonstrates a variety of timbral colors.\n\n" +
+			"Notes played in lower positions are brighter and ring longer; notes played in higher positions are darker, warmer, but the shorter string length can reduce the ring time.\n\n" +
+			"Vibrato is used to enhance the singing tone of the instrument in all these examples.",
+		55: "Since the strings are all the same length, the basic pitch range of each of the strings is a product of its relative thickness and weight. Playing a phrase in the same pitch range on different strings demonstrates a variety of timbral colors.\n\n" +
+			"Notes played in lower positions are brighter and ring longer; notes played in higher positions are darker, warmer, but the shorter string length can reduce the ring time.\n\n" +
+			"Vibrato is used to enhance the singing tone of the instrument in all these examples.",
+		61: "Since the strings are all the same length, the basic pitch range of each of the strings is a product of its relative thickness and weight. Playing a phrase in the same pitch range on different strings demonstrates a variety of timbral colors.\n\n" +
+			"Notes played in lower positions are brighter and ring longer; notes played in higher positions are darker, warmer, but the shorter string length can reduce the ring time.\n\n" +
+			"Vibrato is used to enhance the singing tone of the instrument in all these examples.",
+		69: "Since the strings are all the same length, the basic pitch range of each of the strings is a product of its relative thickness and weight. Playing a phrase in the same pitch range on different strings demonstrates a variety of timbral colors.\n\n" +
+			"Notes played in lower positions are brighter and ring longer; notes played in higher positions are darker, warmer, but the shorter string length can reduce the ring time.\n\n" +
+			"Vibrato is used to enhance the singing tone of the instrument in all these examples.",
+		76: "Since the strings are all the same length, the basic pitch range of each of the strings is a product of its relative thickness and weight. Playing a phrase in the same pitch range on different strings demonstrates a variety of timbral colors.\n\n" +
+			"Notes played in lower positions are brighter and ring longer; notes played in higher positions are darker, warmer, but the shorter string length can reduce the ring time.\n\n" +
+			"Vibrato is used to enhance the singing tone of the instrument in all these examples.",
+		85: "Since the strings are all the same length, the basic pitch range of each of the strings is a product of its relative thickness and weight. Playing a phrase in the same pitch range on different strings demonstrates a variety of timbral colors.\n\n" +
+			"Notes played in lower positions are brighter and ring longer; notes played in higher positions are darker, warmer, but the shorter string length can reduce the ring time.\n\n" +
+			"Vibrato is used to enhance the singing tone of the instrument in all these examples."
+	</page>
+
+	<page>
+		<headerletter>R </headerletter>
+		<titletext>. H .   F I N G E R  -  S T R O K E S ,  S L U R S</titletext>
+		<thevideo>video/guitar4.flv</thevideo>
+		<notesmovie>notes/guitar4.swf</notesmovie>
+		0: "The fingernails of the right hand may pluck the strings in a motion away from the string called a \"free stroke,\" or play more \"into the strings\" with a motion ending with a rest against the adjacent lower string called a "rest stroke." Rest strokes are more forceful.\n\n" +
+			"Although composers may specify \"tierando\" or \"apoyando\" for specific passages, the selection of the kind of stroke is normally a result of the dynamic indication.",
+		6: "The fingernails of the right hand may pluck the strings in a motion away from the string called a \"free stroke,\" or play more \"into the strings\" with a motion ending with a rest against the adjacent lower string called a "rest stroke." Rest strokes are more forceful.\n\n" +
+			"Although composers may specify \"tierando\" or \"apoyando\" for specific passages, the selection of the kind of stroke is normally a result of the dynamic indication. ",
+		12: "Basic articulation can be modified by the use of slurs and by using fingerings which allow strings to ring beyond their melodic duration.",
+		19: "Basic articulation can be modified by the use of slurs and by using fingerings which allow strings to ring beyond their melodic duration.\n\n" +
+			"Notes beyond the first note of a slur are articulated by the left hand alone as the string continues to ring after the right-hand finger stroke. The dynamic level of the slurred notes can be modulated by the amount of accent given to the left hand's "pull-off" (for descending patterns) or "hammer-on" (for ascending patterns). All notes included in a slur must lie on the same string.",
+		27: "Basic articulation can be modified by the use of slurs and by using fingerings which allow strings to ring beyond their melodic duration.\n\n" +
+			"The fingering in this example allows the first notes of the first and second beats to ring beyond their melodic duration.",
+		35: "Basic articulation can be modified by the use of slurs and by using fingerings which allow strings to ring beyond their melodic duration.\n\n" +
+			"The fingering in this example allows many of the notes to ring beyond their melodic duration, creating an effect analogous to holding down the pedal on a piano.",
+		42: "Basic articulation can be modified by the use of slurs and by using fingerings which allow strings to ring beyond their melodic duration.\n\n" +
+			"The fingering in this example projects the color of the high position D-string and allows the final A to ring a bit before the cadence. At the end the performer elects to accent the final note of the slur with a pull-off.",
+		51: "In this example the melody is mostly played by the right hand's third and fourth fingers, while the thumb and second fingers provide the (mostly) open-string accompaniment.",
+		62: "Passages involving active 2-voice counterpoint can be rather unwieldy on a guitar, particularly when the lines are in contrary motion.",
+		76: "In this example the first note of the accompanying voice is played high on the A-string to match the high left-hand position of the melody. This is not necessary for the remaining notes in this line which are open strings until the final barred chord.",
+		87: "In this example the melody is in the bass, played (mostly) by the right-hand thumb.",
+		99: "When standard tuning is used, the guitar's outer strings are tuned to the same pitch class two octaves apart, making the doubling shown here idiomatic, particularly when the remaining notes are open strings."
+	</page>
+
+	<page>
+		<headerletter>R </headerletter>
+		<titletext>. H .   F I N G E R   P A T T E R N S</titletext>
+		<thevideo>video/guitar5.flv</thevideo>
+		<notesmovie>notes/guitar5.swf</notesmovie>
+		0: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		2: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		4: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		8: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		16: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		23: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		31: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		37: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		43: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		49: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"These examples demonstrate some common right-hand finger patterns.",
+		57: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"This example is from Anthony Joseph Lanman's \"Study No. 1.\"",
+		62: "Since there are so many numbers involved in guitar notation (Roman numerals indicate frets, Arabic numerals indicate left hand fingering, circled Arabic numerals indicate strings), right hand fingering is indicated by letters as follows:\n" +
+			"P (pulgar) = Thumb\n" +
+			"I (indice) = Index Finger\n" +
+			"M (medio) = Middle Finger\n" +
+			"A (anular) = Ring Finger\n\n" +
+			"This example is from Anthony Joseph Lanman's \"Study No. 1.\""
+	</page>
+
+	<page>
+		<headerletter>M</headerletter>
+		<titletext> O R E   R .  H .  T E C H N I Q U E S</titletext>
+		<thevideo>video/guitar6.flv</thevideo>
+		<notesmovie>notes/guitar6.swf</notesmovie>
+		0: "A bracket indicates that all notes of a chord are to be played simultaneously, using one right-hand finger per string.",
+		8: "Straight lines with arrows indicate the direction of a strummed chord.",
+		14: "Straight lines with arrows indicate the direction of a strummed chord.",
+		21: "Straight lines with arrows indicate the direction of a strummed chord.",
+		23: "Rasgueado is a flamenco technique. The fingers are flicked across the strings in succession. This is one rare occasion when the little finger of the right hand is used. ",
+		27: "A wavy line with an arrow indicates a slower strum.",
+		33: "A wavy line with an arrow indicates a slower strum.\n\n" +
+			"\"Sul ponticello\" translates as \"on the bridge,\" but guitarists will play \"sul pont\" midway between the tone hole and the bridge. This emphasizes the higher partials of the string timbre, creating a brighter sound.",
+		39: "A wavy line with an arrow indicates a slower strum.\n\n" +
+			"\"Metallico\" indicates are most extreme form of \"sul pont,\" playing as close to the bridge as possible, resulting in a very bright, wiry sound.",
+		45: "\"Sul tasto\" means \"over the fingerboard.\" It has an effect opposite to \"sul ponticello,\" suppressing the high partials to create a warmer, muted sound.",
+		53: "In guitar writing, \"pizz.\" indicates the use of the heel of the right hand to mute the strings as they are plucked, resulting in a much dryer articulation.",
+		55: "In guitar writing, \"pizz.\" indicates the use of the heel of the right hand to mute the strings as they are plucked, resulting in a much dryer articulation.",
+		57: "In guitar writing, \"pizz.\" indicates the use of the heel of the right hand to mute the strings as they are plucked, resulting in a much dryer articulation.",
+		62: "Coordination of right-hand articulation and left-hand fingering makes it possible to play as fast on the guitar as on any other instrument.",
+		67: "Coordination of right-hand articulation and left-hand fingering makes it possible to play as fast on the guitar as on any other instrument."
+	</page>
+
+	<page>
+		<headerletter>H</headerletter>
+		<titletext> A R M O N I C S</titletext>
+		<thevideo>video/guitar7.flv</thevideo>
+		<notesmovie>notes/guitar7.swf</notesmovie>
+		0: "Please refer to the \"String Length Chart\" in the string instruments section for a demonstration of the relationship between the position of harmonics on strings and the resulting pitch.\n\n" +
+			"Natural harmonics are created by lightly touching the string at the indicated fret. Harmonics at the 12th fret produce the same pitch as stopped strings at this fret. (Note that the guitar's treble clef indicates pitches an octave lower than standard treble clef.)\n\n" +
+			"These are 2nd partial harmonics, an octave above the open strings.",
+		8: "Please refer to the \"String Length Chart\" in the string instruments section for a demonstration of the relationship between the position of harmonics on strings and the resulting pitch.\n\n" +
+			"Natural harmonics are created by lightly touching the string at the indicated fret. Harmonics at the 7th fret (perfect 5th above the open string) produce the pitch an octave higher than stopped strings at this fret. (Note that the guitar's treble clef indicates pitches an octave lower than standard treble clef.)\n\n" +
+			"These are 3rd partial harmonics, an octave and a perfect 5th above the open strings.",
+		15: "Please refer to the \"String Length Chart\" in the string instruments section for a demonstration of the relationship between the position of harmonics on strings and the resulting pitch.\n\n" +
+			"Natural harmonics are created by lightly touching the string at the indicated fret. Harmonics at the 5th fret (perfect 4th above the open string) produce the pitch an octave and a perfect 5th higher than stopped strings at this fret. (Note that the guitar's treble clef indicates pitches an octave lower than standard treble clef.)\n\n" +
+			"These are 4th partial harmonics, two octaves above the open strings.",
+		21: "Please refer to the \"String Length Chart\" in the string instruments section for a demonstration of the relationship between the position of harmonics on strings and the resulting pitch.\n\n" +
+			"Natural harmonics are created by lightly touching the string at the indicated fret. Harmonics at the 4th fret (major 3rd above the open string) produce the pitch an two octaves higher than stopped strings at this fret. (Note that the guitar's treble clef indicates pitches an octave lower than standard treble clef.)\n\n" +
+			"These are 5th partial harmonics, two octaves and a major 3rd above the open strings.",
+		28: "Please refer to the \"String Length Chart\" in the string instruments section for a demonstration of the relationship between the position of harmonics on strings and the resulting pitch.\n\n" +
+			"Natural harmonics are created by lightly touching the string at the indicated fret. Harmonics at the 3rd fret (minor 3rd above the open string) produce the pitch an two octaves and a major third higher than stopped strings at this fret. (Note that the guitar's treble clef indicates pitches an octave lower than standard treble clef.)\n\n" +
+			"These are 6th partial harmonics, two octaves and a perfect 5th above the open strings.",
+		36: "Natural harmonics can also be played by the right hand alone, freeing the left hand for other parts of the texture. In these two examples the same harmonic pitches (4th-partial harmonics sounding two octaves above the open  string) are played first as left-hand "touch-4" harmonics at the 5th fret, and then as right-hand harmonics.",
+		41: "Natural harmonics can also be played by the right hand alone, freeing the left hand for other parts of the texture. In these two examples the same harmonic pitches (4th-partial harmonics sounding two octaves above the open  string) are played first as left-hand "touch-4" harmonics at the 5th fret, and then as right-hand harmonics.\n\n" +
+			"Right-hand harmonics are created by lightly touching the node with the index finger of the right hand while plucking the string with the ring finger of the same hand. The node used to play the 4th-partial right-hand harmonics demonstrated here is located 3/4's of the way up the string, where the 24th fret would be.",
+		46: "Artificial harmonics on the guitar are played as right-hand harmonics that are partials of fundamentals created by the left hand stopping the string in the usual manner.\n\n" +
+			"In this example, the right-hand index finger touches the string 12 frets above where it is stopped by the left hand, sounding the 2nd-partial harmonic an octave above the stopped string.",
+		54: "Artificial harmonics on the guitar are played as right-hand harmonics that are partials of fundamentals created by the left hand stopping the string in the usual manner.\n\n" +
+			"In this example, the right-hand index finger touches the string 7 frets (a perfect 5th) above where it is stopped by the left hand, sounding the 3rd-partial harmonic an octave and a perfect 5th above the stopped string.",
+		61: "In this excerpt (from \"Stirrings\" by Don Freund) the pitches are notated where they sound (there is no \"8\" below the treble clef). The Roman numerals indicate the fret (and consequently the partial) and the circled numbers indicate the string for the natural harmonics. These natural harmonics can be found in the first line of this page.\n\n" +
+			"Since all 6 strings are used, the harmonics can ring indefinitely. In the case of natural harmonics, the left hand can leave its position after the note has begun, and it will continue to ring the initial pitch.",
+		67: "In this excerpt (from \"Stirrings\" by Don Freund) the pitches are notated where they sound (there is no \"8\" below the treble clef). The Roman numerals indicate the fret (and consequently the partial) and the circled numbers indicate the string for the natural harmonics. These natural harmonics can be found in the first line of this page.\n\n" +
+			"The last note is an artificial harmonic. The left hand fingers 8th-fret C on the E-string. The right hand's index finger lightly touches an octave higher (where the 20th fret would be) to produce a 2nd-partial harmonic sounding an octave above the stopped string."
+	</page>
+
+	<page>
+		<headerletter>G</headerletter>
+		<titletext> L I S S A N D O S   &   T R I L L S</titletext>
+		<thevideo>video/guitar8.flv</thevideo>
+		<notesmovie>notes/guitar8.swf</notesmovie>
+		0: "Glissandos are effective both ascending and descending.",
+		5: "Glissandos are effective both ascending and descending.\n\n" +
+			"In slower glissandos it is possible to hear the intervening pitches as the finger crosses the frets.",
+		11: "Left hand trills can be quite strong and extend the sustaining time of the plucked string.",
+		16: "Left hand trills can be quite strong and extend the sustaining time of the plucked string.\n\n" +
+			"Right hand trills and tremolos must use two different strings."
+	</page>
+
+	<page>
+		<headerletter>C</headerletter>
+		<titletext> O L O R   E X T E N S I O N S</titletext>
+		<thevideo>video/guitar9.flv</thevideo>
+		<notesmovie>notes/guitar9.swf</notesmovie>
+		0: "Tone bending on the guitar is performed by stretching the string parallel to the fret. The pitch span of the bend is limited to a half-step.",
+		17: "\"Tamburo\" is striking the strings with the thumb side of the right hand. Although the effect is predominantly percussive, the pitch of the strings can be recognized.",
+		24: "The fingers of the left hand or right hand can strike the string hard enough at a fret to create a clear percussive pitch, called a "slap tone." Releasing the string vigorously and rhythmically allows the open string to be heard as part of the gesture. Here the lowest string is tuned to D.",
+		30: "The body of the guitar is readily accessible for a variety of percussion sounds.",
+		40: "Crossing adjacent strings together so that they buzz against each other creates a pitched sound emulating a snare drum.",
+		51: "Crossing adjacent strings together so that they buzz against each other creates a pitched sound emulating a snare drum.",
+		60: "Crossing adjacent strings together so that they buzz against each other creates a pitched sound emulating a snare drum.",
+		68: "The bottom three strings of the guitar have a winding of fine wire to increase their weight. These wound strings can be scraped with the nails of the right hand to produce a whistling sound.",
+		75: "The sections of the strings between the top-nut and tuning barrels have an indeterminate high pitch.",
+		83: "The guitar can easily be \"prepared\" by threading or attaching a foreign element to the strings at the bridge.",
+		102: "The guitar can easily be \"prepared\" by threading or attaching a foreign element to the strings at the bridge.",
+		117: "The guitar can easily be \"prepared\" by threading or attaching a foreign element to the strings at the bridge."
+	</page>
+
+</instrument>

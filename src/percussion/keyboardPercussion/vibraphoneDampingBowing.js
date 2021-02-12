@@ -30,8 +30,8 @@ export default function MakePage() {
   return (
     <div>
       <Instrument
-        instrument="Keyboard Percussion"
-        title="Vibraphone: Damping & Bowing"
+        instrument="Vibraphone"
+        title="Damping & Bowing"
         vid={vid}
         instrumentText={instrumentText}
         score={score}
@@ -41,5 +41,3 @@ export default function MakePage() {
     </div>
   );
 }
-
-

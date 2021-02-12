@@ -41,8 +41,8 @@ export default function MakePage() {
   return (
     <div>
       <Instrument
-        instrument="Keyboard Percussion"
-        title="Xylophone: High Register & Mallets"
+        instrument="Xylophone"
+        title="High Register & Mallets"
         vid={vid}
         instrumentText={instrumentText}
         score={score}
@@ -52,5 +52,3 @@ export default function MakePage() {
     </div>
   );
 }
-
-
