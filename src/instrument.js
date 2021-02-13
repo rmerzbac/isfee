@@ -23,7 +23,7 @@ function Video(props) {
         <source src={props.vid.replace("mp4", "ogg") + "#t=" + props.value + ",106"} type="video/ogg"/>
         Video failed to load.
       </video>
-      <p className="vid-instruction">Press any key to play and pause the video.</p>
+      <p className="vid-instruction">Use the spacebar to play and pause the video.</p>
     </div>
   );
 }
@@ -98,7 +98,12 @@ export default function Instrument(props) {
   return (
     <div>
       <Body vid={props.vid}/>
-      {document.addEventListener("keydown", event => playPause())}
+      {document.addEventListener("keydown", event => {
+        if (event.code === 'Space') {
+          event.preventDefault()
+          playPause()
+        }
+      })}
     </div>
   );
 }
