@@ -2,8 +2,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import {
     Menu,
@@ -517,7 +516,7 @@ export default function CreateMenu() {
               </Typography>
             </Toolbar>
             <a href="https://music.indiana.edu" style={{marginLeft: 'auto'}}>
-              <img src={logo} style={{width: 500, height: "100%"}} href="https://music.indiana.edu"/>
+              <img src={logo} alt="" style={{width: 500, height: "100%"}} href="https://music.indiana.edu"/>
             </a>
           </AppBar>
           <Switch>
