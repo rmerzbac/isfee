@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 import {
     Menu,
@@ -15,7 +16,10 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+
 import './index.css';
+
+import logo from "./JSOMLockup.jpg"
 
 import PiccoloRRC from "./woodwinds/piccolo/rangeRegistersColors.js"
 import PiccoloMAV from "./woodwinds/piccolo/moreArticulationVibratoColors.js"
@@ -221,9 +225,9 @@ export default function CreateMenu() {
   return (
     <Router forceRefresh={true}>
       <div id="menu">
-        <AppBar>
+        <AppBar style={{ background: '#990000', flexDirection: 'row'}}>
           <Toolbar>
-            <Menu menuButton={<IconButton  color="inherit"><MenuIcon /></IconButton>}>
+            <Menu menuButton={<IconButton color="inherit"><MenuIcon /></IconButton>}>
                 <SubMenu label="Woodwinds">
                   <SubMenu label="Piccolo">
                       <MenuItem href="/piccoloRRC">Range, Registers, & Colors</MenuItem>
@@ -509,9 +513,12 @@ export default function CreateMenu() {
                 </SubMenu>
               </Menu>
               <Typography variant="h6" color="inherit">
-                Instrument Studies for Eyes and Ears
+                 Instrument Studies for Eyes and Ears
               </Typography>
             </Toolbar>
+            <a href="https://music.indiana.edu" style={{marginLeft: 'auto'}}>
+              <img src={logo} style={{width: 500, height: "100%"}} href="https://music.indiana.edu"/>
+            </a>
           </AppBar>
           <Switch>
             <Route exact path="/">
