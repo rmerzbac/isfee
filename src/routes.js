@@ -2,7 +2,8 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 import {
     Menu,
@@ -12,7 +13,6 @@ import {
 import '@szhsin/react-menu/dist/index.css';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
@@ -511,9 +511,9 @@ export default function CreateMenu() {
                   <MenuItem href="/stringLengthChart">String Length Chart</MenuItem>
                 </SubMenu>
               </Menu>
-              <Typography variant="h6" color="inherit">
-                 Instrument Studies for Eyes and Ears
-              </Typography>
+              <Link to="/">
+                 <p className="header">Instrument Studies for Eyes and Ears</p>
+              </Link>
             </Toolbar>
             <a href="https://music.indiana.edu" style={{marginLeft: 'auto'}}>
               <img src={logo} alt="" style={{width: 500, height: "100%"}} href="https://music.indiana.edu"/>
@@ -1125,12 +1125,16 @@ export default function CreateMenu() {
 function Home() {
   return (
     <div>
-      <h1><br/></h1>
-      <h2>Welcome to Instrument Studies for Eyes and Ears!</h2>
-      <p>Created by Don Freund</p>
-      <p>Site designed by Reid Merzbacher</p>
-      <p>Pages assembled by Don Freund, Reid Merzbacher, Felipe Tovar-Henao, and Jeff Sabol</p>
-      <p>Please contact rmerzbacher@gmail.com to report any problems with the site</p>
+      <div className="background">
+      </div>
+      <div style={{paddingLeft: 10}}>
+        <h1><br/></h1>
+        <h2>Welcome to Instrument Studies for Eyes and Ears!</h2>
+        <p>Created by Don Freund</p>
+        <p>Site designed by Reid Merzbacher</p>
+        <p>Pages assembled by Don Freund, Reid Merzbacher, Felipe Tovar-Henao, and Jeff Sabol</p>
+        <p>Please contact rmerzbacher@gmail.com to report any problems with the site</p>
+      </div>
     </div>
   );
 }
