@@ -18,7 +18,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 import './index.css';
 
-import logo from "./JSOMLockup.jpg"
+import logo from "./JSOMLockup.png"
 
 import PiccoloRRC from "./woodwinds/piccolo/rangeRegistersColors.js"
 import PiccoloMAV from "./woodwinds/piccolo/moreArticulationVibratoColors.js"
