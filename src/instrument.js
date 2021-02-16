@@ -18,7 +18,7 @@ function Text(props) {
 function Video(props) {
   return (
     <div>
-      <video id="vid" controls>
+      <video id="vid">
         <source src={props.vid + "#t=" + props.value} type="video/mp4"/>
         <source src={props.vid.replace("mp4", "ogg") + "#t=" + props.value + ",106"} type="video/ogg"/>
         Video failed to load.
