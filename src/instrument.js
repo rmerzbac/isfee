@@ -18,12 +18,12 @@ function Text(props) {
 function Video(props) {
   return (
     <div>
-      <video id="vid">
-        <source src={props.vid + "#t=" + props.value + ",106"} type="video/mp4"/>
+      <video id="vid" controls>
+        <source src={props.vid + "#t=" + props.value} type="video/mp4"/>
         <source src={props.vid.replace("mp4", "ogg") + "#t=" + props.value + ",106"} type="video/ogg"/>
         Video failed to load.
       </video>
-      <p className="vid-instruction">Use the spacebar to play and pause the video.</p>
+      <p className="vid-instruction">Use the spacebar to play and pause the video. Mouse over the score and click to choose matching video and commentary.</p>
     </div>
   );
 }
