@@ -63,7 +63,6 @@ class Body extends React.Component {
   render() {
     return (
       <div className="body">
-        <h1><br/></h1>
         <h2>{instrument + ": " + title}</h2>
         <div className="column left">
           {this.renderVideo()}
