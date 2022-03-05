@@ -20,7 +20,6 @@ function Video(props) {
     <div>
       <video id="vid">
         <source src={props.vid + "#t=" + props.value} type="video/mp4"/>
-        Video failed to load.
       </video>
       <p className="vid-instruction">Use the spacebar to play and pause the video. Mouse over the score and click to choose matching video and commentary.</p>
     </div>
