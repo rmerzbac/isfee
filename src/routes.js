@@ -1128,7 +1128,6 @@ function Home() {
       <div className="background">
       </div>
       <div className="body" style={{paddingLeft: 10}}>
-        <h1><br/></h1>
         <h2>Welcome to Instrument Studies for Eyes and Ears!</h2>
         <p style={{background: 'red', width: '750px'}}><b>The videos on the site are temporarily broken. Please use this temporary
         link for the time being: <a href="https://adoring-yonath-076396.netlify.app/">https://adoring-yonath-076396.netlify.app</a></b></p>
