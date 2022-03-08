@@ -1129,8 +1129,6 @@ function Home() {
       </div>
       <div className="body" style={{paddingLeft: 10}}>
         <h2>Welcome to Instrument Studies for Eyes and Ears!</h2>
-        <p style={{background: 'red', width: '750px'}}><b>3/5/22, 5:22PM: The videos on the site are temporarily broken. Please use this temporary
-        link for the time being: <a href="https://6223e2ead02cc2000867b92d--adoring-yonath-076396.netlify.app/">https://6223e2ead02cc2000867b92d--adoring-yonath-076396.netlify.app/</a></b></p>
         <p>Created by Don Freund</p>
         <p>Site designed by Reid Merzbacher</p>
         <p>Pages assembled by Don Freund, Reid Merzbacher, Felipe Tovar-Henao, and Jeff Sabol</p>
