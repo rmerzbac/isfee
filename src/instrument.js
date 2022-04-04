@@ -18,10 +18,11 @@ function Text(props) {
 function Video(props) {
   return (
     <div>
+      <div id="playpause" onClick={playPause}></div>
       <video id="vid">
         <source src={props.vid + "#t=" + props.value} type="video/mp4"/>
       </video>
-      <p className="vid-instruction">Use the spacebar to play and pause the video. Mouse over the score and click to choose matching video and commentary.</p>
+      <p className="vid-instruction">Click the video to play and pause, or use the spacebar. Mouse over the score and click to choose matching video and commentary.</p>
     </div>
   );
 }

@@ -85,3 +85,11 @@ video {
   font-size: 20px;
   color: white;
 }
+
+#playpause {
+  position: absolute;
+  z-index: 5;
+  width: 28%;
+  height: 61%;
+  opacity: 0;
+}
