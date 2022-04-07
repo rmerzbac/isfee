@@ -11,6 +11,21 @@ const instrumentText = {
   35: "The Allegro derives its energy from the octave tremolo figure of the left hand; note that the right hand quarter notes (played from the wrist) are dyads, while the half-note forearm strokes are three and four-note chords."
 }
 
+const morePages = [["/PianoBC","Basic Construction"],
+["/PianoDP","Damper Pedal"],
+["/PianoPH","Pedalling, Harmonics"],
+["/PianoUCS","Una Corda, Sostenuto"],
+["/PianoSP","Sostenuto Pedal"],
+["/PianoPE","Piano Ergonomics"],
+["/PianoHCS","Hand Combination, Span"],
+["/PianoSAD","Scale Articulation, Dynamics"],
+["/PianoA","Arpeggios"],
+["/PianoJG","Jumps, Glissandos"],
+["/PianoOP","Orchestral Piano"],
+["/PianoPB","Passages - Bach"],
+["/PianoPB2","Passages - Beethoven, II"],
+["/PianoPD","Passages - Debussy"]]
+
 const gridHeights = [130, 120, 110, 110];
 const gridWidths = [[35, 180, 255], [35, 440], [35, 440], [35, 440]];
 const gridTimes = [[0, 12], [22], [33], [35]];
@@ -26,7 +41,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

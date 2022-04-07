@@ -29,7 +29,16 @@ const instrumentText = {
     "All of the patterns on this page are playable and can become comfortable with practice and familiarity, but since they are relatively unfamiliar, sight-reading these kinds of patterns can be fatiguing, particularly those using a barre.",
   96: "The patterns on this line use a barre at the 6th fret, creating an exact transposition of the second line above, up a perfect 4th enharmonically.\n\n" +
     "All of the patterns on this page are playable and can become comfortable with practice and familiarity, but since they are relatively unfamiliar, sight-reading these kinds of patterns can be fatiguing, particularly those using a barre."
-  }
+}
+
+const morePages = [["/GuitarTF","Tuning, Fretboard"],
+["/GuitarLHSSC","L. H. Shapes, String Colors"],
+["/GuitarRHFSS","R. H. Finger-Strokes, Slurs"],
+["/GuitarRHFP","R. H. Finger Patterns"],
+["/GuitarMRHT","More R. H. Techniques"],
+["/GuitarH","Harmonics"],
+["/GuitarGT","Glissandos, Trills"],
+["/GuitarCE","Color Extensions"]]
 
 const gridHeights = [110, 135, 115, 130];
 const gridWidths = [[35, 105, 110, 110, 95], [35, 100, 110, 105, 105], [35, 105, 110, 100, 105], [35, 105, 110, 100, 105]];
@@ -46,7 +55,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

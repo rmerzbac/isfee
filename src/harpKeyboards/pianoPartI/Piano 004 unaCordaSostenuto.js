@@ -10,6 +10,21 @@ const instrumentText = {
   34: "The middle pedal, best identified as the \"sostenuto pedal,\" is reliably present on most grand pianos. The sostenuto pedal controls a lever that grabs and holds in a raised position only those dampers that are raised from the strings at the time the sostenuto pedal is depressed."
 }
 
+const morePages = [["/PianoBC","Basic Construction"],
+["/PianoDP","Damper Pedal"],
+["/PianoPH","Pedalling, Harmonics"],
+["/PianoSP","Sostenuto Pedal"],
+["/PianoPE","Piano Ergonomics"],
+["/PianoHCS","Hand Combination, Span"],
+["/PianoSAD","Scale Articulation, Dynamics"],
+["/PianoA","Arpeggios"],
+["/PianoJG","Jumps, Glissandos"],
+["/PianoOP","Orchestral Piano"],
+["/PianoPB","Passages - Bach"],
+["/PianoPB1","Passages - Beethoven, I"],
+["/PianoPB2","Passages - Beethoven, II"],
+["/PianoPD","Passages - Debussy"]]
+
 const gridHeights = [130, 110, 200];
 const gridWidths = [[35, 255, 180], [35, 440], [35, 440]];
 const gridTimes = [[0, 10], [20], [34]];
@@ -25,7 +40,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

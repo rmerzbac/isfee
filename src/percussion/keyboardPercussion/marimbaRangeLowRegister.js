@@ -38,6 +38,16 @@ const instrumentText = {
   "Soft yarn mallets are especially effective in projecting the deeper pitch of the low range."
 }
 
+const morePages = [["/KeyboardPercussionMCB","Marimba: Chords & Bass"],
+["/KeyboardPercussionMMT","Marimba: Mallet Techniques"],
+["/KeyboardPercussionMRM","Marimba: Register & Mallets"],
+["/KeyboardPercussionVRM","Vibraphone: Range Mallets"],
+["/KeyboardPercussionVDB","Vibraphone: Damping & Bowing"],
+["/KeyboardPercussionXRM","Xylophone: Range & Mallets"],
+["/KeyboardPercussionXHRM","Xylophone: High Register & Mallets"],
+["/KeyboardPercussionAC","Almglocken & Chimes"],
+["/KeyboardPercussionGC","Glockenspiel & Crotales"]]
+
 const gridHeights = [135, 115, 90, 70, 90]
 const gridWidths = [[40, 480], [40, 480], [40, 150, 160, 170], [40, 150, 160, 170], [40, 150, 160, 170]]
 const gridTimes = [[0], [9], [16, 19, 22], [26, 30, 33], [36, 40, 43]]
@@ -53,7 +63,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -13,6 +13,11 @@ const instrumentText = {
   "The baritone saxophone has an extra low-A key to allow its concert range to extend to low C. The bottom notes of the saxophone are progressively more difficult to play softly as one descends. Quiet attacks are particularly treacherous in this region. The sound is naturally thick and heavy."
 }
 
+const morePages = [["/BaritoneSaxophoneRC","Register Colors"],
+["/BaritoneSaxophoneAC","Articulation Colors"],
+["/BaritoneSaxophoneMAVC","More Articulations & Vibrato Colors"],
+["/BaritoneSaxophoneP","Excerpts"]]
+
 const gridHeights = [300, 140]
 const gridWidths = [[40, 240, 240], [40, 480]]
 const gridTimes = [[0, 11], [23]]
@@ -28,9 +33,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

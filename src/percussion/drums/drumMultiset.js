@@ -8,7 +8,7 @@ const instrumentText = {
   "Drums are frequently arrayed together in a configuration chosen by the composer. This particular multi-set allows for a large range and four distinct basic drum colors, which are in turn varied on a large scale by the choice of mallets.\n\n" +
   "The fatter sound of the handles of wood sticks, which are broader and heavier compared with the tips, provides a commonly used all-purpose wood-stick character for the multi-set. ",
   4: "Performer: Eric Guinivan\n\n" +
-  "Drums are frequently arrayed together in a configuration chosen by the composer. This particular multi-set allows for a large range and four distinct basic drum colors, which are in turn varied on a large scale by the choice of mallets.\n\n" + 
+  "Drums are frequently arrayed together in a configuration chosen by the composer. This particular multi-set allows for a large range and four distinct basic drum colors, which are in turn varied on a large scale by the choice of mallets.\n\n" +
   "The fatter sound of the handles of wood sticks, which are broader and heavier compared with the tips, provides a commonly used all-purpose wood-stick character for the multi-set.",
   9: "Performer: Eric Guinivan\n\n" +
   "The pitch range of the drum multi-set is evident even when playing on the rims of the drums.",
@@ -23,6 +23,12 @@ const instrumentText = {
   29: "Performer: Eric Guinivan\n\n" +
   "Playing with the hands (actually the finger-tips) can produce warm, intimate but clear sound on all drums.",
 }
+
+const morePages = [["/DrumsSBD","Snare & Bass Drums"],
+["/DrumsBTTC","Bongos, Timbales, Toms & Congas"],
+["/DrumsDS","Swing Drum Set"],
+["/DrumsDR","Rock Drum Set"],
+["/DrumsT","Tambourine"]]
 
 const gridHeights = [110, 60, 60, 60, 60, 50, 60, 60]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
@@ -39,9 +45,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

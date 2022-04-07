@@ -25,6 +25,13 @@ const instrumentText = {
     "The trigger makes more slide-glissandos possible; note that the largest glissando interval possible while using the trigger is a perfect 4th. The third and fourth glissandos in this set are also available without the trigger (see previous line)."
 }
 
+const morePages = [["/TenorTrombonePHS","Positions & Harmonic Scale"],
+["/TenorTromboneRAC","Registers, Articulations & Colors"],
+["/TenorTromboneMAV","More Articulations & Vibrato"],
+["/TenorTromboneM","Mutes"],
+["/TenorTromboneP","Passages I"],
+["/TenorTromboneP2","Passages II"]]
+
 const gridHeights = [100, 70, 80, 75, 75, 90]
 const gridWidths = [[40, 480], [40, 270, 210], [40, 230, 250], [40, 480], [40, 350, 130], [40, 480]]
 const gridTimes = [[0], [16, 30], [35, 41], [47], [56, 71], [77]]
@@ -40,9 +47,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

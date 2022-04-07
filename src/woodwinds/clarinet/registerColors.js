@@ -22,6 +22,13 @@ const instrumentText = {
   33: "Notes written above the staff are more difficult to conrol, but still may be played at very soft and very loud dynamic levels.",
 }
 
+const morePages = [["/clarinetRS","Range & Skips"],
+["/clarinetTT","Trills & Tremolos"],
+["/clarinetAC","Articulation Colors"],
+["/clarinetTV","Tonguing & Vibrato"],
+["/clarinetP","Passage"],
+["/clarinetAP","Another Passage"]]
+
 const gridHeights = [155, 112, 120, 135]
 const gridWidths = [[35, 100, 100, 100, 100],
                     [35, 100, 100, 100, 100],
@@ -43,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

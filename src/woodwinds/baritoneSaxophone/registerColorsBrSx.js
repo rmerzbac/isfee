@@ -54,6 +54,11 @@ const instrumentText = {
   "Pitches written above the staff can sound pale, but an accomplished performer can take advantage of the flexibility of the instrument to add color and richness with vibrato, dynamic inflection and articulation nuance.",
 }
 
+const morePages = [["/BaritoneSaxophoneRR","Range & Registers"],
+["/BaritoneSaxophoneAC","Articulation Colors"],
+["/BaritoneSaxophoneMAVC","More Articulations & Vibrato Colors"],
+["/BaritoneSaxophoneP","Excerpts"]]
+
 const gridHeights = [150, 120, 120, 140]
 const gridWidths = [[40, 110, 110, 120, 140], [40, 110, 110, 120, 140], [40, 110, 110, 120, 140], [40, 110, 110, 120, 140]]
 const gridTimes = [[0, 4, 7, 10], [15, 18, 22, 25], [29, 33, 36, 40], [45, 49, 53, 56]]
@@ -69,9 +74,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

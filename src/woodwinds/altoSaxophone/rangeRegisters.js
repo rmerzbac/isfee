@@ -20,6 +20,12 @@ const instrumentText = {
     "Note how these downward slurs encounter slightly more resistance as the register breaks downward.",
 }
 
+const morePages = [["/altoSaxRC","Register Colors"],
+["/altoSaxTT","Trills & Tremolos"],
+["/altoSaxP","Passage"],
+["/altoSaxAC","Articulation Colors"],
+["/altoSaxMAVC","More Articulation & Vibrato Colors"]]
+
 const gridHeights = [220, 140, 150]
 const gridWidths = [[35, 210, 103, 110],
                     [35, 170, 260],
@@ -37,7 +43,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

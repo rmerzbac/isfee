@@ -54,6 +54,9 @@ const instrumentText = {
     "This register corresponds to the top octave of the piano. In this range the piccolo can provide shimmering brilliance as well as ear-splitting power to the orchestra.",
 }
 
+const morePages = [["/piccoloMAV", "More Articulation & Vibrato"],
+["/piccoloPAC", "Passages & Articulation Colors"]]
+
 const gridHeights = [100, 80, 70, 70, 70, 70]
 const gridWidths = [[90, 150, 125, 75],
                     [55, 185, 160],
@@ -79,7 +82,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

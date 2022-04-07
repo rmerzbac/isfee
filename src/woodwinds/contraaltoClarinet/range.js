@@ -13,6 +13,9 @@ const instrumentText = {
   15: "Most contra-alto clarinets will have extra bass keys going at least as far down as written D (concert F). These notes are rich and resonant, and very flexible dynamically. Significantly more air is needed to produce the sound in this region. ",
 }
 
+const morePages = [["/contraaltoClarinetRC","Register Colors"],
+["/contraaltoClarinetAP","Articulations & Passage"]]
+
 const gridHeights = [230, 200]
 const gridWidths = [[20, 260, 185],
                     [15, 435]]
@@ -29,7 +32,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

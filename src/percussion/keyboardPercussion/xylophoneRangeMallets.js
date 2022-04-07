@@ -44,6 +44,16 @@ const instrumentText = {
   "Yarn mallets produce a mellowness on the xylophone almost matching the marimba."
 }
 
+const morePages = [["/KeyboardPercussionMCB","Marimba: Chords & Bass"],
+["/KeyboardPercussionMMT","Marimba: Mallet Techniques"],
+["/KeyboardPercussionMRLR","Marimba: Range & Low Register"],
+["/KeyboardPercussionMRM","Marimba: Register & Mallets"],
+["/KeyboardPercussionVRM","Vibraphone: Range Mallets"],
+["/KeyboardPercussionVDB","Vibraphone: Damping & Bowing"],
+["/KeyboardPercussionXHRM","Xylophone: High Register & Mallets"],
+["/KeyboardPercussionAC","Almglocken & Chimes"],
+["/KeyboardPercussionGC","Glockenspiel & Crotales"]]
+
 const gridHeights = [115, 68, 68, 68, 65, 60, 70]
 const gridWidths = [[40, 480], [40, 140, 150, 190], [40, 140, 150, 190], [40, 140, 150, 190], [40, 140, 150, 190], [40, 140, 150, 190], [40, 140, 150, 190]]
 const gridTimes = [[0], [8, 11, 14], [18, 21, 24], [27, 29, 32], [35, 38, 40], [43, 45, 48], [51, 54, 57]]
@@ -59,7 +69,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

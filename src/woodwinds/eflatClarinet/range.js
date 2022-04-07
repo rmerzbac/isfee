@@ -13,6 +13,11 @@ const instrumentText = {
   14: "The lowest notes of the E-flat clarinet are useful for range purposes, but lack the color of the clarinet.",
 }
 
+const morePages = [["/eflatClarinetRC","Register Colors"],
+["/eflatClarinetAC","Articulation Colors"],
+["/eflatClarinetP","Passage"],
+["/eflatClarinetAP","Another Passage"]]
+
 const gridHeights = [230, 200]
 const gridWidths = [[20, 283, 165],
                     [15, 250, 200]]
@@ -30,7 +35,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -22,6 +22,10 @@ const instrumentText = {
   77: "Notes written above the staff for the alto flute have little distinctive color and may be better assigned to the flute. ",
 }
 
+const morePages = [["/altoFluteRR","Range & Registers"],
+["/altoFlutePAC","Passages & Articulation Colors"],
+["/altoFluteMACV","More Articulation Colors & Vibrato"]]
+
 const gridHeights = [150, 125, 125, 125]
 const gridWidths = [[35, 110, 90, 100, 100],
                     [35, 110, 90, 100, 100],
@@ -43,7 +47,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

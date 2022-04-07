@@ -26,6 +26,10 @@ const instrumentText = {
 	112: "Notice that the fingering becomes more awkward as the interval of the tremolo increases. It is also more difficult to make the sound wave respond to rapid changes as the interval increases."
 }
 
+const morePages = [["/fluteRC","Register Colors"],
+["/fluteP", "Passages"],
+["/fluteAVC", "Articulation & Vibrato Colors"]]
+
 const gridHeights = [90, 90, 75, 95, 70, 70]
 const gridWidths = [[55, 170, 140, 80],
                     [35, 185, 230],
@@ -51,7 +55,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

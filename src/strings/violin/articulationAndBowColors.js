@@ -17,7 +17,14 @@ const instrumentText = {
 		 26:  "Three- note and four-note multiple stop chords can be articulated by the bow by rolling across adjacent strings.",
 		 32:  "This arpeggio pattern uses all four strings and repeated notes. The tremolos are played as bow-tremolos, double stops articulated by rocking the bow over the two strings. The Roman numerals are another way of indicating \"sul D\" (III) and \"sul A\" (II).",
 
-  }
+}
+
+const morePages = [["/scalesStringColors","Scales, String Colors"],
+["/arpeggiosDoubleStops","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissando","Harmonics, Vibrato & Glissando"],
+["/moreVBowColors","More Bow Colors"],
+["/pizzicatoV","Pizzicato"],
+["/passagesV","Passages"]]
 
 const gridHeights = [100, 60, 80,80, 80, 100]
 const gridWidths = [[40, 200, 180],
@@ -43,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

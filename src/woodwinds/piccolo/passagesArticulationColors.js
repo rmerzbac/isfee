@@ -24,6 +24,9 @@ const instrumentText = {
     "Double-tonguing is particularly effective on members of the flute family, where the tonguing is unencumbered by the reeds employed by all the other woodwinds.",
 }
 
+const morePages = [["/piccoloRRC", "Range, Registers, & Colors"],
+["/piccoloMAV", "More Articulation & Vibrato"]]
+
 const gridHeights = [100, 65, 60, 70, 60, 70, 70];
 const gridWidths = [[70, 390],[55, 405],[55, 405],
               [35, 425],[35, 425],[35, 425],[35, 425]];
@@ -40,7 +43,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

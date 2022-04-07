@@ -25,6 +25,21 @@ const instrumentText = {
   102: "The thumb is often called upon to play white-key or black-key 2nds (but not a white/black mixture). The first two transpositions of this chord can be played by pianists with relatively small hands, but the third transposition is unplayable, even for pianists with very large hands."
 }
 
+const morePages = [["/PianoBC","Basic Construction"],
+["/PianoDP","Damper Pedal"],
+["/PianoPH","Pedalling, Harmonics"],
+["/PianoUCS","Una Corda, Sostenuto"],
+["/PianoSP","Sostenuto Pedal"],
+["/PianoPE","Piano Ergonomics"],
+["/PianoSAD","Scale Articulation, Dynamics"],
+["/PianoA","Arpeggios"],
+["/PianoJG","Jumps, Glissandos"],
+["/PianoOP","Orchestral Piano"],
+["/PianoPB","Passages - Bach"],
+["/PianoPB1","Passages - Beethoven, I"],
+["/PianoPB2","Passages - Beethoven, II"],
+["/PianoPD","Passages - Debussy"]]
+
 const gridHeights = [125, 130, 140, 120];
 const gridWidths = [[35, 440], [35, 131, 140, 155], [35, 90, 100, 110, 125], [40, 20, 30, 30, 35, 25, 35, 55, 75, 80]];
 const gridTimes = [[0], [7, 11, 13], [26, 31, 39, 46], [56, 60, 64, 69, 76, 84, 91, 96, 102]];
@@ -40,7 +55,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

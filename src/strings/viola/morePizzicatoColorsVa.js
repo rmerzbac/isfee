@@ -12,7 +12,15 @@ const instrumentText = {
 24:"Snap pizzicato, also called Bartok pizz., is created by pulling the string away from the fingerboard and releasing it so that it snaps back against the fingerboard. \n\n" +
 "Here it is executed by grabbing the string between the thumb and finger, pulling and releasing.",
 33:"It is possible to pluck open strings with the left hand while stopping another string with the left hand and playing arco.",
-  }
+}
+
+const morePages = [["/scalesTrillsStringColors","Scales, Trills & String Colors"],
+["/arpeggiosDoubleStopsVa","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissandoVa","Harmonics, Vibrato & Glissando"],
+["/articulationColorsVa","Articulation & Bow Colors"],
+["/moreBowColorsVa","More Bow Colors"],
+["/colLegnoPizzicatoVa","Col Legno & Pizzicato"],
+["/passageVa","Excerpt"]]
 
 const gridHeights = [120, 120, 120, 120]
 const gridWidths = [[40, 150, 170, 160],
@@ -34,7 +42,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

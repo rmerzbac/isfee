@@ -436,7 +436,7 @@ export default function CreateMenu() {
                       <MenuItem href="/HarpHE">Harmonics & Effects</MenuItem>
                       <MenuItem href="/HarpBRC">Blocked & Rolled Chords</MenuItem>
                   </SubMenu>
-                  <SubMenu label="Piano, Part I">
+                  <SubMenu label="Piano">
                       <MenuItem href="/PianoBC">Basic Construction</MenuItem>
                       <MenuItem href="/PianoDP">Damper Pedal</MenuItem>
                       <MenuItem href="/PianoPH">Pedalling, Harmonics</MenuItem>
@@ -445,8 +445,6 @@ export default function CreateMenu() {
                       <MenuItem href="/PianoPE">Piano Ergonomics</MenuItem>
                       <MenuItem href="/PianoHCS">Hand Combination, Span</MenuItem>
                       <MenuItem href="/PianoSAD">Scale Articulation, Dynamics</MenuItem>
-                  </SubMenu>
-                  <SubMenu label="Piano, Part II">
                       <MenuItem href="/PianoA">Arpeggios</MenuItem>
                       <MenuItem href="/PianoJG">Jumps, Glissandos</MenuItem>
                       <MenuItem href="/PianoOP">Orchestral Piano</MenuItem>

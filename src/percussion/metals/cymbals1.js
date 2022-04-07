@@ -44,6 +44,11 @@ const instrumentText = {
 
 }
 
+const morePages = [["/cymbals2","Cymbals 2"],
+["/tamtamGongs","Tamtams, Gongs"],
+["/trianglesCowbell","Triangles, Cowbells"],
+["/windChimesTrees","Wind Chimes, Trees"]]
+
 const gridHeights = [65, 55, 90, 60, 55, 55, 55, 55];
 const gridWidths = [[30, 110, 110, 110, 110],
                   [30, 420],
@@ -73,7 +78,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

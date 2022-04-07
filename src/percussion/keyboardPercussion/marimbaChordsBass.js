@@ -15,6 +15,16 @@ const instrumentText = {
   "The lower octave of the grand marimba or bass marimba speaks most resonantly with soft mallets.",
 }
 
+const morePages = [["/KeyboardPercussionMMT","Marimba: Mallet Techniques"],
+["/KeyboardPercussionMRLR","Marimba: Range & Low Register"],
+["/KeyboardPercussionMRM","Marimba: Register & Mallets"],
+["/KeyboardPercussionVRM","Vibraphone: Range Mallets"],
+["/KeyboardPercussionVDB","Vibraphone: Damping & Bowing"],
+["/KeyboardPercussionXRM","Xylophone: Range & Mallets"],
+["/KeyboardPercussionXHRM","Xylophone: High Register & Mallets"],
+["/KeyboardPercussionAC","Almglocken & Chimes"],
+["/KeyboardPercussionGC","Glockenspiel & Crotales"]]
+
 const gridHeights = [160, 130, 100, 80]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [17], [39], [45]]
@@ -30,7 +40,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

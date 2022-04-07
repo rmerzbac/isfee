@@ -24,6 +24,21 @@ const instrumentText = {
   91: "The lower strings of the piano can ring as long as half a minute. Sustained notes in the highest two octaves will decay within 10 seconds."
 }
 
+const morePages = [["/PianoDP","Damper Pedal"],
+["/PianoPH","Pedalling, Harmonics"],
+["/PianoUCS","Una Corda, Sostenuto"],
+["/PianoSP","Sostenuto Pedal"],
+["/PianoPE","Piano Ergonomics"],
+["/PianoHCS","Hand Combination, Span"],
+["/PianoSAD","Scale Articulation, Dynamics"],
+["/PianoA","Arpeggios"],
+["/PianoJG","Jumps, Glissandos"],
+["/PianoOP","Orchestral Piano"],
+["/PianoPB","Passages - Bach"],
+["/PianoPB1","Passages - Beethoven, I"],
+["/PianoPB2","Passages - Beethoven, II"],
+["/PianoPD","Passages - Debussy"]]
+
 const gridHeights = [110, 100, 80, 90, 120];
 const gridWidths = [[35, 100, 60, 115, 75, 65], [20, 342, 108], [35, 440], [35, 440], [35, 440]];
 const gridTimes = [[0, 14, 20, 26, 31], [39, 50], [56], [73], [91]];
@@ -39,7 +54,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

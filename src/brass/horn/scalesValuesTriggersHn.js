@@ -41,6 +41,15 @@ const instrumentText = {
     "  Depending on the performer, 3 to 5 pedal tones are possible. \n\n"
 }
 
+const morePages = [["/HornHS","Harmonic Series"],
+["/HornAC","Articulation Colors"],
+["/HornST","Skips & Trills "],
+["/HornTVC","Tonguing, & Vibrato Colors"],
+["/HornSM","Stopping & Muting"],
+["/HornP","Passages"],
+["/HornNH","Natural Horn"],
+["/HornBH","Baroque Horn"]]
+
 const gridHeights = [140, 115, 115, 175]
 const gridWidths = [[40, 480], [40, 480], [40, 90, 150, 240], [40, 140, 100, 60, 190]]
 const gridTimes = [[0], [11], [22, 24, 27], [32, 38, 43, 48]]
@@ -56,7 +65,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

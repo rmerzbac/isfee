@@ -74,6 +74,8 @@ const instrumentText = {
   "Not only is the material softer, but the size of the mallet head is larger. ",
 }
 
+const morePages = [["/dynamicRangeColorsTmp","Dynamic Range & Colors"]]
+
 const gridHeights = [150, 70, 70, 70, 70, 90]
   const gridWidths = [[50, 220, 220],
                     [50, 220, 220],
@@ -99,7 +101,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

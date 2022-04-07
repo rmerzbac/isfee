@@ -16,6 +16,9 @@ const instrumentText = {
   "This passage from Respighi's Fountains of Rome displays the bass trombone's power and agility in a range where the tenor trombone might sound less full."
 }
 
+const morePages = [["/BassTromboneST","Scale & Triggers"],
+["/BassTromboneRC","Register Colors"]]
+
 const gridHeights = [120, 100, 80, 70, 80]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [22], [26], [29], [33]]
@@ -31,9 +34,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

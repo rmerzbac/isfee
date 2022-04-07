@@ -19,6 +19,13 @@ const instrumentText = {
   39: "Ascending single-hand double-note glissandos can be comfortably executed, but the descending form is awkward.",
 }
 
+const morePages = [["/HarpPB","Pedal Basics"],
+["/HarpS","Scales"],
+["/HarpCRA","Chords, Registers, Articulations"],
+["/HarpAI","Arpeggiation Idioms"],
+["/HarpHE","Harmonics & Effects"],
+["/HarpBRC","Blocked & Rolled Chords"]]
+
 const gridHeights = [80, 60, 115, 140, 160];
 const gridWidths = [[40, 200, 250], [50, 150, 170, 170], [35, 450], [35, 450], [60, 120, 180, 140, 190]];
 const gridTimes = [[0, 3], [8, 11, 15], [21], [26], [32, 34, 37, 39]];
@@ -35,7 +42,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

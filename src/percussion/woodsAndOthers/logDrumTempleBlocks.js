@@ -22,6 +22,9 @@ const instrumentText = {
     "Temple blocks (when compared with wood blocks) have a deeper more resonant sound, particularly when played with yarn mallets. They are usually used as a group of 5 semi-indefinite pitches.",
 }
 
+const morePages = [["/WoodsAndOthersWBCC","Wood Blocks, Claves, & Castanets"],
+["/WoodsAndOthersWO","Whistles & Others"]]
+
 const gridHeights = [120, 96, 60, 110, 65, 70]
 const gridWidths = [[40, 210, 270], [40, 200, 280], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0, 7], [14, 22], [29], [40], [51], [58]]
@@ -37,9 +40,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

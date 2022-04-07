@@ -14,6 +14,13 @@ const instrumentText = {
     "Note that in both performances the chords are allowed to ring; the rests are not understood to indicate damping. This is largely a matter of style and taste, and may be governed by harpists' recognition of their role in relation to the sound of the rest of the orchestra. In contemporary works, harpists may suspect that rests do imply damping.",
 }
 
+const morePages = [["/HarpPB","Pedal Basics"],
+["/HarpEG","Enharmonic & Glissandos"],
+["/HarpS","Scales"],
+["/HarpCRA","Chords, Registers, Articulations"],
+["/HarpAI","Arpeggiation Idioms"],
+["/HarpHE","Harmonics & Effects"]]
+
 
 const gridHeights = [150, 120, 130, 120];
 const gridWidths = [[35, 440], [35, 440], [35, 440], [35, 440]];
@@ -31,7 +38,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

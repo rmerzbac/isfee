@@ -13,7 +13,14 @@ const instrumentText = {
 		 13:  "This passage is the compelling opening to Ysaye's transcription of Saint-Saens Caprice (after a Study in the Form of a Waltz).  \n\n" +
      "In the second phrase, the open A string creates a pedal tone, adding substantial body to go along with the incisive E-string melody.",
 
-   }
+}
+
+const morePages = [["/scalesStringColors","Scales, String Colors"],
+["/arpeggiosDoubleStops","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissando","Harmonics, Vibrato & Glissando"],
+["/articulationAndBowColors","Articulation & Bow Colors"],
+["/moreVBowColors","More Bow Colors"],
+["/pizzicatoV","Pizzicato"]]
 
  const gridHeights = [120, 120, 120, 120]
  const gridWidths = [[40, 480],
@@ -35,7 +42,8 @@ const instrumentText = {
          score={score}
          gridHeights={gridHeights}
          gridWidths={gridWidths}
-         gridTimes={gridTimes}/>
+         gridTimes={gridTimes}
+         morePages={morePages}/>
      </div>
    );
  }

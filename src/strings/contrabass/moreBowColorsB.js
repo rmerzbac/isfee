@@ -19,7 +19,13 @@ const instrumentText = {
 		47: "Col legno battuto means \"struck with the wood of bow.\" The bow is flipped to do this. If time permits, some players may switch to an old bow (or even a chopstick, which produces essentially the same sound) to preserve the varnish on their bows.",
 		57: "Col legno tratto means \"bowed with the wood of bow.\" The bow is flipped to do this. If time permits, some players may switch to an old bow to preserve the varnish on their bows.",
 
-  }
+}
+
+const morePages = [["/leftHandFingeringB","Left Hand Fingering"],
+["/registerStringColorsB","Register & String Colors"],
+["/articulationColorsB","Articulation & Bow Colors"],
+["/pizzicatoB","Pizzicato"],
+["/excerptB","Excerpt"]]
 
 const gridHeights = [90, 60, 60, 60, 60, 60, 60, 60]
 const gridWidths = [[40, 400],
@@ -49,7 +55,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

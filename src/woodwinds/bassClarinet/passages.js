@@ -9,6 +9,10 @@ const instrumentText = {
   10: "These passages from Richard Strauss's \"Ein Heldenleben\" (which include quotes from other Strauss tone poems) display some of the range of character available on the bass clarinet."
 }
 
+const morePages = [["/bassClarinetR","Range"],
+["/bassClarinetRC","Register Colors"],
+["/bassClarinetAC","Articulation Colors"]]
+
 const gridHeights = [150, 160]
 const gridWidths = [[35, 435],
                     [35, 250, 185]]
@@ -25,7 +29,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

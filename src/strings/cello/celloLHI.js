@@ -18,6 +18,15 @@ const instrumentText = {
 	60: "Portamento is quick, light audible shift. Unlike glissando, it may involve changing fingers or strings; it does not necessarily connect the pitches without a gap. \n\n String players frequently use portamento intuitively as an expressive device.",
 }
 
+const morePages = [["/celloSF","Scale Fingering"],
+["/celloNH","Natural Harmonics"],
+["/celloAH","Artificial Harmonics"],
+["/celloMS","Multiple Stops"],
+["/celloRHI","Right Hand Inflections"],
+["/bowDirectionsSpeedPressure","Bow Directions, Speed and Pressure"],
+["/moreBowColors","More Bow Colors"],
+["/pizzicato","Pizzicato"]]
+
 const gridHeights = [120, 90, 90, 110, 110]
 const gridWidths = [[40, 100, 80, 120, 100],
                     [40, 400],
@@ -41,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

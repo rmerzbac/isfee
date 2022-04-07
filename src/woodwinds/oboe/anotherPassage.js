@@ -10,6 +10,11 @@ const instrumentText = {
   13: "This excerpt is from Rossini's Overture to \"The Italian in Algiers.\" It is presented twice: first with the 16th-notes as Rossini wrote it and then as it is usually performed, with much more articulation.",
 }
 
+const morePages = [["/oboeRRT","Range, Registers, & Tremolos"],
+["/oboeRC","Register Colors"],
+["/oboeP","Passages"],
+["/oboeAVC","Articulation & Vibrato Colors"]]
+
 const gridHeights = [95, 70, 120, 60]
 const gridWidths = [[25, 450],
                     [25, 450],
@@ -28,7 +33,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

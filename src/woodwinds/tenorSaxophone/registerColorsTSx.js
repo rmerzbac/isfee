@@ -4,55 +4,60 @@ import vid from './registerColorsTSx.mp4'
 import score from './registerColorsTSx.png'
 
 const instrumentText = {
-  0: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  0: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "This low range is relatively dark and full. Attacking the low C in these examples requires care and skill, particularly at softer dynamic levels.",
-  3: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  3: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "This low range is relatively dark and full. Attacking the low C in these examples requires care and skill, particularly at softer dynamic levels.",
-  6: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  6: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "This low range is relatively dark and full. Attacking the low C in these examples requires care and skill, particularly at softer dynamic levels.",
-  9: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  9: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "This low range is relatively dark and full. Attacking the low C in these examples requires care and skill, particularly at softer dynamic levels.",
-  13: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  13: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "Even though this passage is in the low-middle range of the instrument, the sound projects with a brightness and intensity associated with a higher range.",
-  16: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  16: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "Even though this passage is in the low-middle range of the instrument, the sound projects with a brightness and intensity associated with a higher range.",
-  19: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  19: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "Even though this passage is in the low-middle range of the instrument, the sound projects with a brightness and intensity associated with a higher range.",
-  22: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  22: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "Even though this passage is in the low-middle range of the instrument, the sound projects with a brightness and intensity associated with a higher range.",
-  28: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  28: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "This high-middle range is capable of projecting great intensity or sweetness.",
-  31: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  31: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "This high-middle range is capable of projecting great intensity or sweetness.",
-  34: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  34: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "This high-middle range is capable of projecting great intensity or sweetness.",
-  37: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  37: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "This high-middle range is capable of projecting great intensity or sweetness.",
-  42: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  42: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "Pitches written above the staff can sound pale, but an accomplished performer can take advantage of the flexibility of the instrument to add color and richness with vibrato, dynamic inflection and articulation nuance.",
-  45: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  45: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "Pitches written above the staff can sound pale, but an accomplished performer can take advantage of the flexibility of the instrument to add color and richness with vibrato, dynamic inflection and articulation nuance.",
-  48: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  48: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "Pitches written above the staff can sound pale, but an accomplished performer can take advantage of the flexibility of the instrument to add color and richness with vibrato, dynamic inflection and articulation nuance.",
-  51: "Performer: Stacy Wilson\n\n" + 
-  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" + 
+  51: "Performer: Stacy Wilson\n\n" +
+  "The saxophone is constructed in such a way as to provide great consistency of timbre and articulation qualities throughout its standard range.\n\n" +
   "Pitches written above the staff can sound pale, but an accomplished performer can take advantage of the flexibility of the instrument to add color and richness with vibrato, dynamic inflection and articulation nuance."
 }
+
+const morePages = [["/TenorSaxophoneRR","Range & Registers"],
+["/TenorSaxophoneAC","Articulation Colors"],
+["/TenorSaxophoneMAVC","More Articulation & Vibrato Colors"],
+["/TenorSaxophoneP","Excerpts"]]
 
 const gridHeights = [150, 120, 120, 130]
 const gridWidths = [[40, 110, 110, 120, 140], [40, 110, 110, 120, 140], [40, 110, 110, 120, 140], [40, 110, 110, 120, 140]]
@@ -69,9 +74,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

@@ -16,7 +16,16 @@ const instrumentText = {
     "This supresses the high partials of the string's timbre, creating a muted sound.",
 		52: "Col legno battuto means \"struck with the wood of bow.\" The bow is flipped to do this. If time permits, some players may switch to an old bow (or even a chopstick, which produces essentially the same sound) to preserve the varnish on their bows. Note that the pitch of the wood striking the string can be more prominent than the pitch of the vibrating string. ",
 		60: "Col legno tratto means \"bowed with the wood of bow.\" The bow is flipped to do this. If time permits, some players may switch to an old bow to preserve the varnish on their bows.",
-  }
+}
+
+const morePages = [["/celloSF","Scale Fingering"],
+["/celloNH","Natural Harmonics"],
+["/celloAH","Artificial Harmonics"],
+["/celloMS","Multiple Stops"],
+["/celloLHI","Left Hand Inflections"],
+["/celloRHI","Right Hand Inflections"],
+["/bowDirectionsSpeedPressure","Bow Directions, Speed and Pressure"],
+["/pizzicato","Pizzicato"]]
 
 const gridHeights = [80, 60, 60, 60, 60, 60, 60, 60]
 const gridWidths = [[40, 400],
@@ -46,7 +55,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

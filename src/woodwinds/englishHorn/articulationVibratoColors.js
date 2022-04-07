@@ -12,6 +12,10 @@ const instrumentText = {
   37: "Downward pitch-bend of no more than a half-step can be accomplished with an adjustment of the embouchure.",
 }
 
+const morePages = [["/englishHornRR","Range & Registers"],
+["/englishHornRC","Register Colors"],
+["/englishHornPAC","Passages & Articultion Colors"]]
+
 const gridHeights = [175, 180]
 const gridWidths = [[35, 210, 220],
                     [35, 190, 90, 70, 60]]
@@ -28,7 +32,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

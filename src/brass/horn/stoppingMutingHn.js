@@ -36,6 +36,15 @@ const instrumentText = {
     " \" It does NOT mean stopped, although loud stopped passages are occasionally marked \"cuivre\" as an additional indication of a forced quality to the sound. \n\n"
 }
 
+const morePages = [["/HornHS","Harmonic Series"],
+["/HornAC","Articulation Colors"],
+["/HornSVT","Scales, Valves, & Triggers"],
+["/HornST","Skips & Trills "],
+["/HornTVC","Tonguing, & Vibrato Colors"],
+["/HornP","Passages"],
+["/HornNH","Natural Horn"],
+["/HornBH","Baroque Horn"]]
+
 const gridHeights = [140, 120, 120, 140]
 const gridWidths = [[40, 180, 180, 230],[40, 180, 180, 230],[40, 210,270], [40, 210,270]]
 const gridTimes = [[0, 13, 25], [35, 42, 54], [67, 78], [89, 98]]
@@ -51,7 +60,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

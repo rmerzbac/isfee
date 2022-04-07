@@ -12,6 +12,8 @@ const instrumentText = {
   "Note that the range is not extended an octave higher, but that the security and agility of the high range is greatly enhanced."
 }
 
+const morePages = [["/PiccoloTrumpetP","Passages"]]
+
 const gridHeights = [335]
 const gridWidths = [[40, 280, 200]]
 const gridTimes = [[0, 8]]
@@ -27,9 +29,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

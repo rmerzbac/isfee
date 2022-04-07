@@ -26,6 +26,15 @@ const instrumentText = {
         "  When the vent is open, B-flat partials are used. \n\n"
 }
 
+const morePages = [["/HornHS","Harmonic Series"],
+["/HornAC","Articulation Colors"],
+["/HornSVT","Scales, Valves, & Triggers"],
+["/HornST","Skips & Trills "],
+["/HornTVC","Tonguing, & Vibrato Colors"],
+["/HornSM","Stopping & Muting"],
+["/HornP","Passages"],
+["/HornNH","Natural Horn"]]
+
 const gridHeights = [155, 80, 80, 120]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [6], [10], [14]]
@@ -41,7 +50,8 @@ export default function MakePage() {
                 score={score}
                 gridHeights={gridHeights}
                 gridWidths={gridWidths}
-                gridTimes={gridTimes} />
+                gridTimes={gridTimes}
+                morePages={morePages}/>
         </div>
     );
 }

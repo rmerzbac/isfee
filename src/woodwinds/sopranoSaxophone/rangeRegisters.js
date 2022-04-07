@@ -16,6 +16,11 @@ const instrumentText = {
   25: "The bottom four notes of the saxophone are progressively more difficult to play softly as one descends. Quiet attacks are particularly treacherous in this region. The sound is naturally thick and heavy.",
 }
 
+const morePages = [["/sopranoSaxRC","Register Colors"],
+["/sopranoSaxP","Passage"],
+["/sopranoSaxAC","Articulation Colors"],
+["/sopranoSaxMAVC","More Articulation & Vibrato Colors"]]
+
 const gridHeights = [220, 140]
 const gridWidths = [[35, 210, 103, 110],
                     [35, 440]]
@@ -32,7 +37,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -55,6 +55,16 @@ const instrumentText = {
     "Colors can be mixed by asking for the simultaneous use of different mallets."
 }
 
+const morePages = [["/KeyboardPercussionMCB","Marimba: Chords & Bass"],
+["/KeyboardPercussionMMT","Marimba: Mallet Techniques"],
+["/KeyboardPercussionMRLR","Marimba: Range & Low Register"],
+["/KeyboardPercussionVRM","Vibraphone: Range Mallets"],
+["/KeyboardPercussionVDB","Vibraphone: Damping & Bowing"],
+["/KeyboardPercussionXRM","Xylophone: Range & Mallets"],
+["/KeyboardPercussionXHRM","Xylophone: High Register & Mallets"],
+["/KeyboardPercussionAC","Almglocken & Chimes"],
+["/KeyboardPercussionGC","Glockenspiel & Crotales"]]
+
 const gridHeights = [100, 60, 60, 65, 70, 75, 98]
 const gridWidths = [[40, 140, 160, 180], [40, 140, 160, 180], [40, 140, 160, 180], [40, 140, 160, 180], [40, 140, 160, 180], [40, 140, 160, 180], [40, 480]]
 const gridTimes = [[0, 3, 7], [10, 13, 16], [19, 22, 25], [30, 33, 36], [39, 42, 45], [48, 51, 54], [59]]
@@ -70,7 +80,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

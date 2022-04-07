@@ -17,6 +17,21 @@ const instrumentText = {
   84: "Engaging the pedal before an attack maximizes the degree to which non-played sympathetically vibrating strings contribute to the sonority. Listen to the difference created by playing this chord with only the played notes sounding and then with the pedal depressed so that all the strings of the piano are set into motion by the impact of the attack."
 }
 
+const morePages = [["/PianoBC","Basic Construction"],
+["/PianoPH","Pedalling, Harmonics"],
+["/PianoUCS","Una Corda, Sostenuto"],
+["/PianoSP","Sostenuto Pedal"],
+["/PianoPE","Piano Ergonomics"],
+["/PianoHCS","Hand Combination, Span"],
+["/PianoSAD","Scale Articulation, Dynamics"],
+["/PianoA","Arpeggios"],
+["/PianoJG","Jumps, Glissandos"],
+["/PianoOP","Orchestral Piano"],
+["/PianoPB","Passages - Bach"],
+["/PianoPB1","Passages - Beethoven, I"],
+["/PianoPB2","Passages - Beethoven, II"],
+["/PianoPD","Passages - Debussy"]]
+
 const gridHeights = [130, 85, 100, 170];
 const gridWidths = [[35, 115, 115, 200], [35, 235, 200], [35, 190, 245], [35, 125, 125, 80, 95]];
 const gridTimes = [[0, 8, 18], [28, 36], [47, 55], [66, 72, 78, 84]];
@@ -32,7 +47,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

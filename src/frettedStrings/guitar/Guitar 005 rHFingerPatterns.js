@@ -76,7 +76,16 @@ const instrumentText = {
     "M (medio) = Middle Finger\n" +
     "A (anular) = Ring Finger\n\n" +
     "This example is from Anthony Joseph Lanman's \"Study No. 1.\""
-  }
+}
+
+const morePages = [["/GuitarTF","Tuning, Fretboard"],
+["/GuitarLHS","L. H. Shapes"],
+["/GuitarLHSSC","L. H. Shapes, String Colors"],
+["/GuitarRHFSS","R. H. Finger-Strokes, Slurs"],
+["/GuitarMRHT","More R. H. Techniques"],
+["/GuitarH","Harmonics"],
+["/GuitarGT","Glissandos, Trills"],
+["/GuitarCE","Color Extensions"]]
 
 const gridHeights = [105, 85, 75, 75, 80, 100];
 const gridWidths = [[35, 130, 140, 155], [35, 440], [35, 215, 220], [35, 215, 220], [35, 175, 260], [35, 215, 220]];
@@ -93,7 +102,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

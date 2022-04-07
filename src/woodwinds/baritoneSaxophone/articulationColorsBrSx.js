@@ -18,6 +18,11 @@ const instrumentText = {
   "Double-tonguing is becoming a more common articulation for saxophonists; it is an option that may be chosen by the performer for fast passages. On the tenor and baritone saxophones, double-tonguing is more difficult in the lower register."
 }
 
+const morePages = [["/BaritoneSaxophoneRR","Range & Registers"],
+["/BaritoneSaxophoneRC","Register Colors"],
+["/BaritoneSaxophoneMAVC","More Articulations & Vibrato Colors"],
+["/BaritoneSaxophoneP","Excerpts"]]
+
 const gridHeights = [160, 120, 120, 120]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [6], [11], [17]]
@@ -33,9 +38,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

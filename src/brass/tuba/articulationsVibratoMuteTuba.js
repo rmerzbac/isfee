@@ -38,6 +38,12 @@ const instrumentText = {
   "Writing \"brassy\" invites the player to add a metallic quality to the tone color with a forcefully sharp attack. This is possible only at a loud dynamic level and is most effective in the tuba's lower range."
 }
 
+const morePages = [["/TubaHSST","Harmonic Series, Scales & Trills"],
+["/TubaRC","Register Colors"],
+["/TubaAC","Articulation Colors"],
+["/TubaP","Passages I"],
+["/TubaP2","Passages II"]]
+
 const gridHeights = [110, 80, 80, 80, 80, 80]
 const gridWidths = [[40, 480], [40, 480], [40, 70, 96, 96, 96, 96], [40, 230, 250], [40, 230, 250], [40, 480]]
 const gridTimes = [[0], [5], [12, 16, 20, 25, 32], [37, 54], [69, 85], [100]]
@@ -53,9 +59,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

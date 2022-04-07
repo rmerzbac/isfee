@@ -26,6 +26,9 @@ const instrumentText = {
     "Most percussion inventories are well stocked with whistles and sirens.",
 }
 
+const morePages = [["/WoodsAndOthersWBCC","Wood Blocks, Claves, & Castanets"],
+["/WoodsAndOthersLDTB","Log Drums & Temple Blocks"]]
+
 const gridHeights = [135]
 const gridWidths = [[40, 480]]
 const gridTimes = [[0]]
@@ -41,9 +44,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

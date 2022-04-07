@@ -10,6 +10,10 @@ const instrumentText = {
   12: "Staccato articulation speaks clearly in all registers of single-reed instruments, though not as precisely and edgy as in double-reed instruments. Staccato on the bass clarinet can be more incisive than on the clarinet, and is especially effective in the lowest octave of the range."
 }
 
+const morePages = [["/bassClarinetR","Range"],
+["/bassClarinetRC","Register Colors"],
+["/bassClarinetP","Passages"]]
+
 const gridHeights = [190, 150, 150]
 const gridWidths = [[35, 430],
                     [35, 430],
@@ -27,7 +31,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

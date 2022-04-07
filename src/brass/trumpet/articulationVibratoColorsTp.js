@@ -32,6 +32,11 @@ const instrumentText = {
     " Composers may specify varying amounts of vibrato. \n\n"
 }
 
+const morePages = [["/TrumpetHFS","Harmonic Series, Fingering & Scales"],
+["/TrumpetTRC","Tremolos & Register Colors"],
+["/TrumpetPBM","Pitch Bend & Mutes"],
+["/TrumpetP","Passages"]]
+
 const gridHeights = [80, 50, 60, 60, 60, 70, 70, 90]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 230, 260], [40, 480], [40, 480], [40, 110, 110, 260]]
 const gridTimes = [[0], [6], [12], [20], [26, 29], [33], [37], [42, 47, 54]]
@@ -47,9 +52,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

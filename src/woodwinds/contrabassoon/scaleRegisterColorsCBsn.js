@@ -36,6 +36,9 @@ const instrumentText = {
     "The high register of the contrabass can add strength when doubling a bass line, or provide a very distinctive somewhat grotesque solo sound."
 }
 
+const morePages = [["/ContrabassoonAC","Articulation Colors"],
+["/ContrabassoonP","Excerpts"]]
+
 const gridHeights = [120, 96, 80, 65, 80]
 const gridWidths = [[40, 240, 240], [40, 480], [40, 110, 110, 110, 150], [40, 110, 110, 110, 150], [40, 110, 110, 110, 150]]
 const gridTimes = [[0, 8], [16], [26, 30, 33, 37], [43, 47, 50, 54], [59, 63, 67, 70]]
@@ -51,9 +54,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

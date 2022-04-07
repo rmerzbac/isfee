@@ -11,6 +11,9 @@ const instrumentText = {
   17: "This transcription of a Bach organ pedal line displays the fluidity and fullness of color of the contra-alto clarinet.",
 }
 
+const morePages = [["/contraaltoClarinetR","Range"],
+["/contraaltoClarinetRC","Register Colors"]]
+
 const gridHeights = [160, 120, 120, 120]
 const gridWidths = [[35, 430],
                     [35, 430],
@@ -29,7 +32,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

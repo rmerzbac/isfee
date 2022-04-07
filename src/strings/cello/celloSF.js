@@ -25,6 +25,15 @@ const instrumentText = {
 
 }
 
+const morePages = [["/celloNH","Natural Harmonics"],
+["/celloAH","Artificial Harmonics"],
+["/celloMS","Multiple Stops"],
+["/celloLHI","Left Hand Inflections"],
+["/celloRHI","Right Hand Inflections"],
+["/bowDirectionsSpeedPressure","Bow Directions, Speed and Pressure"],
+["/moreBowColors","More Bow Colors"],
+["/pizzicato","Pizzicato"]]
+
 const gridHeights = [110, 90, 80, 110, 110]
 const gridWidths = [[40, 400],
                     [40, 150, 130, 160],
@@ -48,7 +57,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

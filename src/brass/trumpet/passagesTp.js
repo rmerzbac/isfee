@@ -22,6 +22,11 @@ const instrumentText = {
     " Here it is performed on the B-flat trumpet. \n\n"
 }
 
+const morePages = [["/TrumpetHFS","Harmonic Series, Fingering & Scales"],
+["/TrumpetTRC","Tremolos & Register Colors"],
+["/TrumpetAVC","Articulation & Vibrato Colors"],
+["/TrumpetPBM","Pitch Bend & Mutes"]]
+
 const gridHeights = [125, 100, 140, 110]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [12], [22], [32]]
@@ -37,9 +42,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

@@ -22,7 +22,16 @@ const instrumentText = {
   76: "In this example the first note of the accompanying voice is played high on the A-string to match the high left-hand position of the melody. This is not necessary for the remaining notes in this line which are open strings until the final barred chord.",
   87: "In this example the melody is in the bass, played (mostly) by the right-hand thumb.",
   99: "When standard tuning is used, the guitar's outer strings are tuned to the same pitch class two octaves apart, making the doubling shown here idiomatic, particularly when the remaining notes are open strings."
-  }
+}
+
+const morePages = [["/GuitarTF","Tuning, Fretboard"],
+["/GuitarLHS","L. H. Shapes"],
+["/GuitarLHSSC","L. H. Shapes, String Colors"],
+["/GuitarRHFP","R. H. Finger Patterns"],
+["/GuitarMRHT","More R. H. Techniques"],
+["/GuitarH","Harmonics"],
+["/GuitarGT","Glissandos, Trills"],
+["/GuitarCE","Color Extensions"]]
 
 const gridHeights = [80, 60, 75, 85, 120, 100];
 const gridWidths = [[35, 215, 220], [35, 215, 220], [35, 210, 225], [35, 195, 240], [35, 215, 220], [35, 210, 225]];
@@ -39,7 +48,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

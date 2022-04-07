@@ -22,6 +22,16 @@ const instrumentText = {
   "The vibraphone may be played without the pedal depressed, giving a sharp dry articulation approaching the xylophone; in this version pedal is introduced for contrast."
 }
 
+const morePages = [["/KeyboardPercussionMCB","Marimba: Chords & Bass"],
+["/KeyboardPercussionMMT","Marimba: Mallet Techniques"],
+["/KeyboardPercussionMRLR","Marimba: Range & Low Register"],
+["/KeyboardPercussionMRM","Marimba: Register & Mallets"],
+["/KeyboardPercussionVRM","Vibraphone: Range Mallets"],
+["/KeyboardPercussionXRM","Xylophone: Range & Mallets"],
+["/KeyboardPercussionXHRM","Xylophone: High Register & Mallets"],
+["/KeyboardPercussionAC","Almglocken & Chimes"],
+["/KeyboardPercussionGC","Glockenspiel & Crotales"]]
+
 const gridHeights = [100, 70, 80, 80, 100, 100]
 const gridWidths = [[40, 480], [40, 480], [40, 230, 250], [40, 180, 300], [40, 480], [40, 480]]
 const gridTimes = [[0], [8], [25, 39], [59, 82], [108], [116]]
@@ -37,7 +47,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

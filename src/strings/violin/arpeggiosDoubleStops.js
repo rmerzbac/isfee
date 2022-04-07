@@ -15,7 +15,14 @@ const instrumentText = {
     "Two-voice passages that would have independent bowings if performed by two players may have their note values compromised in order to work under one bowing.",
   44:  "This example displays a harmonic glissando, using the 2nd through 8th partials of the D string. Note that it begins on the second partial, halfway between the nut and the bridge.\n\n" +
     "For an extended demonstration of natural harmonics and string length please see the section on the cello.",
-  }
+}
+
+const morePages = [["/scalesStringColors","Scales, String Colors"],
+["/harmonicsVibratoGlissando","Harmonics, Vibrato & Glissando"],
+["/articulationAndBowColors","Articulation & Bow Colors"],
+["/moreVBowColors","More Bow Colors"],
+["/pizzicatoV","Pizzicato"],
+["/passagesV","Passages"]]
 
 const gridHeights = [120, 80, 100, 80, 140]
 const gridWidths = [[40, 420],
@@ -39,7 +46,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

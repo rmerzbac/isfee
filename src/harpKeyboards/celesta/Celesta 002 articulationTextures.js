@@ -12,6 +12,8 @@ const instrumentText = {
   40: "Repeated figuration such as the patterns demonstrated here effectively produces a magical shimmer. Notice that the dynamic range is relatively limited. The celesta's action is not conducive to subtle dynamic control.",
 }
 
+const morePages = [["/CelestaAT","Articulation Textures"]]
+
 const gridHeights = [160, 150, 150];
 const gridWidths = [[35, 190, 250], [35, 300], [35, 235, 200]];
 const gridTimes = [[0, 9], [23], [30, 40]];
@@ -27,7 +29,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

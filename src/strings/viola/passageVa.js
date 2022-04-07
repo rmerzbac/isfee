@@ -19,7 +19,15 @@ const instrumentText = {
 45:"This short solo passage from Richard Strauss's Don Quixote provides a catalog of characteristic viola gestures. \n\n" +
 "Notice that it is sometimes advisable to change bows more often than Strauss's slurring indicates.",
 
-  }
+}
+
+const morePages = [["/scalesTrillsStringColors","Scales, Trills & String Colors"],
+["/arpeggiosDoubleStopsVa","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissandoVa","Harmonics, Vibrato & Glissando"],
+["/articulationColorsVa","Articulation & Bow Colors"],
+["/moreBowColorsVa","More Bow Colors"],
+["/colLegnoPizzicatoVa","Col Legno & Pizzicato"],
+["/morePizzicatoColorsVa","More Pizzicato Colors"]]
 
 const gridHeights = [80, 70, 70, 70, 70, 70, 70]
 const gridWidths = [[40, 420],
@@ -47,7 +55,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

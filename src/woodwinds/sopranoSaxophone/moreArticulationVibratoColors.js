@@ -15,6 +15,11 @@ const instrumentText = {
   36: "The saxophone is capable of a large array of multiphonics, although the results can be unpredictable. Multiphonics are less consistently effective on the soprano saxophone than they are on larger members of the family.",
 }
 
+const morePages = [["/sopranoSaxRR","Range & Registers"],
+["/sopranoSaxRC","Register Colors"],
+["/sopranoSaxP","Passage"],
+["/sopranoSaxAC","Articulation Colors"]]
+
 const gridHeights = [140, 120, 140, 120]
 const gridWidths = [[25, 425, 425],
                     [25, 450],
@@ -33,7 +38,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

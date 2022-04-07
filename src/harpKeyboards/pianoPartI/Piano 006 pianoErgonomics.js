@@ -22,6 +22,21 @@ const instrumentText = {
   44: "Alternating hands on repeated notes can create a powerful rhythmic gesture."
 }
 
+const morePages = [["/PianoBC","Basic Construction"],
+["/PianoDP","Damper Pedal"],
+["/PianoPH","Pedalling, Harmonics"],
+["/PianoUCS","Una Corda, Sostenuto"],
+["/PianoSP","Sostenuto Pedal"],
+["/PianoHCS","Hand Combination, Span"],
+["/PianoSAD","Scale Articulation, Dynamics"],
+["/PianoA","Arpeggios"],
+["/PianoJG","Jumps, Glissandos"],
+["/PianoOP","Orchestral Piano"],
+["/PianoPB","Passages - Bach"],
+["/PianoPB1","Passages - Beethoven, I"],
+["/PianoPB2","Passages - Beethoven, II"],
+["/PianoPD","Passages - Debussy"]]
+
 const gridHeights = [140, 140, 135, 120];
 const gridWidths = [[35, 125, 125, 180], [35, 160, 130, 140], [35, 160, 275], [35, 205, 230]];
 const gridTimes = [[0, 7, 13], [18, 20, 22], [26, 29], [39, 44]];
@@ -37,7 +52,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

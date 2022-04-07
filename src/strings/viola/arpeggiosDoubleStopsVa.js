@@ -30,7 +30,15 @@ const instrumentText = {
    "This example displays a harmonic glissando, using the 2nd through 8th partials of the G string. Note that it begins on the second partial, halfway between the nut and the bridge.\n\n" +
 "For an extended demonstration of natural harmonics and string length please see the section on the cello.",
 
-  }
+}
+
+const morePages = [["/scalesTrillsStringColors","Scales, Trills & String Colors"],
+["/harmonicsVibratoGlissandoVa","Harmonics, Vibrato & Glissando"],
+["/articulationColorsVa","Articulation & Bow Colors"],
+["/moreBowColorsVa","More Bow Colors"],
+["/colLegnoPizzicatoVa","Col Legno & Pizzicato"],
+["/morePizzicatoColorsVa","More Pizzicato Colors"],
+["/passageVa","Excerpt"]]
 
 const gridHeights = [120, 80, 100, 80, 140]
 const gridWidths = [[40, 420],
@@ -54,7 +62,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

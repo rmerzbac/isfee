@@ -30,7 +30,16 @@ const instrumentText = {
     "Since all 6 strings are used, the harmonics can ring indefinitely. In the case of natural harmonics, the left hand can leave its position after the note has begun, and it will continue to ring the initial pitch.",
   67: "In this excerpt (from \"Stirrings\" by Don Freund) the pitches are notated where they sound (there is no \"8\" below the treble clef). The Roman numerals indicate the fret (and consequently the partial) and the circled numbers indicate the string for the natural harmonics. These natural harmonics can be found in the first line of this page.\n\n" +
     "The last note is an artificial harmonic. The left hand fingers 8th-fret C on the E-string. The right hand's index finger lightly touches an octave higher (where the 20th fret would be) to produce a 2nd-partial harmonic sounding an octave above the stopped string."
-  }
+}
+
+const morePages = [["/GuitarTF","Tuning, Fretboard"],
+["/GuitarLHS","L. H. Shapes"],
+["/GuitarLHSSC","L. H. Shapes, String Colors"],
+["/GuitarRHFSS","R. H. Finger-Strokes, Slurs"],
+["/GuitarRHFP","R. H. Finger Patterns"],
+["/GuitarMRHT","More R. H. Techniques"],
+["/GuitarGT","Glissandos, Trills"],
+["/GuitarCE","Color Extensions"]]
 
 const gridHeights = [145, 125, 140, 110];
 const gridWidths = [[35, 80, 80, 80, 90, 80], [35, 215, 220], [35, 220, 215], [35, 255, 180]];
@@ -47,7 +56,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

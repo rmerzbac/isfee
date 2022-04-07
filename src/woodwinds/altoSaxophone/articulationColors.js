@@ -14,6 +14,12 @@ const instrumentText = {
     "Double-tonguing is becoming a more common articulation for saxophonists; it is an option that may be chosen by the performer for fast passages.",
 }
 
+const morePages = [["/altoSaxRR","Range & Registers"],
+["/altoSaxRC","Register Colors"],
+["/altoSaxTT","Trills & Tremolos"],
+["/altoSaxP","Passage"],
+["/altoSaxMAVC","More Articulation & Vibrato Colors"]]
+
 const gridHeights = [145, 120, 130, 130]
 const gridWidths = [[25, 450],
                     [25, 450],
@@ -32,7 +38,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

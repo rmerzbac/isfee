@@ -35,6 +35,11 @@ const instrumentText = {
     " Here concert D is played on the B-flat trumpet as the 5th partial of B-flat, the 6th partial of G, and the 7th partial of E."
 }
 
+const morePages = [["/TrumpetTRC","Tremolos & Register Colors"],
+["/TrumpetAVC","Articulation & Vibrato Colors"],
+["/TrumpetPBM","Pitch Bend & Mutes"],
+["/TrumpetP","Passages"]]
+
 const gridHeights = [140, 140, 130, 140]
 const gridWidths = [[40, 480],
 [40, 480],
@@ -56,7 +61,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

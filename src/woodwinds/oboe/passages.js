@@ -14,6 +14,11 @@ const instrumentText = {
   42: "This excerpt is from Rossini's Overture to \"La Scala di Seta.\" It demonstrates the sparkling articulation possible throughout most of the oboe's range. It is presented twice: first as Rossini wrote it and then as it is usually performed, with some added details of articulation."
 }
 
+const morePages = [["/oboeRRT","Range, Registers, & Tremolos"],
+["/oboeRC","Register Colors"],
+["/oboeAP","Another Passage"],
+["/oboeAVC","Articulation & Vibrato Colors"]]
+
 const gridHeights = [70, 60, 77, 50, 50, 80, 45, 45]
 const gridWidths = [[25, 450],
                     [25, 450],
@@ -36,7 +41,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

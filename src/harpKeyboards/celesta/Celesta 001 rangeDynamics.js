@@ -20,6 +20,8 @@ const instrumentText = {
   77: "The top range of the celesta is full of ringing color, which can be extended by the use of the pedal.",
 }
 
+const morePages = [["/CelestaAT","Articulation Textures"]]
+
 const gridHeights = [200, 125, 125];
 const gridWidths = [[35, 118, 300], [35, 100, 100, 100, 100], [35, 100, 100, 100, 100]];
 const gridTimes = [[0, 15], [21, 26, 36, 41], [52, 59, 68, 77]];
@@ -35,7 +37,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

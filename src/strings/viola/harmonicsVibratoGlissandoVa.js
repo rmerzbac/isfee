@@ -20,7 +20,15 @@ const instrumentText = {
 45: "An upward glissando to a harmonic is particularly effective, allowing the string to ring freely at its destination pitch. Here the 4th partial is used, 3/4 of the way up the C string.",
 51: "Portamento is quick, light audible shift. Unlike glissando, it may involve changing fingers or strings; it does not necessarily connect the pitches without a gap. String players frequently use portamento intuitively as an expressive device.",
 
-  }
+}
+
+const morePages = [["/scalesTrillsStringColors","Scales, Trills & String Colors"],
+["/arpeggiosDoubleStopsVa","Arpeggios & Double Stops"],
+["/articulationColorsVa","Articulation & Bow Colors"],
+["/moreBowColorsVa","More Bow Colors"],
+["/colLegnoPizzicatoVa","Col Legno & Pizzicato"],
+["/morePizzicatoColorsVa","More Pizzicato Colors"],
+["/passageVa","Excerpt"]]
 
 const gridHeights = [170, 80, 100,80, 80]
 const gridWidths = [[40, 420],
@@ -44,7 +52,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

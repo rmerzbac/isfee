@@ -22,6 +22,21 @@ const instrumentText = {
     "Here is a short catalog of some typical idiomatic orchestral piano gestures."
 }
 
+const morePages = [["/PianoBC","Basic Construction"],
+["/PianoDP","Damper Pedal"],
+["/PianoPH","Pedalling, Harmonics"],
+["/PianoUCS","Una Corda, Sostenuto"],
+["/PianoSP","Sostenuto Pedal"],
+["/PianoPE","Piano Ergonomics"],
+["/PianoHCS","Hand Combination, Span"],
+["/PianoSAD","Scale Articulation, Dynamics"],
+["/PianoA","Arpeggios"],
+["/PianoJG","Jumps, Glissandos"],
+["/PianoPB","Passages - Bach"],
+["/PianoPB1","Passages - Beethoven, I"],
+["/PianoPB2","Passages - Beethoven, II"],
+["/PianoPD","Passages - Debussy"]]
+
 const gridHeights = [160, 150, 155];
 const gridWidths = [[35, 105, 130, 195], [35, 125, 120, 185], [30, 190, 250]];
 const gridTimes = [[0, 4, 8], [12, 14, 15], [17, 20]];
@@ -37,7 +52,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

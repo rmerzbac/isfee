@@ -31,6 +31,12 @@ const instrumentText = {
   "The bass drum is usually struck midway between the center of the drum and the edge. Varying this beating point creates an interesting variety of colors.",
 }
 
+const morePages = [["/DrumsDM","Drum Multi-set"],
+["/DrumsBTTC","Bongos, Timbales, Toms & Congas"],
+["/DrumsDS","Swing Drum Set"],
+["/DrumsDR","Rock Drum Set"],
+["/DrumsT","Tambourine"]]
+
 const gridHeights = [80, 50, 60, 60, 80, 60, 60, 60]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 210, 270], [40, 210, 270], [40, 150, 330], [40, 230, 250]]
 const gridTimes = [[0], [7], [16], [23], [33, 45], [57, 68], [79, 99], [106, 114]]
@@ -46,9 +52,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

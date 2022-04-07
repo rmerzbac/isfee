@@ -19,6 +19,13 @@ const instrumentText = {
   78: "This passage (written by Henriette Renie, a harpist) asks the harpist to change 2 pedals  (F-sharp to F-natural and G-natural to G-sharp) on the same side of the instrument simultaneously, requiring the use of both feet on the right side, a very awkward position. While it can be done, it is decidedly not recommended.",
 }
 
+const morePages = [["/HarpPB","Pedal Basics"],
+["/HarpEG","Enharmonic & Glissandos"],
+["/HarpS","Scales"],
+["/HarpCRA","Chords, Registers, Articulations"],
+["/HarpAI","Arpeggiation Idioms"],
+["/HarpBRC","Blocked & Rolled Chords"]]
+
 
 const gridHeights = [80, 120, 30, 150, 150];
 const gridWidths = [[35, 440], [35, 150, 170, 110], [0, 220], [35, 120, 35, 60, 205], [35, 440]];
@@ -36,7 +43,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

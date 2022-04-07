@@ -17,6 +17,12 @@ const instrumentText = {
   47: "The saxophone is capable of a large array of multiphonics, although the results can be unpredictable. Here are two contrasting examples.",
 }
 
+const morePages = [["/altoSaxRR","Range & Registers"],
+["/altoSaxRC","Register Colors"],
+["/altoSaxTT","Trills & Tremolos"],
+["/altoSaxP","Passage"],
+["/altoSaxAC","Articulation Colors"]]
+
 const gridHeights = [138, 120, 130, 130]
 const gridWidths = [[25, 425, 425],
                     [25, 450],
@@ -35,7 +41,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -11,8 +11,17 @@ const instrumentText = {
   14: "Performer: Elizabeth Pfaffle \n\n" +
   "Single tonguing is generally slower than the other articulation options demonstrated here, but is also the most deliberate and forceful. ",
   21: "Performer: Elizabeth Pfaffle \n\n" +
-  "Double-tonguing is very effective for fast passages on brass instruments. \n\n" 
+  "Double-tonguing is very effective for fast passages on brass instruments. \n\n"
 }
+
+const morePages = [["/HornHS","Harmonic Series"],
+["/HornSVT","Scales, Valves, & Triggers"],
+["/HornST","Skips & Trills "],
+["/HornTVC","Tonguing, & Vibrato Colors"],
+["/HornSM","Stopping & Muting"],
+["/HornP","Passages"],
+["/HornNH","Natural Horn"],
+["/HornBH","Baroque Horn"]]
 
 const gridHeights = [135, 100, 120, 120]
 const gridWidths = [[40, 480],
@@ -33,9 +42,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

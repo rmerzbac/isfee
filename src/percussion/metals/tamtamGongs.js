@@ -131,6 +131,11 @@ const instrumentText = {
 "The notation used here for \"on button\" and \"off center\" is not standardized.",
 }
 
+const morePages = [["/cymbals1","Cymbals 1"],
+["/cymbals2","Cymbals 2"],
+["/trianglesCowbell","Triangles, Cowbells"],
+["/windChimesTrees","Wind Chimes, Trees"]]
+
 const gridHeights = [110, 70, 140, 90, 110]
 const gridWidths = [[30, 250, 170],
                      [30, 210, 70, 70, 70],
@@ -154,7 +159,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

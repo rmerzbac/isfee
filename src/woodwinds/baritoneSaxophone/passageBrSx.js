@@ -16,6 +16,11 @@ const instrumentText = {
     "This passage (a synthetic imitation of passage-work found in saxophone concertos) displays the agility and dynamic responsiveness of the instrument throughout its range."
 }
 
+const morePages = [["/BaritoneSaxophoneRR","Range & Registers"],
+["/BaritoneSaxophoneRC","Register Colors"],
+["/BaritoneSaxophoneAC","Articulation Colors"],
+["/BaritoneSaxophoneMAVC","More Articulations & Vibrato Colors"]]
+
 const gridHeights = [120, 96, 106, 100, 110]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [3], [6], [10], [16]]
@@ -31,9 +36,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

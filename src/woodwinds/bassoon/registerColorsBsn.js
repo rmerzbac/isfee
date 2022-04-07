@@ -39,8 +39,12 @@ const instrumentText = {
   "PLEASE NOTE: These pitches would normally be notated in tenor clef. Bass clef is used here to emphasize range relationships.",
   59: "Performer: Matthew Hogan\n\n" +
   "In the region above middle C the bassoon looses some of its timbral richness and capacity for dramatic contrast, but its plaintive, singing tone can be very expressive.\n\n" +
-  "PLEASE NOTE: These pitches would normally be notated in tenor clef. Bass clef is used here to emphasize range relationships."	
+  "PLEASE NOTE: These pitches would normally be notated in tenor clef. Bass clef is used here to emphasize range relationships."
 }
+
+const morePages = [["/BassoonRRT","Range, Registers, & Tremolo"],
+["/BassoonAVC","Articulations & Vibrato Colors"],
+["/BassoonP","Excerpts"]]
 
 const gridHeights = [130, 90, 90, 100]
 const gridWidths = [[40, 110, 110, 110, 150], [40, 110, 110, 110, 150], [40, 110, 110, 110, 150], [40, 110, 110, 110, 150]]
@@ -57,9 +61,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

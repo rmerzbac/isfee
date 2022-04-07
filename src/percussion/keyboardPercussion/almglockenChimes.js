@@ -63,6 +63,16 @@ const instrumentText = {
     "Chimes may be played without pedal to create a very different quality of sound."
 }
 
+const morePages = [["/KeyboardPercussionMCB","Marimba: Chords & Bass"],
+["/KeyboardPercussionMMT","Marimba: Mallet Techniques"],
+["/KeyboardPercussionMRLR","Marimba: Range & Low Register"],
+["/KeyboardPercussionMRM","Marimba: Register & Mallets"],
+["/KeyboardPercussionVRM","Vibraphone: Range Mallets"],
+["/KeyboardPercussionVDB","Vibraphone: Damping & Bowing"],
+["/KeyboardPercussionXRM","Xylophone: Range & Mallets"],
+["/KeyboardPercussionXHRM","Xylophone: High Register & Mallets"],
+["/KeyboardPercussionGC","Glockenspiel & Crotales"]]
+
 const gridHeights = [95, 60, 60, 90, 68, 80, 70]
 const gridWidths = [[40, 480], [40, 480], [40, 290, 190], [40, 110, 120, 110, 140], [40, 110, 120, 110, 140], [40, 70, 90, 70, 130, 120], [40, 140, 340]]
 const gridTimes = [[0], [17], [28, 36], [45, 54, 68, 79], [96, 106, 120, 131], [146, 160, 175, 189, 207], [220, 226]]
@@ -78,9 +88,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

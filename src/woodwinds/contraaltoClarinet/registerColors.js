@@ -18,6 +18,9 @@ const instrumentText = {
   27: "The clarion register of the ontra-alto clarinet is usable up to written A above the staff, but not particularly effective.",
 }
 
+const morePages = [["/contraaltoClarinetR","Range"],
+["/contraaltoClarinetAP","Articulations & Passage"]]
+
 const gridHeights = [170, 150, 160]
 const gridWidths = [[35, 100, 100, 100, 100],
                     [35, 100, 100, 100, 100],
@@ -37,7 +40,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

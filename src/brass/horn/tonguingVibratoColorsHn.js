@@ -23,6 +23,15 @@ const instrumentText = {
   "A small amount of pitch-bend can be created by the embouchure or the right hand in the bell. "
 }
 
+const morePages = [["/HornHS","Harmonic Series"],
+["/HornAC","Articulation Colors"],
+["/HornSVT","Scales, Valves, & Triggers"],
+["/HornST","Skips & Trills "],
+["/HornSM","Stopping & Muting"],
+["/HornP","Passages"],
+["/HornNH","Natural Horn"],
+["/HornBH","Baroque Horn"]]
+
 const gridHeights = [120, 190, 105, 105]
 const gridWidths = [[40, 210, 270], [40, 480], [40, 480], [40, 280, 100, 100]]
 const gridTimes = [[0, 4], [8], [13], [22, 27, 44]]
@@ -38,7 +47,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

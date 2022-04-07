@@ -29,7 +29,16 @@ const instrumentText = {
   85: "Since the strings are all the same length, the basic pitch range of each of the strings is a product of its relative thickness and weight. Playing a phrase in the same pitch range on different strings demonstrates a variety of timbral colors.\n\n" +
     "Notes played in lower positions are brighter and ring longer; notes played in higher positions are darker, warmer, but the shorter string length can reduce the ring time.\n\n" +
     "Vibrato is used to enhance the singing tone of the instrument in all these examples."
-  }
+}
+
+const morePages = [["/GuitarTF","Tuning, Fretboard"],
+["/GuitarLHS","L. H. Shapes"],
+["/GuitarRHFSS","R. H. Finger-Strokes, Slurs"],
+["/GuitarRHFP","R. H. Finger Patterns"],
+["/GuitarMRHT","More R. H. Techniques"],
+["/GuitarH","Harmonics"],
+["/GuitarGT","Glissandos, Trills"],
+["/GuitarCE","Color Extensions"]]
 
 const gridHeights = [120, 90, 90, 90, 100];
 const gridWidths = [[35, 440], [35, 440], [35, 205, 230], [35, 105, 105, 105, 105], [35, 140, 140, 150]];
@@ -46,7 +55,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

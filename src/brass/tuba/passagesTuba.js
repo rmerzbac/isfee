@@ -27,6 +27,12 @@ const instrumentText = {
   "Note the color change created by articulation from non-legato to molto legato. Notice also that breaths need to be taken in spite of the composer's seeming indifference to that need.",
 }
 
+const morePages = [["/TubaHSST","Harmonic Series, Scales & Trills"],
+["/TubaRC","Register Colors"],
+["/TubaAC","Articulation Colors"],
+["/TubaAVM","Articulations, Vibrato & Mutes"],
+["/TubaP","Passages I"]]
+
 const gridHeights = [100, 68, 70, 70, 70, 60, 70]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [7], [18], [25], [32], [40], [47]]
@@ -42,9 +48,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

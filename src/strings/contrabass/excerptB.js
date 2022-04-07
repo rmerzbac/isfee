@@ -16,7 +16,13 @@ const instrumentText = {
 "The octave skips in this line require playing on non-adjacent strings, flying over a silent string in between them.",
 		39: "This passage from Mozart's \"Haffner\" Symphony (No. 35, KV 385, last movement) demonstrates the virtuosity demanded of bassists even in works of the classical period. Here the bass section doubles the cellos an octave lower.",
 
-  }
+}
+
+const morePages = [["/leftHandFingeringB","Left Hand Fingering"],
+["/registerStringColorsB","Register & String Colors"],
+["/articulationColorsB","Articulation & Bow Colors"],
+["/moreBowColorsB","More Bow Colors"],
+["/pizzicatoB","Pizzicato"]]
 
 const gridHeights = [80, 50, 50, 45, 45, 45, 45, 45, 45, 50]
 const gridWidths = [[40, 440],
@@ -50,7 +56,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

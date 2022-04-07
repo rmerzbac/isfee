@@ -40,7 +40,16 @@ const instrumentText = {
   152: "The guitar fretboard is designed for a normal position in which the four fingers of the left hand can comfortably play adjacent frets in first position. Since the intervals between the open strings are not consistent (there is one major third, between the G and B strings) a basic pattern such as the one demonstrated here can produce a variety of pitch relationships.\n\n" +
     "The patterns in this example are all in 12th position: the first finger is an octave above the open string.",
   163: "An octave above the open strings, the frets are twice as close together. This means adding an extra fret between 2 of the fingers does not create an uncomfortable stretch as it would in low positions. Here there are 2 frets (a major second) from the first to the second finger."
-  }
+}
+
+const morePages = [["/GuitarLHS","L. H. Shapes"],
+["/GuitarLHSSC","L. H. Shapes, String Colors"],
+["/GuitarRHFSS","R. H. Finger-Strokes, Slurs"],
+["/GuitarRHFP","R. H. Finger Patterns"],
+["/GuitarMRHT","More R. H. Techniques"],
+["/GuitarH","Harmonics"],
+["/GuitarGT","Glissandos, Trills"],
+["/GuitarCE","Color Extensions"]]
 
 const gridHeights = [95, 75, 75, 80, 100, 100];
 const gridWidths = [[35, 105, 105, 100, 110], [35, 70, 65, 70, 65, 65, 70], [35, 55, 45, 45, 35, 35, 90, 100], [35, 135, 128, 167], [35, 225, 210], [35, 220, 215]];
@@ -57,7 +66,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

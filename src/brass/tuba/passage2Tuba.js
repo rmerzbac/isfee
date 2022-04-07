@@ -18,6 +18,12 @@ const instrumentText = {
   "This passage from Wagner's \"The Ride of the Valkyries\" projects the immense power and energy of the lower range of the tuba.",
 }
 
+const morePages = [["/TubaHSST","Harmonic Series, Scales & Trills"],
+["/TubaRC","Register Colors"],
+["/TubaAC","Articulation Colors"],
+["/TubaAVM","Articulations, Vibrato & Mutes"],
+["/TubaP","Passages I"]]
+
 const gridHeights = [100, 80, 70, 80, 75, 80]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [6], [13], [20], [27], [33]]
@@ -33,9 +39,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

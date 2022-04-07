@@ -40,6 +40,9 @@ const instrumentText = {
     "Fast legato articulation on the bass trombone is possible from the bottom to the top of the bass clef."
 }
 
+const morePages = [["/BassTromboneST","Scale & Triggers"],
+["/BassTromboneP","Passages"]]
+
 const gridHeights = [120, 80, 96, 90, 90]
 const gridWidths = [[40, 115, 110, 110, 145], [40, 115, 110, 110, 145], [40, 115, 110, 110, 145], [40, 115, 110, 110, 145], [40, 480]]
 const gridTimes = [[0, 4, 7, 9], [12, 15, 18, 21], [23, 26, 29, 32], [34, 37, 39, 42], [46]]
@@ -55,9 +58,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

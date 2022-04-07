@@ -22,6 +22,10 @@ const gridWidths = [[30, 445],
                     [30, 445]]
 const gridTimes = [[0], [14], [29], [36], [42]]
 
+const morePages = [["/englishHornRR","Range & Registers"],
+["/englishHornRC","Register Colors"],
+["/englishHornAVC","Articulation & Vibrato Colors"]]
+
 export default function MakePage() {
   return (
     <div>
@@ -33,7 +37,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

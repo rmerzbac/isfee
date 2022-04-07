@@ -19,6 +19,11 @@ const instrumentText = {
 "It is suggested that a good bit time be given for the percussionist to pick up and put down instruments like sleigh bells to avoid extraneous noise.",
 }
 
+const morePages = [["/cymbals1","Cymbals 1"],
+["/cymbals2","Cymbals 2"],
+["/tamtamGongs","Tamtams, Gongs"],
+["/trianglesCowbell","Triangles, Cowbells"]]
+
 const gridHeights = [120, 100, 130]
 const gridWidths = [[30, 150, 125, 75],
                     [30, 200, 200],
@@ -38,7 +43,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

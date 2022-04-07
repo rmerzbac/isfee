@@ -57,6 +57,13 @@ const instrumentText = {
     "\"Pres de la table\" indicates plucking close to the sound board, but this makes no perceptible change in color in this range.",
 }
 
+const morePages = [["/HarpPB","Pedal Basics"],
+["/HarpEG","Enharmonic & Glissandos"],
+["/HarpS","Scales"],
+["/HarpAI","Arpeggiation Idioms"],
+["/HarpHE","Harmonics & Effects"],
+["/HarpBRC","Blocked & Rolled Chords"]]
+
 
 const gridHeights = [130, 70, 60, 50, 50, 70, 80];
 const gridWidths = [[40, 100, 110, 40, 30, 70, 55],
@@ -86,7 +93,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

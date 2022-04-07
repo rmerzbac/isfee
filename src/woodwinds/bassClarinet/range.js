@@ -12,6 +12,10 @@ const instrumentText = {
   18: "All bass clarinets will have extra bass keys going at least as far down as written D (concert C, matching the C-string of the cello). These notes are rich and resonant, and very flexible dynamically. Significantly more air is needed to produce the sound in this region."
 }
 
+const morePages = [["/bassClarinetRC","Register Colors"],
+["/bassClarinetAC","Articulation Colors"],
+["/bassClarinetP","Passages"]]
+
 const gridHeights = [230, 200]
 const gridWidths = [[20, 260, 185],
                     [15, 180, 250]]
@@ -29,7 +33,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

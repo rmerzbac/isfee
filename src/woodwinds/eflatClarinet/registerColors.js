@@ -22,6 +22,11 @@ const instrumentText = {
   35: "Notes written above the staff display the most distinctive color of the E-flat clarinet, and may be played at very soft and very loud dynamic levels.",
 }
 
+const morePages = [["/eflatClarinetR","Range"],
+["/eflatClarinetAC","Articulation Colors"],
+["/eflatClarinetP","Passage"],
+["/eflatClarinetAP","Another Passage"]]
+
 const gridHeights = [155, 112, 112, 135]
 const gridWidths = [[35, 100, 100, 100, 100],
                     [35, 100, 100, 100, 100],
@@ -43,7 +48,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

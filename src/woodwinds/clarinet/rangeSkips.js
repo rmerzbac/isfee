@@ -20,6 +20,13 @@ const instrumentText = {
   36: "This example illustrates one use of \"harmonics\" on the clarinet. Alternate fingerings are available for most pitches. If the fingering is not notated, the performer will find an alternate fingering that will provide a change in color. ",
 }
 
+const morePages = [["/clarinetTT","Trills & Tremolos"],
+["/clarinetRC","Register Colors"],
+["/clarinetAC","Articulation Colors"],
+["/clarinetTV","Tonguing & Vibrato"],
+["/clarinetP","Passage"],
+["/clarinetAP","Another Passage"]]
+
 const gridHeights = [180, 150, 160]
 const gridWidths = [[35, 160, 143, 120],
                     [35, 200, 235],
@@ -37,7 +44,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

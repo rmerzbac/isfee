@@ -22,6 +22,11 @@ const instrumentText = {
   99: "Above the staff the oboe has less capacity for dynamic contrast, and its distinctive reedy color all but disappears. The color in this region tends to be more poignant and sinuous, while still exhibiting the instrument's directness and clarity of articulation.",
 }
 
+const morePages = [["/oboeRRT","Range, Registers, & Tremolos"],
+["/oboeP","Passages"],
+["/oboeAP","Another Passage"],
+["/oboeAVC","Articulation & Vibrato Colors"]]
+
 const gridHeights = [100, 100, 100, 105]
 const gridWidths = [[35, 100, 100, 100, 100],
                     [35, 100, 100, 100, 100],
@@ -43,7 +48,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

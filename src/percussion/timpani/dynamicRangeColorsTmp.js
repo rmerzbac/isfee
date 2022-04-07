@@ -21,6 +21,8 @@ const instrumentText = {
 94: "Objects with a mixed-pitch sustained sound (a cymbal is particularly effective) can be placed on or near the top of a timpano, and will be influenced in pitch by changes in the drum pitch. ",
 }
 
+const morePages = [["/drumRangesMalletsTmp","Drum Ranges & Mallets"]]
+
 const gridHeights = [120, 100, 90, 70, 140]
 const gridWidths = [[30, 70, 70, 70, 70, 70, 70],
                   [30, 120, 100, 100, 100],
@@ -44,7 +46,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -77,6 +77,11 @@ const instrumentText = {
     " This is possible only at a loud dynamic level. \n\n"
 }
 
+const morePages = [["/TrumpetHFS","Harmonic Series, Fingering & Scales"],
+["/TrumpetTRC","Tremolos & Register Colors"],
+["/TrumpetAVC","Articulation & Vibrato Colors"],
+["/TrumpetP","Passages"]]
+
 const gridHeights = [95, 80, 100, 80, 85, 105]
 const gridWidths = [[40, 480], [40, 150, 160, 180], [40, 150, 160, 180], [40, 150, 160, 180], [40, 230, 250], [40, 230, 250]]
 const gridTimes = [[0], [28, 35, 43], [51, 59, 70], [75, 83, 92], [101, 109], [117, 123]]
@@ -92,9 +97,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

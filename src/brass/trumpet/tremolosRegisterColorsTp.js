@@ -67,6 +67,11 @@ const instrumentText = {
     "As the trumpet moves into its high register it is capable of projecting great power and the highest degree of dramatic contrast. \n\n"
 }
 
+const morePages = [["/TrumpetHFS","Harmonic Series, Fingering & Scales"],
+["/TrumpetAVC","Articulation & Vibrato Colors"],
+["/TrumpetPBM","Pitch Bend & Mutes"],
+["/TrumpetP","Passages"]]
+
 const gridHeights = [150, 100, 80, 80, 80]
 const gridWidths = [[40, 55, 50, 50, 50, 50, 50, 125], [40, 110, 115, 115, 140], [40, 110, 115, 115, 140], [40, 110, 115, 115, 140], [40, 110, 115, 115, 140]]
 const gridTimes = [[0, 4, 8, 11, 15, 18, 22], [26, 30, 33, 37], [41, 45, 49, 53], [56, 60, 64, 67], [72, 75, 78, 82]]
@@ -82,9 +87,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

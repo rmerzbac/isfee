@@ -13,7 +13,14 @@ const instrumentText = {
 		 32:  "Glissando pizzicato is an interesting but very subtle gesture.",
 		 38:  "Snap pizzicato, also called Bartok pizz., is created by pulling the string away from the fingerboard and releasing it so that it snaps back against the fingerboard.  Although it is sometimes done by grabbing the string between the thumb and finger, here it is effectively executed with a one-finger technique.",
 		 49:  "It is possible to pluck open strings with the left hand while stopping another string with the left hand and playing arco.",
-  }
+}
+
+const morePages = [["/scalesStringColors","Scales, String Colors"],
+["/arpeggiosDoubleStops","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissando","Harmonics, Vibrato & Glissando"],
+["/articulationAndBowColors","Articulation & Bow Colors"],
+["/moreVBowColors","More Bow Colors"],
+["/passagesV","Passages"]]
 
 const gridHeights = [100, 80, 90, 70, 90, 90]
 const gridWidths = [[40, 400],
@@ -39,7 +46,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

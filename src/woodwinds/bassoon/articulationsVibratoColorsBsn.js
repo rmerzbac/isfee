@@ -32,6 +32,10 @@ const instrumentText = {
     "The bassoon is capable of a variety of multiphonics, although the results can be unpredictable."
 }
 
+const morePages = [["/BassoonRRT","Range, Registers, & Tremolo"],
+["/BassoonRC","Register Colors"],
+["/BassoonP","Excerpts"]]
+
 const gridHeights = [110, 80, 90, 110, 96]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 240, 240], [40, 60, 90, 90, 70, 60, 110]]
 const gridTimes = [[0], [7], [13], [20, 23], [27, 32, 37, 43, 52, 60]]
@@ -47,9 +51,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

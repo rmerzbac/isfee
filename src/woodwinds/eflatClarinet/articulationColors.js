@@ -10,6 +10,11 @@ const instrumentText = {
   14: "Staccato articulation speaks clearly in all registers of single-reed instruments, though not as precisely and edgy as in double-reed instruments. Staccato on the E-flat clarinet is more incisive than on the clarinet.",
 }
 
+const morePages = [["/eflatClarinetR","Range"],
+["/eflatClarinetRC","Register Colors"],
+["/eflatClarinetP","Passage"],
+["/eflatClarinetAP","Another Passage"]]
+
 const gridHeights = [190, 150, 150]
 const gridWidths = [[35, 430],
                     [35, 430],
@@ -27,7 +32,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -8,6 +8,11 @@ const instrumentText = {
   4: "This is another passage from Berlioz's Symphonie Fantastique, displaying the piercing power of the high-range of the E-flat clarinet.",
 }
 
+const morePages = [["/eflatClarinetR","Range"],
+["/eflatClarinetRC","Register Colors"],
+["/eflatClarinetAC","Articulation Colors"],
+["/eflatClarinetP","Passage"]]
+
 const gridHeights = [180, 180]
 const gridWidths = [[35, 435],
                     [35, 435]]
@@ -24,7 +29,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

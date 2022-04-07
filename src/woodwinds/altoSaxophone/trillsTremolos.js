@@ -14,6 +14,12 @@ const instrumentText = {
   62: "The fingering for the notes in this lowest region calls for the use of the little fingers of both hands. To play C# to B, the left hand's little finger must slide from the C# key to the B key.",
 }
 
+const morePages = [["/altoSaxRR","Range & Registers"],
+["/altoSaxRC","Register Colors"],
+["/altoSaxP","Passage"],
+["/altoSaxAC","Articulation Colors"],
+["/altoSaxMAVC","More Articulation & Vibrato Colors"]]
+
 const gridHeights = [130, 160, 130]
 const gridWidths = [[35, 440],
                     [35, 85, 80, 80, 80, 80],
@@ -31,7 +37,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -16,7 +16,13 @@ const instrumentText = {
 "It is most effectively applied as a down-bow stroke.",
 		22: "Unmeasured tremolo is notated in string writing by three strokes on the note stem, regardless of the rhythmic value of the note. \n\n" +
 "It is played as fast as possible with no regard for the number of alternations on each note; the effect is a color, not a rhythm.",
-  }
+}
+
+const morePages = [["/leftHandFingeringB","Left Hand Fingering"],
+["/registerStringColorsB","Register & String Colors"],
+["/moreBowColorsB","More Bow Colors"],
+["/pizzicatoB","Pizzicato"],
+["/excerptB","Excerpt"]]
 
 const gridHeights = [120, 120, 120, 120, 120]
 const gridWidths = [[40, 210, 210],
@@ -40,7 +46,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -32,7 +32,15 @@ const instrumentText = {
 		 123:  "A single phrase can be played with a variety of fingerings, changing color as it fits on different string assignments.",
 		 128:  "A single phrase can be played with a variety of fingerings, changing color as it fits on different string assignments.",
 		 132:  "A single phrase can be played with a variety of fingerings, changing color as it fits on different string assignments.",
-  }
+}
+
+const morePages = [["/arpeggiosDoubleStopsVa","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissandoVa","Harmonics, Vibrato & Glissando"],
+["/articulationColorsVa","Articulation & Bow Colors"],
+["/moreBowColorsVa","More Bow Colors"],
+["/colLegnoPizzicatoVa","Col Legno & Pizzicato"],
+["/morePizzicatoColorsVa","More Pizzicato Colors"],
+["/passageVa","Excerpt"]]
 
 const gridHeights = [80, 70, 80, 80, 90, 80]
 const gridWidths = [[40, 170, 100, 200, 200],
@@ -58,7 +66,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

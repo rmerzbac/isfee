@@ -34,6 +34,15 @@ const instrumentText = {
 		136: "Pressing down in this same place allows only 5/6 of the string to vibrate. \n\n Since this length is 5 times that of the 6th partial, it sounds 2 octaves and a major third lower than the 5th partial, a minor third higher than the open string.",
 }
 
+const morePages = [["/celloSF","Scale Fingering"],
+["/celloAH","Artificial Harmonics"],
+["/celloMS","Multiple Stops"],
+["/celloLHI","Left Hand Inflections"],
+["/celloRHI","Right Hand Inflections"],
+["/bowDirectionsSpeedPressure","Bow Directions, Speed and Pressure"],
+["/moreBowColors","More Bow Colors"],
+["/pizzicato","Pizzicato"]]
+
 const gridHeights = [110, 90, 80, 110, 110]
 const gridWidths = [[40, 130, 130, 130],
                     [40, 100, 100, 100, 100],
@@ -57,7 +66,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

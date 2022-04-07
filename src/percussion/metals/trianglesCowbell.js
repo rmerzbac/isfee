@@ -16,6 +16,11 @@ const instrumentText = {
 " Here the contrast in tone is created not only by the difference in size between the wood stick handle and tip but also the place on the cowbell at which it is struck.",
 }
 
+const morePages = [["/cymbals1","Cymbals 1"],
+["/cymbals2","Cymbals 2"],
+["/tamtamGongs","Tamtams, Gongs"],
+["/windChimesTrees","Wind Chimes, Trees"]]
+
 const gridHeights = [110, 130, 100, 90, 110]
 const gridWidths = [[30, 320, 100],
                     [30, 420],
@@ -39,7 +44,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

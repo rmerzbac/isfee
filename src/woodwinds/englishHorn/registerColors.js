@@ -23,6 +23,10 @@ const instrumentText = {
 
 }
 
+const morePages = [["/englishHornRR","Range & Registers"],
+["/englishHornPAC","Passages & Articultion Colors"],
+["/englishHornAVC","Articulation & Vibrato Colors"]]
+
 const gridHeights = [150, 114, 120, 130]
 const gridWidths = [[35, 100, 100, 100, 100],
                     [35, 100, 100, 100, 100],
@@ -44,7 +48,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

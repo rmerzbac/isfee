@@ -12,6 +12,12 @@ const instrumentText = {
   "The tambourine can be played with a delicate, sightly muted effect while resting on the knee."
 }
 
+const morePages = [["/DrumsSBD","Snare & Bass Drums"],
+["/DrumsDM","Drum Multi-set"],
+["/DrumsBTTC","Bongos, Timbales, Toms & Congas"],
+["/DrumsDS","Swing Drum Set"],
+["/DrumsDR","Rock Drum Set"]]
+
 const gridHeights = [130, 80, 80]
 const gridWidths = [[40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [9], [14]]
@@ -27,9 +33,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

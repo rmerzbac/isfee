@@ -16,7 +16,16 @@ const instrumentText = {
   83: "The guitar can easily be \"prepared\" by threading or attaching a foreign element to the strings at the bridge.",
   102: "The guitar can easily be \"prepared\" by threading or attaching a foreign element to the strings at the bridge.",
   117: "The guitar can easily be \"prepared\" by threading or attaching a foreign element to the strings at the bridge."
-  }
+}
+
+const morePages = [["/GuitarTF","Tuning, Fretboard"],
+["/GuitarLHS","L. H. Shapes"],
+["/GuitarLHSSC","L. H. Shapes, String Colors"],
+["/GuitarRHFSS","R. H. Finger-Strokes, Slurs"],
+["/GuitarRHFP","R. H. Finger Patterns"],
+["/GuitarMRHT","More R. H. Techniques"],
+["/GuitarH","Harmonics"],
+["/GuitarGT","Glissandos, Trills"]]
 
 const gridHeights = [100, 90, 110, 110, 100];
 const gridWidths = [[35, 270, 165], [35, 440], [30, 445], [35, 145, 140, 140], [35, 85, 155, 55, 60, 60]];
@@ -33,7 +42,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -53,6 +53,12 @@ const instrumentText = {
 
 }
 
+const morePages = [["/registerStringColorsB","Register & String Colors"],
+["/articulationColorsB","Articulation & Bow Colors"],
+["/moreBowColorsB","More Bow Colors"],
+["/pizzicatoB","Pizzicato"],
+["/excerptB","Excerpt"]]
+
 const gridHeights = [110, 90, 80, 80, 80, 80]
 const gridWidths = [[30, 50, 30, 25, 50, 60, 50, 40, 80],
                     [40, 480],
@@ -78,7 +84,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -20,6 +20,11 @@ const instrumentText = {
   60: "Downward pitch-bend of no more than a half-step can be accomplished with an adjustment of the embouchure.",
 }
 
+const morePages = [["/oboeRRT","Range, Registers, & Tremolos"],
+["/oboeRC","Register Colors"],
+["/oboeP","Passages"],
+["/oboeAP","Another Passage"]]
+
 const gridHeights = [95, 70, 100, 110, 100]
 const gridWidths = [[25, 450],
                     [25, 450],
@@ -39,7 +44,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

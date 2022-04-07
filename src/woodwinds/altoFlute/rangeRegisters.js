@@ -17,6 +17,10 @@ const instrumentText = {
     "The tone color of the alto flute is most distinctive in its low range, where it possesses even more of the dark richness one hears in the flute's lowest range. Some of that darkness is still heard in the middle register. The highest notes sound rather pale in comparison the the same pitches heard on the flute."
 }
 
+const morePages = [["/altoFluteRC","Register Colors"],
+["/altoFlutePAC","Passages & Articulation Colors"],
+["/altoFluteMACV","More Articulation Colors & Vibrato"]]
+
 const gridHeights = [240, 175]
 const gridWidths = [[50, 170, 145, 80],
                     [55, 185, 180]]
@@ -34,7 +38,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

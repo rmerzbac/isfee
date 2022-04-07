@@ -38,6 +38,9 @@ const instrumentText = {
     "The bass trombone can handle skips in the low register with relative agility."
 }
 
+const morePages = [["/BassTromboneRC","Register Colors"],
+["/BassTromboneP","Passages"]]
+
 const gridHeights = [120, 120, 120, 120]
 const gridWidths = [[40, 180, 100, 200], [40, 330, 30, 20, 20, 30, 50], [40, 240, 240], [40, 240, 240]]
 const gridTimes = [[0, 7, 12], [20, 39, 41, 42, 43, 45], [48, 64], [79, 85]]
@@ -53,9 +56,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

@@ -55,6 +55,12 @@ const instrumentText = {
     "This tremolo is created entirely by the embouchure alternating between the 6th and 8th partials."
 }
 
+const morePages = [["/TubaRC","Register Colors"],
+["/TubaAC","Articulation Colors"],
+["/TubaAVM","Articulations, Vibrato & Mutes"],
+["/TubaP","Passages I"],
+["/TubaP2","Passages II"]]
+
 const gridHeights = [110, 96, 96, 90, 100]
 const gridWidths = [[40, 170, 310], [40, 40, 70, 70, 60, 70, 60, 110], [40, 170, 140, 170], [40, 100, 100, 140, 140], [40, 190, 60, 50, 50, 60, 80]]
 const gridTimes = [[0, 13], [25, 27, 30, 32, 35, 37, 40], [44, 51, 58], [65, 74, 82, 87], [92, 99, 102, 106, 110, 113]]
@@ -70,9 +76,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

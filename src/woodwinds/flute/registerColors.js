@@ -34,6 +34,10 @@ const instrumentText = {
 
 }
 
+const morePages = [["/fluteRRT","Range, Registers, & Tremolos"],
+["/fluteP", "Passages"],
+["/fluteAVC", "Articulation & Vibrato Colors"]]
+
 const gridHeights = [90, 70, 80, 80, 87, 100]
 const gridWidths = [[35, 50, 47, 47, 53, 48, 48, 45, 47],
                     [35, 400],
@@ -60,7 +64,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

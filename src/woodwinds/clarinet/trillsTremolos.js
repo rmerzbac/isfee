@@ -26,6 +26,13 @@ const instrumentText = {
   31: "This passage exhibits motion in the \"throat tones\" region of the clarinet. This is considered the least colorful portion of the clarinet's range. ",
 }
 
+const morePages = [["/clarinetRS","Range & Skips"],
+["/clarinetRC","Register Colors"],
+["/clarinetAC","Articulation Colors"],
+["/clarinetTV","Tonguing & Vibrato"],
+["/clarinetP","Passage"],
+["/clarinetAP","Another Passage"]]
+
 const gridHeights = [170, 150, 160]
 const gridWidths = [[35, 35, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
                     [35, 105, 105, 105, 105],
@@ -43,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

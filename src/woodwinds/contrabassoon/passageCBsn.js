@@ -20,6 +20,9 @@ const instrumentText = {
     "The low C is an octave higher in the contrabass part; the 2-octave leap appears only in the contrabassoon."
 }
 
+const morePages = [["/ContrabassoonSRC","Scales & Register Colors"],
+["/ContrabassoonAC","Articulation Colors"]]
+
 const gridHeights = [110, 80, 70, 80, 80, 70]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [7], [13], [18], [24], [31]]
@@ -35,9 +38,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

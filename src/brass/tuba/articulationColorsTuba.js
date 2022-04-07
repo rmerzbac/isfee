@@ -18,6 +18,12 @@ const instrumentText = {
   "Staccato articulation is effective in all but the highest and lowest registers of the tuba. In this middle low range staccato is particularly effective."
 }
 
+const morePages = [["/TubaHSST","Harmonic Series, Scales & Trills"],
+["/TubaRC","Register Colors"],
+["/TubaAVM","Articulations, Vibrato & Mutes"],
+["/TubaP","Passages I"],
+["/TubaP2","Passages II"]]
+
 const gridHeights = [120, 80, 96, 96, 96]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 220, 260]]
 const gridTimes = [[0], [8], [16], [23], [29, 32]]
@@ -33,9 +39,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

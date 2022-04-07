@@ -14,6 +14,8 @@ const instrumentText = {
   "The score shows Bach's original transposition, the concert pitch result, and the way it would be notated for a modern piccolo trumpet in A, although trumpeters may prefer to transpose as they read from the original part.\n\n"
 }
 
+const morePages = [["/PiccoloTrumpetS","Scales"]]
+
 const gridHeights = [150, 115, 120, 130]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480] ]
 const gridTimes = [[0], [8], [14], [18]]
@@ -29,9 +31,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

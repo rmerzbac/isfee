@@ -60,6 +60,10 @@ const instrumentText = {
   "The bassoon has nine keys that are operated by the left thumb. Several of these are used in the range below the bass clef. Here both the back and the front of the l.h. thumb are employed.",
 }
 
+const morePages = [["/BassoonRC","Register Colors"],
+["/BassoonAVC","Articulations & Vibrato Colors"],
+["/BassoonP","Excerpts"]]
+
 const gridHeights = [135, 70, 80, 80, 80]
 const gridWidths = [[40, 200, 130, 130], [40, 240, 240], [40, 160, 140, 180], [40, 48, 48, 48, 40, 48, 44, 40, 48, 40, 76], [40, 70, 65, 60, 55, 55, 50, 55, 75]]
 const gridTimes = [[0, 10, 16], [23, 36], [46, 54, 62], [70, 72, 75, 77, 80, 83, 85, 88, 91, 93], [97, 100, 102, 104, 106, 107, 109, 111]]
@@ -75,9 +79,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

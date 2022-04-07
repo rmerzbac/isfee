@@ -34,6 +34,15 @@ const instrumentText = {
 	70: "Successive down-bows require the player to \"re-take\" the bow between strokes. Each stroke is exactly the same. ",
 }
 
+const morePages = [["/celloSF","Scale Fingering"],
+["/celloNH","Natural Harmonics"],
+["/celloAH","Artificial Harmonics"],
+["/celloMS","Multiple Stops"],
+["/celloLHI","Left Hand Inflections"],
+["/celloRHI","Right Hand Inflections"],
+["/moreBowColors","More Bow Colors"],
+["/pizzicato","Pizzicato"]]
+
 const gridHeights = [100, 90, 80, 80, 80, 80]
 const gridWidths = [[40, 190, 180, 120, 140],
                     [40, 60, 60, 60, 60, 60, 60],
@@ -58,7 +67,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

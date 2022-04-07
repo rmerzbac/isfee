@@ -38,6 +38,12 @@ const instrumentText = {
     "Pitches written above the staff can sound thin and strident, but an accomplished performer can take advantage of the flexibility of the instrument to add color and richness with vibrato, dynamic inflection and articulation nuance.",
 }
 
+const morePages = [["/altoSaxRR","Range & Registers"],
+["/altoSaxTT","Trills & Tremolos"],
+["/altoSaxP","Passage"],
+["/altoSaxAC","Articulation Colors"],
+["/altoSaxMAVC","More Articulation & Vibrato Colors"]]
+
 const gridHeights = [150, 120, 120, 120]
 const gridWidths = [[35, 100, 100, 100, 100],
                     [35, 100, 100, 100, 100],
@@ -59,7 +65,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -17,7 +17,15 @@ const instrumentText = {
 62: "Sul tasto literally means \"over the fingerboard.\"\n\n" +
 "This suppresses the high partials of the string's timbre, creating a muted sound.",
 
-  }
+}
+
+const morePages = [["/scalesTrillsStringColors","Scales, Trills & String Colors"],
+["/arpeggiosDoubleStopsVa","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissandoVa","Harmonics, Vibrato & Glissando"],
+["/articulationColorsVa","Articulation & Bow Colors"],
+["/colLegnoPizzicatoVa","Col Legno & Pizzicato"],
+["/morePizzicatoColorsVa","More Pizzicato Colors"],
+["/passageVa","Excerpt"]]
 
 const gridHeights = [90, 90, 90, 90, 70, 90]
 const gridWidths = [[40, 400],
@@ -45,7 +53,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

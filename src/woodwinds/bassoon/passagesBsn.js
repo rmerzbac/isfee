@@ -22,6 +22,10 @@ const instrumentText = {
     "This solo from the 2nd movement of Rimsky-Korsakov's \"Scheherazade\" features grace-notes and copious articulation information, but its overall character remains seductively lyric."
 }
 
+const morePages = [["/BassoonRRT","Range, Registers, & Tremolo"],
+["/BassoonRC","Register Colors"],
+["/BassoonAVC","Articulations & Vibrato Colors"]]
+
 const gridHeights = [80, 60, 50, 50, 100, 55, 55, 60]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [3], [6], [10], [15], [24], [32], [43]]
@@ -37,9 +41,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

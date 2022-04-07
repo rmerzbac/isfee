@@ -15,6 +15,13 @@ const instrumentText = {
   35: "Downward pitch-bend of no more than a half-step can be accomplished with an adjustment of the embouchure.",
 }
 
+const morePages = [["/clarinetRS","Range & Skips"],
+["/clarinetTT","Trills & Tremolos"],
+["/clarinetRC","Register Colors"],
+["/clarinetAC","Articulation Colors"],
+["/clarinetP","Passage"],
+["/clarinetAP","Another Passage"]]
+
 const gridHeights = [140, 135, 130, 130]
 const gridWidths = [[35, 210, 215],
                     [35, 435],
@@ -33,7 +40,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

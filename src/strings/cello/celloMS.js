@@ -22,6 +22,15 @@ const instrumentText = {
 	70: "These last two chords are obviously easy to play and could be performed by an entire cello section non divisi.  \n\n  Quadruple stops on this page are playable and effective at a moderate tempo for solo or chamber playing. For orchestral section performance dividing the section would produce a more effective result.",
 }
 
+const morePages = [["/celloSF","Scale Fingering"],
+["/celloNH","Natural Harmonics"],
+["/celloAH","Artificial Harmonics"],
+["/celloLHI","Left Hand Inflections"],
+["/celloRHI","Right Hand Inflections"],
+["/bowDirectionsSpeedPressure","Bow Directions, Speed and Pressure"],
+["/moreBowColors","More Bow Colors"],
+["/pizzicato","Pizzicato"]]
+
 const gridHeights = [150, 100, 150, 150]
 const gridWidths = [[40, 150, 120, 200],
 [40, 100, 150, 150],
@@ -43,7 +52,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

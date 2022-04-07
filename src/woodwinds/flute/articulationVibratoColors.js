@@ -23,6 +23,10 @@ const instrumentText = {
 	62: "On members of the flute family, downward pitch-bend is accomplished by rolling the tone-hole slightly towards the embouchure, as well as reducing the air speed.",
 }
 
+const morePages = [["/fluteRRT","Range, Registers, & Tremolos"],
+["/fluteRC","Register Colors"],
+["/fluteP", "Passages"]]
+
 const gridHeights = [65, 60, 60, 65, 55, 60, 75, 65]
 const gridWidths = [[25, 425],
                     [25, 425],
@@ -52,7 +56,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

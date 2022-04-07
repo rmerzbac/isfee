@@ -9,6 +9,13 @@ const instrumentText = {
   10: "The clarinet is renowned for its agility, particularly in arpeggio passages. Single-tonguing is generally slower than the other articulation options demonstrated here, but is also the most deliberate and forceful. ",
 }
 
+const morePages = [["/clarinetRS","Range & Skips"],
+["/clarinetTT","Trills & Tremolos"],
+["/clarinetRC","Register Colors"],
+["/clarinetTV","Tonguing & Vibrato"],
+["/clarinetP","Passage"],
+["/clarinetAP","Another Passage"]]
+
 const gridHeights = [160, 150, 150]
 const gridWidths = [[35, 430],
                     [35, 430],
@@ -26,7 +33,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

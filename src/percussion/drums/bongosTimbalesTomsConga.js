@@ -22,6 +22,12 @@ const instrumentText = {
   "A conga drum can also be played with various kinds of mallets, provide a sound that is relatively deep but still dry and precise. In this mode, it clearly projects over a large dynamic range."
 }
 
+const morePages = [["/DrumsSBD","Snare & Bass Drums"],
+["/DrumsDM","Drum Multi-set"],
+["/DrumsDS","Swing Drum Set"],
+["/DrumsDR","Rock Drum Set"],
+["/DrumsT","Tambourine"]]
+
 const gridHeights = [110, 100, 90, 70, 50, 120]
 const gridWidths = [[40, 200, 280], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0, 5], [10], [15], [24], [31], [41]]
@@ -37,9 +43,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

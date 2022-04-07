@@ -26,6 +26,11 @@ const instrumentText = {
     "The saxophone is capable of a large array of multiphonics, although the results can be unpredictable."
 }
 
+const morePages = [["/BaritoneSaxophoneRR","Range & Registers"],
+["/BaritoneSaxophoneRC","Register Colors"],
+["/BaritoneSaxophoneAC","Articulation Colors"],
+["/BaritoneSaxophoneP","Excerpts"]]
+
 const gridHeights = [130, 120, 140, 140]
 const gridWidths = [[40, 240, 240], [40, 480], [40, 80, 90, 108, 96, 106], [40, 190, 290]]
 const gridTimes = [[0, 3], [7], [14, 18, 21, 27, 36], [43, 46]]
@@ -41,9 +46,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

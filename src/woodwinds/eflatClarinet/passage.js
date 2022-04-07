@@ -11,6 +11,11 @@ const instrumentText = {
   21: "In this passage from Berlioz's Symphonie Fantastique, grace notes and trills create a surreal brightness. The chirping clarity of the articulation of the E-flat clarinet makes an indelible impression.",
 }
 
+const morePages = [["/eflatClarinetR","Range"],
+["/eflatClarinetRC","Register Colors"],
+["/eflatClarinetAC","Articulation Colors"],
+["/eflatClarinetAP","Another Passage"]]
+
 const gridHeights = [100, 100, 90, 100, 110]
 const gridWidths = [[35, 435],
                     [35, 435],
@@ -30,7 +35,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

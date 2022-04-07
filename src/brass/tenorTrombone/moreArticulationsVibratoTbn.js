@@ -20,6 +20,13 @@ const instrumentText = {
   "A slight amount of vibrato is normal on the trumpet, applied according to the taste and discretion of the performer. Composers may specify varying amounts of vibrato. The slide makes possible a degree of vibrato not available on other wind instruments."
 }
 
+const morePages = [["/TenorTrombonePHS","Positions & Harmonic Scale"],
+["/TenorTromboneRAC","Registers, Articulations & Colors"],
+["/TenorTromboneM","Mutes"],
+["/TenorTromboneTG","Triggers & Glissandi"],
+["/TenorTromboneP","Passages I"],
+["/TenorTromboneP2","Passages II"]]
+
 const gridHeights = [130, 120, 110, 100]
 const gridWidths = [[40, 240, 240], [40, 480], [40, 480], [40, 110, 140, 230]]
 const gridTimes = [[0, 3], [7], [11], [17, 24, 32]]
@@ -35,9 +42,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

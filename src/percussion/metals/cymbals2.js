@@ -33,6 +33,11 @@ const instrumentText = {
 " To avoid a definite pitch (such as heard here) a pair with different pitches should be used.",
 }
 
+const morePages = [["/cymbals1","Cymbals 1"],
+["/tamtamGongs","Tamtams, Gongs"],
+["/trianglesCowbell","Triangles, Cowbells"],
+["/windChimesTrees","Wind Chimes, Trees"]]
+
 const gridHeights = [110, 70, 90, 70, 90, 90]
 const gridWidths = [[40, 450],
                     [30, 130, 270],
@@ -58,7 +63,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -16,6 +16,15 @@ const instrumentText = {
 		51: "These tremolos are played as bow-tremolos, double stops articulated by rocking the bow over the two strings. ",
 }
 
+const morePages = [["/celloSF","Scale Fingering"],
+["/celloNH","Natural Harmonics"],
+["/celloAH","Artificial Harmonics"],
+["/celloMS","Multiple Stops"],
+["/celloLHI","Left Hand Inflections"],
+["/bowDirectionsSpeedPressure","Bow Directions, Speed and Pressure"],
+["/moreBowColors","More Bow Colors"],
+["/pizzicato","Pizzicato"]]
+
 
 const gridHeights = [100, 70, 80, 80, 80, 80]
 const gridWidths = [[40, 200, 180],
@@ -41,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

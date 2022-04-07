@@ -26,6 +26,15 @@ const instrumentText = {
     "  The partials used and tuning adjustments are given above the staff. \n\n"
 }
 
+const morePages = [["/HornHS","Harmonic Series"],
+["/HornAC","Articulation Colors"],
+["/HornSVT","Scales, Valves, & Triggers"],
+["/HornST","Skips & Trills "],
+["/HornTVC","Tonguing, & Vibrato Colors"],
+["/HornSM","Stopping & Muting"],
+["/HornP","Passages"],
+["/HornBH","Baroque Horn"]]
+
 const gridHeights = [140, 100, 80, 80, 90]
 const gridWidths = [[40, 145, 255, 100], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0, 3, 10], [14], [18], [22], [26]]
@@ -41,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

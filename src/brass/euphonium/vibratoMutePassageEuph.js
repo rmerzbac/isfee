@@ -36,6 +36,10 @@ const instrumentText = {
     "This excerpt from Richard Strauss's \"Don Quixote\" not only displays the exceptional agility of the instrument, but also a character that is perfectly suited to its sound and articulation qualities."
 }
 
+const morePages = [["/EuphoniumHSVS","Harmonic Series, Valves, & Scales"],
+["/EuphoniumSTRC","Skips, Trills, & Register Colors"],
+["/EuphoniumAC","Articulations & Colors"]]
+
 const gridHeights = [80, 80, 80, 80, 100, 90]
 const gridWidths = [[40, 50, 90, 90, 100, 100], [40, 220, 260], [40, 220, 260], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0, 8, 15, 23, 30], [37, 46], [55, 65], [75], [80], [89]]
@@ -51,9 +55,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

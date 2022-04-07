@@ -15,7 +15,15 @@ const instrumentText = {
 32: "Single pizzicato notes are usually all played with the index finger of the right hand. Most orchestral string players have not developed a multi-finger pizzicato technique. \n\n" +
 "If there is time to set the bow down, pizzicato playing can better controlled.",
 
-  }
+}
+
+const morePages = [["/scalesTrillsStringColors","Scales, Trills & String Colors"],
+["/arpeggiosDoubleStopsVa","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissandoVa","Harmonics, Vibrato & Glissando"],
+["/articulationColorsVa","Articulation & Bow Colors"],
+["/moreBowColorsVa","More Bow Colors"],
+["/morePizzicatoColorsVa","More Pizzicato Colors"],
+["/passageVa","Excerpt"]]
 
 const gridHeights = [120, 120, 120, 120]
 const gridWidths = [[40, 400],
@@ -40,7 +48,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

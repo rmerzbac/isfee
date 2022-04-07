@@ -11,6 +11,13 @@ const instrumentText = {
   14: "In this excerpt from Rimsky-Korsakov's Capriccio Espagnol, the clarinet begins by imitating the solo violin, but takes the arpeggio figure further and faster, ending in virtual \"sheets of sound.\"",
 }
 
+const morePages = [["/clarinetRS","Range & Skips"],
+["/clarinetTT","Trills & Tremolos"],
+["/clarinetRC","Register Colors"],
+["/clarinetAC","Articulation Colors"],
+["/clarinetTV","Tonguing & Vibrato"],
+["/clarinetP","Passage"]]
+
 const gridHeights = [90, 110, 120, 120, 100]
 const gridWidths = [[35, 440],
                     [35, 440],
@@ -30,7 +37,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

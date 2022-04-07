@@ -21,6 +21,11 @@ const instrumentText = {
   100: "The little finger of the right hand operates special keys for low D-sharp (E-flat), C-sharp (D-flat) and low C. The little finger of the left hand operates special keys for low D-sharp (E-flat), B and B-flat. This fingering complication along with the heavy timbral inertia of these low notes makes very fast playing in the extreme low range unidiomatic for the oboe.",
 }
 
+const morePages = [["/oboeRC","Register Colors"],
+["/oboeP","Passages"],
+["/oboeAP","Another Passage"],
+["/oboeAVC","Articulation & Vibrato Colors"]]
+
 const gridHeights = [75, 85, 110, 100, 80]
 const gridWidths = [[50, 190, 220],
                     [30, 220, 150],
@@ -44,7 +49,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

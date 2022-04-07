@@ -10,6 +10,10 @@ const instrumentText = {
   39: "The extreme high register of the English Horn has some of that poignant pleading quality heard in the corresponding range of the oboe, but even these very high notes are relatively dark and rounded.",
 }
 
+const morePages = [["/englishHornRC","Register Colors"],
+["/englishHornPAC","Passages & Articultion Colors"],
+["/englishHornAVC","Articulation & Vibrato Colors"]]
+
 const gridHeights = [230, 150]
 const gridWidths = [[35, 440],
                     [35, 240, 200]]
@@ -27,7 +31,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

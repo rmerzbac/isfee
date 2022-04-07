@@ -18,6 +18,12 @@ const instrumentText = {
     "In this performance a crash cymbal substitutes for a splash cymbal.",
 }
 
+const morePages = [["/DrumsSBD","Snare & Bass Drums"],
+["/DrumsDM","Drum Multi-set"],
+["/DrumsBTTC","Bongos, Timbales, Toms & Congas"],
+["/DrumsDR","Rock Drum Set"],
+["/DrumsT","Tambourine"]]
+
 const gridHeights = [250, 70, 80, 110]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [4], [8], [11]]
@@ -33,9 +39,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

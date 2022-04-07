@@ -18,6 +18,13 @@ const instrumentText = {
   "This passage from Wagner's \"Ride of the Valkyries\" allows the trombone to be heard at its most powerful and heroic throughout two octaves of its middle to high range.",
 }
 
+const morePages = [["/TenorTrombonePHS","Positions & Harmonic Scale"],
+["/TenorTromboneRAC","Registers, Articulations & Colors"],
+["/TenorTromboneMAV","More Articulations & Vibrato"],
+["/TenorTromboneM","Mutes"],
+["/TenorTromboneTG","Triggers & Glissandi"],
+["/TenorTromboneP","Passages I"]]
+
 const gridHeights = [110, 80, 70, 70, 70, 80]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0], [5], [12], [19], [25], [32]]
@@ -33,9 +40,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

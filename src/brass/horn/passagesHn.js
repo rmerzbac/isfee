@@ -26,6 +26,15 @@ const instrumentText = {
   "  The variations of color, dynamics, and articulation that Tchaikovsky crafts into this solo are given an ideal register for assured projection. \n\n"
 }
 
+const morePages = [["/HornHS","Harmonic Series"],
+["/HornAC","Articulation Colors"],
+["/HornSVT","Scales, Valves, & Triggers"],
+["/HornST","Skips & Trills "],
+["/HornTVC","Tonguing, & Vibrato Colors"],
+["/HornSM","Stopping & Muting"],
+["/HornNH","Natural Horn"],
+["/HornBH","Baroque Horn"]]
+
 const gridHeights = [120, 100, 100, 90, 130]
 const gridWidths = [[40, 480],[40, 480],[40, 480],[40, 480], [40, 480]]
 const gridTimes = [[0], [6], [10], [15], [20]]
@@ -41,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

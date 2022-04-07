@@ -31,7 +31,13 @@ const instrumentText = {
 		55: "Please note: All pitches sound an octave lower than written.\n\n" +
 "These are artificial 3rd-partial \"touch 5\" harmonics; the sounding pitch is an octave and a 5th above the stopped note. On the contrabass, these are more common and reliable than the \"touch 4\" 4th-partial harmonics favored on other members of the string family.\n\n" +
 "For an extended demonstration of artificial harmonics, natural harmonics and string length please see the section on the cello.",
-  }
+}
+
+const morePages = [["/leftHandFingeringB","Left Hand Fingering"],
+["/articulationColorsB","Articulation & Bow Colors"],
+["/moreBowColorsB","More Bow Colors"],
+["/pizzicatoB","Pizzicato"],
+["/excerptB","Excerpt"]]
 
 const gridHeights = [120, 100, 100, 100, 100]
 const gridWidths = [[40, 170, 220],
@@ -55,7 +61,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

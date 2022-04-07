@@ -22,6 +22,15 @@ const instrumentText = {
 
 }
 
+const morePages = [["/HornAC","Articulation Colors"],
+["/HornSVT","Scales, Valves, & Triggers"],
+["/HornST","Skips & Trills "],
+["/HornTVC","Tonguing, & Vibrato Colors"],
+["/HornSM","Stopping & Muting"],
+["/HornP","Passages"],
+["/HornNH","Natural Horn"],
+["/HornBH","Baroque Horn"]]
+
 const gridHeights = [230, 120, 170]
 const gridWidths = [[40, 480],
 [40, 480],
@@ -41,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -20,6 +20,16 @@ const instrumentText = {
     "Here the passage above has been re-written with the left hand given all \"black notes.\" This adds to the aural complexity, but actually makes the passage easier to play."
 }
 
+const morePages = [["/KeyboardPercussionMCB","Marimba: Chords & Bass"],
+["/KeyboardPercussionMRLR","Marimba: Range & Low Register"],
+["/KeyboardPercussionMRM","Marimba: Register & Mallets"],
+["/KeyboardPercussionVRM","Vibraphone: Range Mallets"],
+["/KeyboardPercussionVDB","Vibraphone: Damping & Bowing"],
+["/KeyboardPercussionXRM","Xylophone: Range & Mallets"],
+["/KeyboardPercussionXHRM","Xylophone: High Register & Mallets"],
+["/KeyboardPercussionAC","Almglocken & Chimes"],
+["/KeyboardPercussionGC","Glockenspiel & Crotales"]]
+
 const gridHeights = [150, 65, 80, 70, 80, 70]
 const gridWidths = [[40, 210, 270], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
 const gridTimes = [[0, 9], [18], [23], [28], [33], [38]]
@@ -35,7 +45,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

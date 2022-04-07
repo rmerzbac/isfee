@@ -14,6 +14,13 @@ const instrumentText = {
   37: "This is a brief passage from the well-known harp cadenza in the \"Waltz of the Flowers\" from Tchaikovsky's \"Nutcracker,\" notated as it is commonly played. The faster alternating hands distribution allows for a greater sense of color and flourish.",
 }
 
+const morePages = [["/HarpPB","Pedal Basics"],
+["/HarpEG","Enharmonic & Glissandos"],
+["/HarpS","Scales"],
+["/HarpCRA","Chords, Registers, Articulations"],
+["/HarpHE","Harmonics & Effects"],
+["/HarpBRC","Blocked & Rolled Chords"]]
+
 const gridHeights = [120, 110, 140, 140];
 const gridWidths = [[35, 80, 70, 130, 140], [35, 440], [35, 440], [35, 440]];
 const gridTimes = [[0, 4, 8, 11], [16], [30], [37]];
@@ -30,7 +37,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

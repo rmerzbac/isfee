@@ -16,6 +16,10 @@ const instrumentText = {
 	28: "This excerpt from Saint-Saens's Carnival of the Animals demonstrates the unique agility of the flute."
 }
 
+const morePages = [["/fluteRRT","Range, Registers, & Tremolos"],
+["/fluteRC","Register Colors"],
+["/fluteAVC", "Articulation & Vibrato Colors"]]
+
 const gridHeights = [84, 55, 55, 55, 50, 55, 75, 70]
 const gridWidths = [[35, 425],
                     [35, 425],
@@ -45,7 +49,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

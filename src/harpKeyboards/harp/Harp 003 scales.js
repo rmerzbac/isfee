@@ -12,6 +12,13 @@ const instrumentText = {
     "Notice how far the harpist's right hand must reach around the harp (and how the whole instrument must be tilted forward) in order for the right hand to play below the bass clef.",
 }
 
+const morePages = [["/HarpPB","Pedal Basics"],
+["/HarpEG","Enharmonic & Glissandos"],
+["/HarpCRA","Chords, Registers, Articulations"],
+["/HarpAI","Arpeggiation Idioms"],
+["/HarpHE","Harmonics & Effects"],
+["/HarpBRC","Blocked & Rolled Chords"]]
+
 
 const gridHeights = [145, 130, 110, 150];
 const gridWidths = [[40, 435], [40, 435], [40, 435], [40, 435]];
@@ -29,7 +36,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

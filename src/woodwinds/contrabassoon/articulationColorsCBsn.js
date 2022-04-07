@@ -16,6 +16,9 @@ const instrumentText = {
   "This kind of staccato articulation is naturally effective on the contrabassoon. It is consistent throughout the range of the instrument."
 }
 
+const morePages = [["/ContrabassoonSRC","Scales & Register Colors"],
+["/ContrabassoonP","Excerpts"]]
+
 const gridHeights = [120, 100, 100, 100]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 230, 250]]
 const gridTimes = [[0], [6], [11], [17, 20]]
@@ -31,9 +34,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

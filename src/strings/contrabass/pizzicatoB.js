@@ -19,7 +19,13 @@ const instrumentText = {
 		42: "Snap pizzicato, also called Bartok pizz., is created by pulling the string away from the fingerboard and releasing it so that it snaps back against the fingerboard.  \n\n" +
 "Although it is sometimes done by grabbing the string between the thumb and finger, here it is effectively executed with a one-finger technique.",
 		51: "It is possible to pluck open strings with the left hand while stopping another string with the left hand and playing arco.",
-  }
+}
+
+const morePages = [["/leftHandFingeringB","Left Hand Fingering"],
+["/registerStringColorsB","Register & String Colors"],
+["/articulationColorsB","Articulation & Bow Colors"],
+["/moreBowColorsB","More Bow Colors"],
+["/excerptB","Excerpt"]]
 
 const gridHeights = [120, 80, 80, 80, 80]
 const gridWidths = [[40, 400],
@@ -43,7 +49,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

@@ -11,8 +11,15 @@ const instrumentText = {
   25: "Performer: Bryan Heath\n\n" +
   "The \"Tuba Mirum\" from Mozart's Requiem, a lyric obbligato to a bass arioso, is the earliest famous trombone excerpt. It remains one of the best examples of cantabile trombone style. The use of the high singing register is particularly appropriate to the flowing legato line.",
   37: "Performer: Bryan Heath\n\n" +
-  "The \"Tuba Mirum\" from Mozart's Requiem, a lyric obbligato to a bass arioso, is the earliest famous trombone excerpt. It remains one of the best examples of cantabile trombone style. The use of the high singing register is particularly appropriate to the flowing legato line.",  
+  "The \"Tuba Mirum\" from Mozart's Requiem, a lyric obbligato to a bass arioso, is the earliest famous trombone excerpt. It remains one of the best examples of cantabile trombone style. The use of the high singing register is particularly appropriate to the flowing legato line.",
 }
+
+const morePages = [["/TenorTrombonePHS","Positions & Harmonic Scale"],
+["/TenorTromboneRAC","Registers, Articulations & Colors"],
+["/TenorTromboneMAV","More Articulations & Vibrato"],
+["/TenorTromboneM","Mutes"],
+["/TenorTromboneTG","Triggers & Glissandi"],
+["/TenorTromboneP2","Passages II"]]
 
 const gridHeights = [160, 90, 100, 100]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480]]
@@ -29,9 +36,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

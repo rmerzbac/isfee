@@ -24,7 +24,15 @@ const instrumentText = {
   45: "This arpeggio pattern uses all four strings and repeated notes. ",
   48: "These tremolos are played as bow-tremolos, double stops articulated by rocking the bow over the two strings. The Roman numerals are another way of indicating \"sul G\" (III) and \"sul D\" (II).",
 
-  }
+}
+
+const morePages = [["/scalesTrillsStringColors","Scales, Trills & String Colors"],
+["/arpeggiosDoubleStopsVa","Arpeggios & Double Stops"],
+["/harmonicsVibratoGlissandoVa","Harmonics, Vibrato & Glissando"],
+["/moreBowColorsVa","More Bow Colors"],
+["/colLegnoPizzicatoVa","Col Legno & Pizzicato"],
+["/morePizzicatoColorsVa","More Pizzicato Colors"],
+["/passageVa","Excerpt"]]
 
 const gridHeights = [80, 80, 80,80, 80, 100]
 const gridWidths = [[40, 140, 140, 140],
@@ -50,7 +58,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

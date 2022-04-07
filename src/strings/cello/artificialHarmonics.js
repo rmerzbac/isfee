@@ -22,6 +22,15 @@ const instrumentText = {
   27: "5th partial artificial harmonics can be created by lightly touching a major 3rd above the stopped string. \n\n 6th partial artificial harmonics can be created by lightly touching a minor 3rd above the stopped string. 5th and 6th partial artificial harmonics are less stable and far less common than 4th partial artificial harmonics.  \n\n Note that as the fingered interval gets smaller, the pitch gets higher, because the string is being divided into successively smaller parts.",
 }
 
+const morePages = [["/celloSF","Scale Fingering"],
+["/celloNH","Natural Harmonics"],
+["/celloMS","Multiple Stops"],
+["/celloLHI","Left Hand Inflections"],
+["/celloRHI","Right Hand Inflections"],
+["/bowDirectionsSpeedPressure","Bow Directions, Speed and Pressure"],
+["/moreBowColors","More Bow Colors"],
+["/pizzicato","Pizzicato"]]
+
 const gridHeights = [200, 150, 150]
 const gridWidths = [[120, 50, 50, 50, 50, 50, 50],
                     [40, 60, 60, 60, 60, 60, 60],
@@ -41,7 +50,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

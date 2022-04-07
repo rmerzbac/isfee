@@ -4,17 +4,22 @@ import vid from './passageTSx.mp4'
 import score from './passageTSx.png'
 
 const instrumentText = {
-  0: "Performer: Stacy Wilson\n\n" + 
+  0: "Performer: Stacy Wilson\n\n" +
   "This passage (a synthetic imitation of passage-work found in saxophone concertos) displays the agility and dynamic responsiveness of the instrument throughout its range.",
-  3: "Performer: Stacy Wilson\n\n" + 
-  "This passage (a synthetic imitation of passage-work found in saxophone concertos) displays the agility and dynamic responsiveness of the instrument throughout its range.",	
-  6: "Performer: Stacy Wilson\n\n" + 
+  3: "Performer: Stacy Wilson\n\n" +
   "This passage (a synthetic imitation of passage-work found in saxophone concertos) displays the agility and dynamic responsiveness of the instrument throughout its range.",
-  10: "Performer: Stacy Wilson\n\n" + 
-  "This passage (a synthetic imitation of passage-work found in saxophone concertos) displays the agility and dynamic responsiveness of the instrument throughout its range.",	
-  15: "Performer: Stacy Wilson\n\n" + 
+  6: "Performer: Stacy Wilson\n\n" +
+  "This passage (a synthetic imitation of passage-work found in saxophone concertos) displays the agility and dynamic responsiveness of the instrument throughout its range.",
+  10: "Performer: Stacy Wilson\n\n" +
+  "This passage (a synthetic imitation of passage-work found in saxophone concertos) displays the agility and dynamic responsiveness of the instrument throughout its range.",
+  15: "Performer: Stacy Wilson\n\n" +
   "This passage (a synthetic imitation of passage-work found in saxophone concertos) displays the agility and dynamic responsiveness of the instrument throughout its range."
 }
+
+const morePages = [["/TenorSaxophoneRR","Range & Registers"],
+["/TenorSaxophoneRC","Register Colors"],
+["/TenorSaxophoneAC","Articulation Colors"],
+["/TenorSaxophoneMAVC","More Articulation & Vibrato Colors"]]
 
 const gridHeights = [130, 90, 96, 96, 110]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
@@ -31,9 +36,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

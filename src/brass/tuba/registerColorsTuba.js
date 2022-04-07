@@ -38,6 +38,12 @@ const instrumentText = {
     "The tuba does not become particularly more brilliant in its high range, but this region is relatively responsive to shading of dynamics and articulation. The F tuba (used in this performance) responds better than the CC tuba in this range.",
 }
 
+const morePages = [["/TubaHSST","Harmonic Series, Scales & Trills"],
+["/TubaAC","Articulation Colors"],
+["/TubaAVM","Articulations, Vibrato & Mutes"],
+["/TubaP","Passages I"],
+["/TubaP2","Passages II"]]
+
 const gridHeights = [160, 110, 100, 120]
 const gridWidths = [[40, 110, 120, 110, 150], [40, 110, 120, 110, 150], [40, 110, 120, 110, 150], [40, 110, 120, 110, 150]]
 const gridTimes = [[0, 3, 6, 9], [13, 16, 19, 22], [25, 28, 30, 33], [36, 39, 41, 44]]
@@ -53,9 +59,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
-
-

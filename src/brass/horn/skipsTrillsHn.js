@@ -33,6 +33,15 @@ const instrumentText = {
     "  This may also need to be coordinated with valve trill. \n\n"
 }
 
+const morePages = [["/HornHS","Harmonic Series"],
+["/HornAC","Articulation Colors"],
+["/HornSVT","Scales, Valves, & Triggers"],
+["/HornTVC","Tonguing, & Vibrato Colors"],
+["/HornSM","Stopping & Muting"],
+["/HornP","Passages"],
+["/HornNH","Natural Horn"],
+["/HornBH","Baroque Horn"]]
+
 const gridHeights = [160, 180, 170]
 const gridWidths = [[40, 210, 270], [40, 160, 160, 160], [40, 100, 100, 90, 100, 132]]
 const gridTimes = [[0, 5], [11, 14, 18], [24, 28, 34, 37, 40],]
@@ -48,7 +57,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes} />
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }

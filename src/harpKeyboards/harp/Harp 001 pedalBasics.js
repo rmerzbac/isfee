@@ -21,6 +21,13 @@ const instrumentText = {
     "The pedal diagram indicates the pedal setting for the A-flat-major scale. D, B / E and A are flat (above the line) and C / F and G are natural (on the line)."
 }
 
+const morePages = [["/HarpEG","Enharmonic & Glissandos"],
+["/HarpS","Scales"],
+["/HarpCRA","Chords, Registers, Articulations"],
+["/HarpAI","Arpeggiation Idioms"],
+["/HarpHE","Harmonics & Effects"],
+["/HarpBRC","Blocked & Rolled Chords"]]
+
 const gridHeights = [160, 120, 130, 150];
 const gridWidths = [[55, 200, 180, 200], [40, 140, 130, 150], [40, 435], [40, 435]];
 const gridTimes = [[0, 9, 17], [28, 33, 37], [48], [63]];
@@ -37,7 +44,8 @@ export default function MakePage() {
         score={score}
         gridHeights={gridHeights}
         gridWidths={gridWidths}
-        gridTimes={gridTimes}/>
+        gridTimes={gridTimes}
+        morePages={morePages}/>
     </div>
   );
 }
