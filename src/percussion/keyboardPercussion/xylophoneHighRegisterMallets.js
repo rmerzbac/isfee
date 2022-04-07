@@ -39,7 +39,7 @@ const morePages = [["/KeyboardPercussionMCB","Marimba: Chords & Bass"],
 ["/KeyboardPercussionMRM","Marimba: Register & Mallets"],
 ["/KeyboardPercussionVRM","Vibraphone: Range Mallets"],
 ["/KeyboardPercussionVDB","Vibraphone: Damping & Bowing"],
-["/KeyboardPercussionXRM","Xylophone: Range & Mallets"],,
+["/KeyboardPercussionXRM","Xylophone: Range & Mallets"],
 ["/KeyboardPercussionAC","Almglocken & Chimes"],
 ["/KeyboardPercussionGC","Glockenspiel & Crotales"]]
 

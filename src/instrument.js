@@ -12,7 +12,7 @@ var morePages;
 
 function Text(props) {
   let list = "<ul>";
-  if (morePages != undefined) {
+  if (morePages !== undefined) {
     morePages.forEach((value) => list += "<li><a href= \"" + value[0] + "\"/>" + value[1] + "</a></li>");
   }
   list += "</ul>";
@@ -21,7 +21,7 @@ function Text(props) {
     <div>
     <p className="display-linebreak">{instrumentText[props.value]}</p>
     <br/>
-    <p hidden={morePages == undefined}><b>More pages:</b></p>
+    <p hidden={morePages === undefined}><b>More pages:</b></p>
     <div dangerouslySetInnerHTML={{ __html: list }}></div>
     <br/>
     </div>
