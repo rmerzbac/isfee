@@ -31,8 +31,7 @@ function Text(props) {
 function Video(props) {
   return (
     <div>
-      <div id="playpause" onClick={playPause}></div>
-      <video id="vid">
+      <video id="vid" onClick={playPause}>
         <source src={props.vid + "#t=" + props.value} type="video/mp4"/>
       </video>
       <p className="vid-instruction">Click the video to play and pause, or use the spacebar. Mouse over the score and click to choose matching video and commentary.</p>
