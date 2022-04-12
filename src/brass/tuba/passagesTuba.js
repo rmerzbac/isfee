@@ -31,7 +31,7 @@ const morePages = [["/TubaHSST","Harmonic Series, Scales & Trills"],
 ["/TubaRC","Register Colors"],
 ["/TubaAC","Articulation Colors"],
 ["/TubaAVM","Articulations, Vibrato & Mutes"],
-["/TubaP","Passages I"]]
+["/TubaP2","Passages II"]]
 
 const gridHeights = [100, 68, 70, 70, 70, 60, 70]
 const gridWidths = [[40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480], [40, 480]]
