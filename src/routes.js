@@ -521,6 +521,9 @@ export default function CreateMenu() {
             <Route exact path="/">
               <Home />
             </Route>
+            <Route path="/isfee">
+              <Home />
+            </Route>
             <Route path="/piccoloRRC">
               <PiccoloRRC />
             </Route>
