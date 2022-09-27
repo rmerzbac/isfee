@@ -16,10 +16,9 @@ function Text(props) {
     morePages.forEach((value) => list += "<li><a href= \"" + value[0] + "\"/>" + value[1] + "</a></li>");
   }
   list += "</ul>";
-  console.log(list);
   return (
     <div>
-    <p className="display-linebreak">{instrumentText[props.value]}</p>
+    <p className="display-linebreak" id="instrument-text">{instrumentText[props.value]}</p>
     <br/>
     <p hidden={morePages === undefined}><b>More pages:</b></p>
     <div dangerouslySetInnerHTML={{ __html: list }}></div>
@@ -54,13 +53,16 @@ class Body extends React.Component {
       </div>
     );
   }
+  printTime() {
+    console.log(Math.floor(document.getElementById("vid").currentTime));
+  }
   renderTable(heights, widths, times) {
     return (
       <div>
       {heights.map((i, iIndex) => (
         <table key={iIndex}><tbody>
           <tr height={i + "px"} key={iIndex}>
-            {widths[iIndex].map((j, jIndex) => (jIndex === 0 ? <th key={iIndex + "," + jIndex} width={j + "px"} /> : <td key={iIndex + "," + jIndex} width={j + "px"}  onClick={() => this.handleClick(times[iIndex][jIndex - 1])}/> ))}
+            {widths[iIndex].map((j, jIndex) => (jIndex === 0 ? <th key={iIndex + "," + jIndex} width={j + "px"} /> : <td key={iIndex + "," + jIndex} id={iIndex + "," + jIndex} width={j + "px"}  onClick={() => this.handleClick(times[iIndex][jIndex - 1])}/> ))}
           </tr>
         </tbody></table>
       ))}
@@ -106,6 +108,29 @@ export default function Instrument(props) {
   gridWidths = props.gridWidths;
   gridTimes = props.gridTimes;
   morePages = props.morePages;
+
+  setInterval(function(){
+      var v = instrumentText[Math.floor(document.getElementById("vid").currentTime)];
+      if (v !== undefined) document.getElementById("instrument-text").innerHTML = v;}, 100)
+
+  setInterval(function(){
+      var v = Math.floor(document.getElementById("vid").currentTime);
+      for (var i = 0; i < gridTimes.length; i++) {
+        for (var j = 0; j < gridTimes[i].length; j++) {
+          if (gridTimes[i][j] === v) {
+            document.getElementById(i + "," + (j + 1)).classList.add("selected");
+            for (var k = 0; k < gridTimes.length; k++) {
+              for (var l = 0; l < gridTimes[k].length; l++) {
+                if (k !== i || l !== j) {
+                  document.getElementById(k + "," + (l + 1)).classList.remove("selected");
+                }
+              }
+            }
+          }
+        }
+      }
+  }, 500)
+
   return (
     <div>
       <Body vid={props.vid}/>
