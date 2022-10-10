@@ -220,6 +220,8 @@ import BassPz from "./strings/contrabass/pizzicatoB.js"
 import BassEx from "./strings/contrabass/excerptB.js"
 import StringLengthChart from "./strings/stringLengthChart/stringLengthChart.js"
 
+import Contact from "./contact.js"
+
 export default function CreateMenu() {
   return (
     <Router forceRefresh={true}>
@@ -508,6 +510,7 @@ export default function CreateMenu() {
                   </SubMenu>
                   <MenuItem href="/stringLengthChart">String Length Chart</MenuItem>
                 </SubMenu>
+                <MenuItem href="/contact"><b>Contact</b></MenuItem>
               </Menu>
               <Link to="/">
                  <p className="header">Instrument Studies for Eyes and Ears</p>
@@ -1116,6 +1119,9 @@ export default function CreateMenu() {
             </Route>
             <Route path="/stringLengthChart">
               <StringLengthChart />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
           </Switch>
       </div>

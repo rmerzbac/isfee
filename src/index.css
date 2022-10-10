@@ -90,3 +90,11 @@ video {
   font-size: 20px;
   color: white;
 }
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
