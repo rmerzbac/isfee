@@ -1,30 +1,58 @@
 import React from "react";
 
-class Contact extends React.Component {
+const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+
+  class Contact extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = { name: "", email: "", message: "" };
+    }
+
+    handleSubmit = e => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...this.state })
+      })
+        .then(() => alert("Success!"))
+        .catch(error => alert(error));
+
+      e.preventDefault();
+    };
+
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
     render() {
-        return(
-            <div className="body">
-                <h2>Contact us</h2>
-                <p>Reach out to us about any questions, suggestions, bugs, or to submit a new page for the site.</p>
-                <br/>
-
-                <form name="contact" method="POST" data-netlify="true">
-                    <p>
-                    <label>Name: <input type="text" name="name" required/></label>
-                    </p>
-                    <p>
-                    <label>Email: <input type="email" name="email" required/></label>
-                    </p>
-                    <p>
-                    <label>Message: <textarea name="message" required></textarea></label>
-                    </p>
-                    <p>
-                    <button type="submit">Send</button>
-                    </p>
-                </form>
-
-            </div>
-        );
+      const { name, email, message } = this.state;
+      return (
+        <div className="body">
+            <form onSubmit={this.handleSubmit}>
+            <p>
+                <label>
+                Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+                </label>
+            </p>
+            <p>
+                <label>
+                Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+                </label>
+            </p>
+            <p>
+                <label>
+                Message: <textarea name="message" value={message} onChange={this.handleChange} />
+                </label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+            </form>
+        </div>
+      );
     }
   }
+
   export default Contact;
