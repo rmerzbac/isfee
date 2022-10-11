@@ -30,24 +30,22 @@ const encode = (data) => {
       const { name, email, message } = this.state;
       return (
         <div className="body">
-            <form onSubmit={this.handleSubmit} name="contact" netlify>
+            <form name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
             <p>
-                <label>
-                Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-                </label>
+                <label htmlFor="name">Name</label> <br />
+                <input type="text" id="name" name="name" required />
             </p>
             <p>
-                <label>
-                Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-                </label>
+                <label htmlFor="email">Email</label> <br />
+                <input type="email" id="email" name="email" required />
             </p>
             <p>
-                <label>
-                Message: <textarea name="message" value={message} onChange={this.handleChange} />
-                </label>
+                <label htmlFor="message">Message</label> <br />
+                <textarea id="message" name="message" required></textarea>
             </p>
             <p>
-                <button type="submit">Send</button>
+                <input type="submit" value="Submit message" />
             </p>
             </form>
         </div>
