@@ -27,7 +27,6 @@ const encode = (data) => {
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-      const { name, email, message } = this.state;
       return (
         <div className="body">
             <form name="contact" method="post">
