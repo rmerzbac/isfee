@@ -1,27 +1,57 @@
-import React from "react";
+import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
-export default function Contact() {
-    return (
-    <div className="body">
-        <form name="contact" method="post">
-        <input type="hidden" name="form-name" value="contact" />
-        <p>
-            <label htmlFor="name">Name</label> <br />
-            <input type="text" id="name" name="name" required />
-        </p>
-        <p>
-            <label htmlFor="email">Email</label> <br />
-            <input type="email" id="email" name="email" required />
-        </p>
-        <p>
-            <label htmlFor="message">Message</label> <br />
-            <textarea id="message" name="message" required></textarea>
-        </p>
-        <p>
-            <input type="submit" value="Submit message" />
-        </p>
-        </form>
-    </div>
-    );
-}
+const EmailForm = () => {
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Send the email using EmailJS
+    emailjs
+      .send(
+        'default_service', // Use the default email service
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        {
+          from_email: email,
+          message: message,
+        },
+        process.env.REACT_APP_EMAILJS_USER_ID
+      )
+      .then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        (error) => {
+          console.log('FAILED...', error);
+        }
+      );
+
+    setEmail('');
+    setMessage('');
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Email:
+        <input
+          type="email"
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+        />
+      </label>
+      <label>
+        Message:
+        <textarea
+          value={message}
+          onChange={(event) => setMessage(event.target.value)}
+        />
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  );
+};
+
+export default EmailForm;
