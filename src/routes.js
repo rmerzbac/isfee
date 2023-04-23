@@ -513,7 +513,8 @@ export default function CreateMenu() {
                 <MenuItem href="/contact"><b>Contact</b></MenuItem>
               </Menu>
               <Link to="/">
-                 <p className="header">Instrument Studies for Eyes and Ears</p>
+                <p className="header header-large">Instrument Studies for Eyes and Ears</p>
+                <p className="header header-small">ISFEE</p>
               </Link>
             </Toolbar>
             <a href="https://music.indiana.edu" style={{marginLeft: 'auto'}}>

@@ -91,6 +91,13 @@ video {
   color: white;
 }
 
+.header-small { display: none; }
+
+@media (max-width: 1000px) {
+  .header-small { display: inline-block; }
+  .header-large { display: none; }
+}
+
 input {
   width: 100%;
 }

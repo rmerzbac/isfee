@@ -35,7 +35,7 @@ const EmailForm = () => {
   return (
     <div className="body">
     <form onSubmit={handleSubmit}>
-      <p>This form is to contact Reid Merzbacher, the site's developer. Please get in touch about any bugs, feature requests, or questions.</p>
+      <p>This form is to contact <b><a href="https://reidmerzbacher.com">Reid Merzbacher</a></b>, the site's developer. Please get in touch about any bugs, feature requests, or questions.</p>
       <label>
         Email:
         <input
