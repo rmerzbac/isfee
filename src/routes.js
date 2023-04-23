@@ -11,10 +11,10 @@ import {
     SubMenu
 } from '@szhsin/react-menu';
 import '@szhsin/react-menu/dist/index.css';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import MenuIcon from '@mui/icons-material/Menu';
 
 import './index.css';
 
@@ -1139,7 +1139,7 @@ function Home() {
         <p>Created by Don Freund</p>
         <p>Site designed by Reid Merzbacher</p>
         <p>Pages assembled by Don Freund, Reid Merzbacher, Felipe Tovar-Henao, and Jeff Sabol</p>
-        <p>Please contact rmerzbacher@gmail.com to report any problems with the site</p>
+        <p>Please use <b><a href="/contact">this form</a></b> to report any problems with the site</p>
       </div>
     </div>
   );

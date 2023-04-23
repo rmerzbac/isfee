@@ -17,7 +17,7 @@ const EmailForm = () => {
           from_email: email,
           message: message,
         },
-        process.env.REACT_APP_EMAILJS_USER_ID
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         (response) => {
@@ -33,7 +33,9 @@ const EmailForm = () => {
   };
 
   return (
+    <div className="body">
     <form onSubmit={handleSubmit}>
+      <p>This form is to contact Reid Merzbacher, the site's developer. Please get in touch about any bugs, feature requests, or questions.</p>
       <label>
         Email:
         <input
@@ -51,6 +53,7 @@ const EmailForm = () => {
       </label>
       <button type="submit">Send</button>
     </form>
+    </div>
   );
 };
 
