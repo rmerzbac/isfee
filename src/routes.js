@@ -1137,12 +1137,14 @@ function Home() {
       </div>
       <div className="home-description body" style={{paddingLeft: 10}}>
         <h2>Welcome to Instrument Studies for Eyes and Ears!</h2>
-        <p>Created by Don Freund</p>
-        <p>Site designed by Reid Merzbacher</p>
-        <p>Pages assembled by Don Freund, Reid Merzbacher, Felipe Tovar-Henao, and Jeff Sabol</p>
+        <p>Use the hamburger menu to navigate the instrument pages</p>
         <p><b>We want more instrument pages!!!</b> If you play an instrument that isn't featured 
         and are interested in creating a page, we want to hear from you! Please get in touch 
         using our <b><a href="/contact">contact form</a></b>.</p>
+        <p>Credits:
+          <ul><li>Created by <b>Don Freund</b></li>
+              <li>Site designed by <b>Reid Merzbacher</b></li>
+              <li>Pages assembled by <b>Don Freund</b>, <b>Reid Merzbacher</b>, <b>Felipe Tovar-Henao</b>, and <b>Jeff Sabol</b></li></ul></p>
       </div>
     </div>
   );
